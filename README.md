@@ -95,51 +95,41 @@ Website: Restomontreal
 
 __Menu__ 
 
-Image: https://unsplash.com/fr/photos/photographie-a-plat-de-crepe-avec-glacage-jsgJtBOR6jY 
-Artiste: Monika Grabkowska
+* Lemon Crepe: https://unsplash.com/fr/photos/photographie-a-plat-de-crepe-avec-glacage-jsgJtBOR6jY \
+Artiste: Monika Grabkowska \
 Artiste Profil: https://unsplash.com/fr/@moniqa
 
-Image: https://unsplash.com/fr/photos/photographie-a-plat-de-crepe-avec-glacage-jsgJtBOR6jY 
-Artiste: Monika Grabkowska
-Artiste Profil: https://unsplash.com/fr/@moniqa
-
-Image: https://unsplash.com/fr/photos/photographie-a-plat-de-crepe-avec-glacage-jsgJtBOR6jY 
-Artiste: Monika Grabkowska
-Artiste Profil: https://unsplash.com/fr/@moniqa
-
-Image: https://unsplash.com/fr/photos/tasse-de-cafe-sur-soucoupe-avec-cuillere-a-cafe-sur-table-rose-X2s8GhnQmds 
-Artiste: Natanja Grün
+* Coffee: https://unsplash.com/fr/photos/tasse-de-cafe-sur-soucoupe-avec-cuillere-a-cafe-sur-table-rose-X2s8GhnQmds \
+Artiste: Natanja Grün \
 Artiste Profil: https://unsplash.com/fr/@natanja
 
-Image: https://muttenzer-pizzeria.ch/indulge-in-delicious-creations/ 
+* Waffles: https://muttenzer-pizzeria.ch/indulge-in-delicious-creations/ \
 Website: Muttenzer
 
-Image: https://www.instagram.com/p/CjQyXuQPOMu/ 
+* Egg Burger: https://www.instagram.com/p/CjQyXuQPOMu/ \
 Restaurant: Melba Lunn Ave 
 
+__Menu Bottomless Brunch__
 
-
-
-Menu Bottomless Brunch:
-
-Image: https://www.liquor.com/lynchburg-lemonade-cocktail-recipe-5199408
+* Lemon Cocktail: https://www.liquor.com/lynchburg-lemonade-cocktail-recipe-5199408 \
 Website: Liquor.com / Tim Nusog
 
-Image: https://fr.freepik.com/photos-gratuite/delicieux-dessert-granite-assortiment-fraises_26003478.htm
+* Strawberry: https://fr.freepik.com/photos-gratuite/delicieux-dessert-granite-assortiment-fraises_26003478.htm \
 Website: Freepik
 
 
-About Page
-Image: https://unsplash.com/fr/photos/fruit-salad-on-gray-bowls-HlNcigvUi4Q 
-Artiste: Brooke Lark 
+__About Page__
+
+* Porridge Brunch: https://unsplash.com/fr/photos/fruit-salad-on-gray-bowls-HlNcigvUi4Q \
+Artiste: Brooke Lark \
 Artiste Profil: https://unsplash.com/fr/@brookelark
 
-Image: https://unsplash.com/fr/photos/fourchette-en-acier-inoxydable-sur-plaque-en-ceramique-blanche-hU2ieCpAoDI 
-Artiste: montatip lilitsanong
+* Croissants: https://unsplash.com/fr/photos/fourchette-en-acier-inoxydable-sur-plaque-en-ceramique-blanche-hU2ieCpAoDI \
+Artiste: montatip lilitsanong \
 Artiste Profil: https://unsplash.com/fr/@montatip
 
-Image: https://unsplash.com/fr/photos/oeufs-et-farine-5evEHNh-Ft4 
-Artiste: Wendy Rake
+* Flour and Eggs: https://unsplash.com/fr/photos/oeufs-et-farine-5evEHNh-Ft4 \
+Artiste: Wendy Rake \
 Artiste Profil: https://unsplash.com/fr/@wendyrake
 
 
