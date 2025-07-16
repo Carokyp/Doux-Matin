@@ -43,22 +43,22 @@ The customer goals of this website are:
 __Navigartion Bar__ \
 Each page as a consistent and responsive navigation bar that contain a logo on the left and a Menu, About, Our Venue section with a book now button on the right. The Navigation bar is sticky which mean that it will follow while scrolling down. On small screen those sections will be in a hamburger format 
 
-__Landing Page Image and call to action__ \
+__Landing Page Image and call to action__ 
 
-__Tagline__ \
+__Tagline__ 
 ‘’Doux Matin where mornings unfold softly.‘’
 
-__Menu Page__ \
+__Menu Page__ 
 The menu page will list all the food and drink available in the shop it is split in multiple sections, sweet treat, brunch’s, coffee, tea, fresh juices, there is a special menu for bottomless brunch’s at the bottom 
 
-__About us Page__ \
+__About us Page__ 
 The About Us page will give more details about how created and in charge of the business but all how the food quality is important 
 
-__Our Venu Page__ \
+__Our Venu Page__ 
 
-__Booking Page__ \
+__Booking Page__ 
 
-__Footer / Contact and How to Find Us__ \
+__Footer / Contact and How to Find Us__ 
 
 ## Design
 
@@ -67,6 +67,80 @@ __Footer / Contact and How to Find Us__ \
 ## Deployment
 
 ## Credits
+
+__Home page__ 
+
+* Hero Brunch Image: https://unsplash.com/fr/photos/pain-tranche-sur-plaque-de-ceramique-blanche-7N8amvEYF-0 \
+Artiste: Colin Michel \
+Artiste Profil: https://unsplash.com/fr/@colincyruz
+
+* Chicken Sandwitch: https://unsplash.com/fr/photos/un-sandwich-coupe-en-deux-pose-sur-une-assiette-blanche-6UjpUPobTUA \
+Artiste: Nima Naseri \
+Artiste Profil: https://unsplash.com/fr/@nimanaseri
+
+* Egg on top sandwitch: https://www.womanandhome.com/food/this-brunch-favourite-has-had-a-mouth-watering-makeover/ \
+Artiste: Sean Calitz
+
+* French Toast: https://emmaduckworthbakes.com/brioche-french-toast/ \
+Website: Emma Duckworth Bakes
+
+* Croissants: https://en.julskitchen.com/breakfast/italian-croissants \
+Artiste: https://www.instagram.com/julskitchen/ and https://www.instagram.com/tommyonweb/
+
+* People enjoyin a meal: https://www.restomontreal.ca/article/mimosas-music-and-brunch-vibes-montreals-top-weekend-picks/2101/en/ \
+Website: Restomontreal
+
+* Mimosa and brunch: https://www.restomontreal.ca/article/mimosas-music-and-brunch-vibes-montreals-top-weekend-picks/2101/en/ \
+Website: Restomontreal
+
+__Menu__ 
+
+Image: https://unsplash.com/fr/photos/photographie-a-plat-de-crepe-avec-glacage-jsgJtBOR6jY 
+Artiste: Monika Grabkowska
+Artiste Profil: https://unsplash.com/fr/@moniqa
+
+Image: https://unsplash.com/fr/photos/photographie-a-plat-de-crepe-avec-glacage-jsgJtBOR6jY 
+Artiste: Monika Grabkowska
+Artiste Profil: https://unsplash.com/fr/@moniqa
+
+Image: https://unsplash.com/fr/photos/photographie-a-plat-de-crepe-avec-glacage-jsgJtBOR6jY 
+Artiste: Monika Grabkowska
+Artiste Profil: https://unsplash.com/fr/@moniqa
+
+Image: https://unsplash.com/fr/photos/tasse-de-cafe-sur-soucoupe-avec-cuillere-a-cafe-sur-table-rose-X2s8GhnQmds 
+Artiste: Natanja Grün
+Artiste Profil: https://unsplash.com/fr/@natanja
+
+Image: https://muttenzer-pizzeria.ch/indulge-in-delicious-creations/ 
+Website: Muttenzer
+
+Image: https://www.instagram.com/p/CjQyXuQPOMu/ 
+Restaurant: Melba Lunn Ave 
+
+
+
+
+Menu Bottomless Brunch:
+
+Image: https://www.liquor.com/lynchburg-lemonade-cocktail-recipe-5199408
+Website: Liquor.com / Tim Nusog
+
+Image: https://fr.freepik.com/photos-gratuite/delicieux-dessert-granite-assortiment-fraises_26003478.htm
+Website: Freepik
+
+
+About Page
+Image: https://unsplash.com/fr/photos/fruit-salad-on-gray-bowls-HlNcigvUi4Q 
+Artiste: Brooke Lark 
+Artiste Profil: https://unsplash.com/fr/@brookelark
+
+Image: https://unsplash.com/fr/photos/fourchette-en-acier-inoxydable-sur-plaque-en-ceramique-blanche-hU2ieCpAoDI 
+Artiste: montatip lilitsanong
+Artiste Profil: https://unsplash.com/fr/@montatip
+
+Image: https://unsplash.com/fr/photos/oeufs-et-farine-5evEHNh-Ft4 
+Artiste: Wendy Rake
+Artiste Profil: https://unsplash.com/fr/@wendyrake
 
 
 
