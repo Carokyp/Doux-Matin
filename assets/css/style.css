@@ -3,8 +3,8 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: 'Onest', sans-serif;
-    --secondary-font: 'Roboto', sans-serif;
+    --primary-font: 'Pacifico', sans-serif;
+    --secondary-font: 'Onest', sans-serif;
     --primary-color: #F7B0A5;
     /* Dark Pink */
     --secondary-color: #FFFFFF;
@@ -16,13 +16,40 @@ body {
     background-color: #f9efee;
 }
 
-h1,
-h2,
-h3 {
-font-family: var(--primary-font);
+header{
+    background-image: url('../images/brunch3.jpg');
+    height:100vh; 
+    background-position: center;
+    background-size: cover;
 
+    /* Flexbox for centering H1 */
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
 }
+
+h1{
+    font-family: var(--primary-font);
+    color:var(--secondary-color);
+    font-size: 10vw; /* Responsive font size */
+}
+
 
 p{
     font-family: var(--secondary-font);
 }
+
+/* For screens smaller than or egal to 768px */
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 12vw; /* Adjusted for smaller screens */
+    }
+
+    header {
+        height: 50vh; /* Adjusted for smaller screens */
+    }
+    
+}
+
+
