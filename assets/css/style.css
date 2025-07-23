@@ -16,16 +16,30 @@ body {
     background-color: #f9efee;
 }
 
-header{
+.navbar {
+    background-color: transparent !important; /* transparent background */
+    position: fixed; /* keeps the navbar to the top */
+    z-index: 10; /* ensures the navbar is above other content */
+}
+
+
+.navbar a {
+    color: var(--secondary-color) !important; /* white text */
+    font-family: var(--secondary-font);
+    font-weight: 600; /* bold text */
+    font-size: 1.2rem;
+}
+
+
+.hero {
     background-image: url('../images/brunch3.jpg');
-    height:100vh; 
+    height: 100vh; /* Full viewport height */
     background-position: center;
     background-size: cover;
 
-    /* Flexbox for centering H1 */
-    display: flex;
-    justify-content: center;   /* horizontal center */
-    align-items: center;       /* vertical center */
+    display: flex; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 h1{
@@ -44,10 +58,6 @@ p{
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 12vw; /* Adjusted for smaller screens */
-    }
-
-    header {
-        height: 50vh; /* Adjusted for smaller screens */
     }
     
 }
