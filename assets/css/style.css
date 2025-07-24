@@ -20,6 +20,11 @@ body {
     background-color: transparent !important; /* transparent background */
     position: fixed; /* keeps the navbar to the top */
     z-index: 10; /* ensures the navbar is above other content */
+    top: 0;
+    left: 0;
+    width: 100%; /* This ensures it spans the whole screen */
+    display: flex;
+    justify-content: center; /* This centers navbar content */
 }
 
 
