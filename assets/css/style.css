@@ -35,6 +35,10 @@ body {
     font-size: 1.2rem;
 }
 
+.nav-link.active {
+    border-bottom: 4px solid var(--secondary-color);
+    padding-bottom: 1px; /* space between text and underline */
+}
 
 .hero {
     background-image: url('../images/brunch3.jpg');
