@@ -75,6 +75,29 @@ h2{
     background-color: var(--primary-color);
 }
 
+/* Main images styling for first and second rows*/
+
+.main-images {
+    aspect-ratio: 1 / 1; /* Makes it a perfect square */
+    overflow: hidden; /* Hide overflow to crop */
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100%; /* Match the height of its container */
+}
+
+.main-images img {
+    width: 100%; /* Take full width */
+    height: 100%; /* Take full height */
+    object-fit: cover; /* Crop while maintaining aspect ratio */
+    object-position: center; /* Keep center part of image */
+}
+
+/* Make sure both columns have the same height */
+.first-row {
+    display: flex;
+    align-items: stretch; /* Makes all columns same height */
+}
 
 
 /* For screens smaller than or egal to 768px */
