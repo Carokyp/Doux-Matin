@@ -51,7 +51,7 @@ body {
 h1{
     font-family: var(--primary-font);
     color:var(--secondary-color);
-    font-size: 10vw; /* Responsive font size */
+    font-size: 10vw; /* Responsive font size */   
 }
 
 /* Tagline */
