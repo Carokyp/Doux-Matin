@@ -63,17 +63,19 @@ h2{
     white-space: nowrap; /* Prevents text from wrapping */
 }
 
-/*Main contente text style*/
+/*Main content text style*/
+
+.text-box{
+    background-color: var(--primary-color);
+}
 
 .breakfast-brunch-text{
     font-family: var(--primary-font);
     color: var(--secondary-color);
-    font-size: 4vw; /* Responsive font size */
+    font-size: 4vw; /* Responsive font size */ 
 }
 
-.rectangle{
-    background-color: var(--primary-color);
-}
+
 
 /* Main images styling for first and second rows*/
 
@@ -93,18 +95,45 @@ h2{
     object-position: center; /* Keep center part of image */
 }
 
-/* Make sure both columns have the same height */
-.first-row {
-    display: flex;
-    align-items: stretch; /* Makes all columns same height */
-}
+/* For screens larger than or equal to 768px */
+@media (min-width: 768px) {
 
-
-/* For screens smaller than or egal to 768px */
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 12vw; /* Adjusted for smaller screens */
+    /* Make sure both columns have the same height on larger screens only */
+    .first-row {
+        display: flex;
+        align-items: stretch; /* Makes all columns same height */
     }
+
+
 }
 
+/* For screens smaller than or equal to 576px */
+@media (max-width:576px) {
 
+    h1 {
+        font-size: 16vw; 
+    }
+
+    h2 {
+        font-size: 8vw;
+        white-space: wrap; 
+    }
+
+    .hero {
+        height: 50vh; 
+    }
+
+    .text-box {
+       padding-bottom: 6rem; 
+    }
+
+    .breakfast-brunch-text {
+        font-size: 8vw; 
+    }
+
+
+
+
+
+}
+   
