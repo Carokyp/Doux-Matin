@@ -17,21 +17,36 @@ body {
 }
 
 .navbar {
-    background-color: rgba(252, 153, 128, 0.445) !important; 
-    backdrop-filter: blur(10px); /* Blur effect */
-    position: fixed; /* keeps the navbar to the top */
-    z-index: 10; /* ensures the navbar is above other content */
-    width: 100%; 
-    text-shadow: 2px 2px 1px rgba(88, 29, 5, 0.5); /* Drop shadow */
+    background-color: rgba(252, 153, 128, 0.445) !important;
+    backdrop-filter: blur(10px);
+    /* Blur effect */
+    position: fixed;
+    /* keeps the navbar to the top */
+    z-index: 10;
+    /* ensures the navbar is above other content */
+    width: 100%;
+    text-shadow: 2px 2px 1px rgba(88, 29, 5, 0.5);
+    /* Drop shadow */
 }
 
 
+.navbar-toggler {    
+    border-color: white !important;
+    border-width: 3px !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='butt' stroke-miterlimit='10' stroke-width='3' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
 .navbar a {
-    color: var(--secondary-color) !important; /* white text */
+    color: var(--secondary-color) !important;
+    /* white text */
     font-family: var(--secondary-font);
-    font-weight: 600; /* bold text */
+    font-weight: 600;
+    /* bold text */
     font-size: 1.2rem;
-    
+
 }
 
 
