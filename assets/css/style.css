@@ -20,11 +20,7 @@ body {
     background-color: transparent !important; /* transparent background */
     position: fixed; /* keeps the navbar to the top */
     z-index: 10; /* ensures the navbar is above other content */
-    top: 0;
-    left: 0;
     width: 100%; /* This ensures it spans the whole screen */
-    display: flex;
-    justify-content: center; /* This centers navbar content */
 }
 
 
@@ -34,6 +30,7 @@ body {
     font-weight: 600; /* bold text */
     font-size: 1.2rem;
 }
+
 
 .nav-link.active {
     border-bottom: 4px solid var(--secondary-color);
@@ -57,18 +54,34 @@ h1{
     font-size: 10vw; /* Responsive font size */
 }
 
+/* Tagline */
 
-p{
-    font-family: var(--secondary-font);
+h2{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 4vw; /* Responsive font size */
+    white-space: nowrap; /* Prevents text from wrapping */
 }
 
-/* For screens smaller than or egal to 768px */
+/*Main contente text style*/
 
+.breakfast-brunch-text{
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    font-size: 4vw; /* Responsive font size */
+}
+
+.rectangle{
+    background-color: var(--primary-color);
+}
+
+
+
+/* For screens smaller than or egal to 768px */
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 12vw; /* Adjusted for smaller screens */
     }
-    
 }
 
 
