@@ -22,7 +22,7 @@ body {
     position: fixed; /* keeps the navbar to the top */
     z-index: 10; /* ensures the navbar is above other content */
     width: 100%; 
-    text-shadow: 2px 2px 1px rgba(124, 36, 1, 0.5); /* Drop shadow */
+    text-shadow: 2px 2px 1px rgba(88, 29, 5, 0.5); /* Drop shadow */
 }
 
 
