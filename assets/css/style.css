@@ -36,17 +36,26 @@ body {
 
 /* Navbar links customization */
 .navbar a {
-    color: var(--secondary-color) !important; /* white text */
+    color: var(--secondary-color) !important; 
     font-family: var(--secondary-font);
     font-weight: 600; /* bold text */
     font-size: 1.2rem;
-
 }
 
-/* Navbar link underline */
-.nav-link.active {
-    border-bottom: 3px solid var(--secondary-color);
-    padding-bottom: 1px; /* space between text and underline */
+/* Active nav link with custom underline */
+.navbar .nav-link.active {
+    position: relative;
+    padding-bottom: 3px ;
+}
+
+.navbar .nav-link.active::after {
+    content: '' ; 
+    position: absolute;
+    left: 15% ; /* Center the line */
+    width: 70% ; /* control the length of the underline */
+    height: 3px; /* Thicker line */
+    background-color: var(--secondary-color) ;
+    display: block ; /* Ensure it displays */
 }
 
 /* Hero section styling */
@@ -73,7 +82,6 @@ h2{
     font-family: var(--primary-font);
     color: var(--primary-color);
     font-size: 4vw; /* Responsive font size */
-    white-space: nowrap; /* Prevents text from wrapping */
 }
 
 /*Main content text style*/
@@ -158,9 +166,17 @@ h2{
         margin-right: 0.75rem; 
     }
 
+    .navbar .nav-link.active::after {
+        width: 50px;
+        left: 5px; 
 
-
-
-
+    }
 }
+
+
+ 
+
+
+
+
    
