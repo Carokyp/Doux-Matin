@@ -52,8 +52,8 @@ body {
     content: '' ; 
     position: absolute;
     left: 0% ; /* Center the line */
-    width: 14% ; /* control the length of the underline */
-    height: 3px; /* Thicker line */
+    min-width: 3.6rem ; /* control the length of the underline */
+    min-height: 3px; /* Thicker line */
     background-color: var(--secondary-color) ;
     display: block ; /* Ensure it displays */
 }
@@ -61,7 +61,7 @@ body {
 /* Hero section styling */
 .hero {
     background-image: url('../images/brunch3.jpg');
-    height: 50vh; /* 50% of the viewport height */
+    min-height: 50vh; /* 50% of the viewport height */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,21 +72,14 @@ h1{
     font-family: var(--primary-font);
     color: var(--secondary-color);
     font-size: 5rem; /* Fixed font size */   
-    margin-bottom: 0;
-    margin: 0rem 2rem 0rem 1rem; /* Adjusted margin for better spacing as the H1 text does not feel centered with bootstrap */
 }
 
 /* Tagline */
-#tagline {
+#tagline p {
     font-family: var(--primary-font);
     color: var(--primary-color);
     font-size: 2rem; /* Responsive font size */
-}
-
-/* Remove paragraph bottom margin for tagline */
-#tagline p {
-    margin-bottom: 0 !important;
-    padding: 0 1rem 0 0.3rem; /* Adjusted padding for better spacing as the H1 text does not feel centered with bootstrap */
+    margin-top: 1rem;
 }
 
 /*Main content text style*/
@@ -94,23 +87,24 @@ h1{
     background-color: var(--primary-color);
     min-height: 15vh;/* 15% of viewport hight */
     max-width: 500px;
-    width: 93%;
-
-    margin: 0 auto; /* Centers the text box */
 
     display: flex;
     flex-direction: column; /* Stacks text and button vertically */
     justify-content: center; /* Centers everything vertically */
     align-items: center; /* Centers everything horizontally */
-    gap: 1rem; /* Adds space between text and button */
+
+    gap: 0.5rem; /* Adds space between text and button */
+    margin-bottom: 1rem; /* Adds space below the text box */
+
+
 }
 
 .breakfast-and-brunch-text{
     font-family: var(--primary-font);
     color: var(--secondary-color);
-    font-size: 2rem; 
-    margin: 0; 
-    padding: 1rem 0; /* Adds some breathing room */
+    margin-bottom: 0; 
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .btn-lg{
@@ -120,13 +114,14 @@ h1{
     justify-content: center; /* Centers text in button */
 
     font-family: var(--secondary-font);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 2rem;
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    
     border: none;
     border-radius: 0;
-    padding: 0.75rem 2rem; /* Adds padding for better button size */
+
 
 }
 
@@ -156,26 +151,26 @@ h1{
     object-position: center; /* Keep center part of image */
 }
 
-/* For screens equal to 1200px or larger (Desktop) */
-@media (min-width: 1200px) {
+/* Responsive design for different screen sizes */
+@media (min-width: 375px) and (max-width: 500px) {
 
+    h1 {
+        font-size: 6rem;
+        /* Increase font size for larger screens */
+    }
+
+    .text-box {
+        max-width: 600px;
+        min-height: 10rem;
+
+    }
+
+    .btn-lg {
+        font-size: 2.1rem;
+        /* Larger button text on larger screens */
+    }
+
+    .breakfast-and-brunch-text {
+        font-size: 2.3rem;
+    }
 }
-
-/* For screens equal to or larger than 768px (Tablet and up) */
-@media (min-width: 768px) {
-
-}
-
-/* For screens smaller than or equal to 576px (Mobile only) */
-@media (max-width: 576px) {
-    
-
-}
-
-
- 
-
-
-
-
-   
