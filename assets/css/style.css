@@ -5,8 +5,10 @@
 :root {
     --primary-font: 'Pacifico', sans-serif;
     --secondary-font: 'Onest', sans-serif;
-    --primary-color: #F7B0A5; /* Dark Pink */
-    --secondary-color: #FFFFFF; /* White */
+    --primary-color: #F7B0A5;
+    /* Dark Pink */
+    --secondary-color: #FFFFFF;
+    /* White */
 }
 
 /* General body styling */
@@ -17,15 +19,19 @@ body {
 /* Bootstrap Navbar styling */
 .navbar {
     background-color: rgba(252, 153, 128, 0.445) !important;
-    backdrop-filter: blur(10px); /* Blur effect */
-    position: fixed; /* keeps the navbar to the top */
-    z-index: 10; /* ensures the navbar is above other content */
+    backdrop-filter: blur(10px);
+    /* Blur effect */
+    position: fixed;
+    /* keeps the navbar to the top */
+    z-index: 10;
+    /* ensures the navbar is above other content */
     width: 100%;
-    text-shadow: 2px 2px 1px rgba(88, 29, 5, 0.5); /* Drop shadow */
+    text-shadow: 2px 2px 1px rgba(88, 29, 5, 0.5);
+    /* Drop shadow */
 }
 
 /* Customize navbar toggler */
-.navbar-toggler {    
+.navbar-toggler {
     border-color: white !important;
     border-width: 3px !important;
 }
@@ -36,97 +42,132 @@ body {
 
 /* Navbar links customization */
 .navbar a {
-    color: var(--secondary-color) !important; 
+    color: var(--secondary-color) !important;
     font-family: var(--secondary-font);
-    font-weight: 600; /* bold text */
+    font-weight: 600;
+    /* bold text */
     font-size: 1.2rem;
 }
 
 /* Active nav link with custom underline */
 .navbar .nav-link.active {
     position: relative;
-    padding-bottom: 3px ;
+    padding-bottom: 3px;
 }
 
 .navbar .nav-link.active::after {
-    content: '' ; 
+    content: '';
     position: absolute;
-    left: 0% ; /* Center the line */
-    min-width: 3.6rem ; /* control the length of the underline */
-    min-height: 3px; /* Thicker line */
-    background-color: var(--secondary-color) ;
-    display: block ; /* Ensure it displays */
+    left: 0%;
+    /* Center the line */
+    min-width: 3.6rem;
+    /* control the length of the underline */
+    min-height: 3px;
+    /* Thicker line */
+    background-color: var(--secondary-color);
+    display: block;
+    /* Ensure it displays */
 }
 
 /* Hero section styling */
 .hero {
     background-image: url('../images/brunch3.jpg');
-    min-height: 50vh; /* 50% of the viewport height */
+    min-height: 50vh;
+    /* 50% of the viewport height */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 /* Hero section text styling */
-h1{
+h1 {
     font-family: var(--primary-font);
     color: var(--secondary-color);
-    font-size: 5rem; /* Fixed font size */   
+    font-size: 5rem;
+    /* Fixed font size */
 }
 
 /* Tagline */
 #tagline p {
     font-family: var(--primary-font);
     color: var(--primary-color);
-    font-size: 2rem; /* Responsive font size */
+    font-size: 2rem;
+    /* Responsive font size */
     margin-top: 1rem;
 }
 
 /*Main content text style*/
 .text-box {
     background-color: var(--primary-color);
-    min-height: 15vh;/* 15% of viewport hight */
+    min-height: 15vh;
+    /* 15% of viewport hight */
     max-width: 500px;
 
     display: flex;
-    flex-direction: column; /* Stacks text and button vertically */
-    justify-content: center; /* Centers everything vertically */
-    align-items: center; /* Centers everything horizontally */
+    flex-direction: column;
+    /* Stacks text and button vertically */
+    justify-content: center;
+    /* Centers everything vertically */
+    align-items: center;
+    /* Centers everything horizontally */
 
-    gap: 0.5rem; /* Adds space between text and button */
-    margin-bottom: 1rem; /* Adds space below the text box */
-
+    gap: 0.5rem;
+    /* Adds space between text and button */
+    margin-bottom: 1rem;
+    /* Adds space below the text box */
 
 }
 
-.breakfast-text{
+.text-box2 {
+    background-color: var(--primary-color);
+    min-height: 15vh;
+    /* 15% of viewport height */
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    /* Stacks text and button vertically */
+    justify-content: center;
+    /* Centers everything vertically */
+    align-items: center;
+    /* Centers everything horizontally */
+
+    gap: 0.5rem;
+    /* Adds space between text and button */
+    margin-top: 1rem;
+
+}
+
+.breakfast-text {
     font-family: var(--primary-font);
     color: var(--secondary-color);
-    margin-bottom: 0; 
+    margin-bottom: 0;
     font-size: 2.5rem;
     text-align: center;
 }
 
-.brunch-text{
+.brunch-text {
     font-family: var(--primary-font);
     color: var(--secondary-color);
-    margin-bottom: 0; 
+    margin-bottom: 0;
     font-size: 2.5rem;
     text-align: center;
 }
 
-.btn-lg{
+.btn-lg {
 
-    display: inline-flex; 
-    align-items: center; /* Centers text in button */
-    justify-content: center; /* Centers text in button */
+    display: inline-flex;
+    align-items: center;
+    /* Centers text in button */
+    justify-content: center;
+    /* Centers text in button */
 
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 2rem;
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    
+
     border: none;
     border-radius: 0;
 
@@ -143,20 +184,27 @@ h1{
 
 /* Main images styling for first and second rows*/
 .main-images {
-    aspect-ratio: 1 / 1; /* Makes it a perfect square */
-    overflow: hidden; /* Hide overflow to crop */
+    aspect-ratio: 1 / 1;
+    /* Makes it a perfect square */
+    overflow: hidden;
+    /* Hide overflow to crop */
     display: flex;
-    align-items: center; 
-    justify-content: center; 
-    min-height: 100%; /* Match the height of its container */
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    /* Match the height of its container */
 
 }
 
 .main-images img {
-    width: 100%; /* Take full width */
-    height: 100%; /* Take full height */
-    object-fit: cover; /* Crop while maintaining aspect ratio */
-    object-position: center; /* Keep center part of image */
+    width: 100%;
+    /* Take full width */
+    height: 100%;
+    /* Take full height */
+    object-fit: cover;
+    /* Crop while maintaining aspect ratio */
+    object-position: center;
+    /* Keep center part of image */
 }
 
 /* Responsive design for different screen sizes */
@@ -167,26 +215,37 @@ h1{
 
     h1 {
         font-size: 6rem;
-        /* Increase font size for larger screens */
     }
 
     .text-box {
         max-width: 600px;
-        min-height: 10rem;
+        min-height: 14rem;
+    }
 
+    .text-box2 {
+        max-width: 600px;
+        min-height: 14rem;
+        gap: 2rem;
     }
 
     .btn-lg {
-        font-size: 2.1rem;
-        /* Larger button text on larger screens */
+        font-size: 2rem;
     }
 
-    .breakfast-and-brunch-text {
+    .breakfast-text {
         font-size: 2.3rem;
     }
+
+    .brunch-text {
+        font-size: 2.5rem;
+    }
+
+
 }
 
-@media (min-width:768px){
+/* Tablets and small laptops */
+
+@media (min-width:768px) {
 
     .navbar a {
         font-size: 1.5rem;
@@ -217,35 +276,61 @@ h1{
     /* Alternative: Make the entire container wider */
     .container {
         max-width: 100%;
-        /* Use full screen width */
     }
 
     .text-box {
         margin-bottom: 0;
     }
+
+    .text-box2 {
+        margin-top: 0;
+        height: 100%;
+        /* Match container height */
+        min-height: 13rem;
+        /* Maintain minimum height */
+    }
+
     .first-row .col-md-3 {
         padding: 0 !important;
     }
-    
+
     /* Use transform to move images left without affecting layout */
     .first-row .col-md-3 {
-        transform: translateX(-1rem); /* Move both images left but preserve their spacing */
-        margin-left: 0.8rem ;
+        transform: translateX(-1rem);
+        /* Move both images left but preserve their spacing */
+        margin-left: 0.8rem;
         margin-right: 0.8rem;
     }
 
+    .second-row {
+        margin-top: 1rem;
+    }
+
+    .second-row .col-md-3 {
+        padding: 0 !important;
+    }
+
+    /* Use transform to move images left without affecting layout */
+    .second-row .col-md-3 {
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+    }
+
+
+
+
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
 
     .navbar a {
         font-size: 1.8rem;
-        min-height: 4rem; 
+        min-height: 4rem;
     }
 
     .navbar .nav-link.active::after {
         left: 1.4rem;
-        min-height: 0.3rem; 
+        min-height: 0.3rem;
     }
 
     h1 {
@@ -259,31 +344,37 @@ h1{
     .text-box {
         max-width: 700px;
         min-height: 16rem;
+        gap: 1.5rem;
+    }
+
+    .text-box2 {
+        gap: 2.5rem;
     }
 
     .btn-lg {
+
         font-size: 2.5rem;
     }
 
-        /* Use transform to move images left without affecting layout */
+    /* Use transform to move images left without affecting layout */
     .first-row .col-md-3 {
-        transform: translateX(0.4rem); /* Move both images left but preserve their spacing */
-        margin-left: 0.8rem ;
+        transform: translateX(0.4rem);
+        /* Move both images left but preserve their spacing */
+        margin-left: 0.8rem;
         margin-right: 0.8rem;
     }
 
 }
-
 @media (min-width: 1440px) {
 
     .navbar a {
         font-size: 1.8rem;
-        min-height: 4rem; 
+        min-height: 4rem;
     }
 
     .navbar .nav-link.active::after {
         left: 1.5rem;
-        min-height: 0.3rem; 
+        min-height: 0.3rem;
     }
 
     h1 {
@@ -300,7 +391,18 @@ h1{
         gap: 2rem;
     }
 
-    .breakfast-and-brunch-text{
+    .text-box2 {
+        max-width: 700px;
+        min-height: 23rem;
+        padding-right: 0;
+        gap: 4rem;
+    }
+
+    .breakfast-text {
+        font-size: 4rem;
+    }
+
+    .brunch-text {
         font-size: 4rem;
     }
 
@@ -309,9 +411,14 @@ h1{
     }
 
     .first-row .col-md-3 {
-        transform: translateX(0.4rem); /* Move both images left but preserve their spacing */
-        margin-left: 0.8rem ;
+        transform: translateX(0.4rem);
+        /* Move both images left but preserve their spacing */
+        margin-left: 0.8rem;
         margin-right: 0.8rem;
     }
 
+    .second-row .col-md-3 {
+        margin-left: 1.5rem;
+        margin-right: 0.9rem;
+    }
 }
