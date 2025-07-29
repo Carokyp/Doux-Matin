@@ -99,7 +99,15 @@ h1{
 
 }
 
-.breakfast-and-brunch-text{
+.breakfast-text{
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    margin-bottom: 0; 
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.brunch-text{
     font-family: var(--primary-font);
     color: var(--secondary-color);
     margin-bottom: 0; 
