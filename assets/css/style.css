@@ -51,8 +51,8 @@ body {
 .navbar .nav-link.active::after {
     content: '' ; 
     position: absolute;
-    left: 15% ; /* Center the line */
-    width: 70% ; /* control the length of the underline */
+    left: 0% ; /* Center the line */
+    width: 14% ; /* control the length of the underline */
     height: 3px; /* Thicker line */
     background-color: var(--secondary-color) ;
     display: block ; /* Ensure it displays */
@@ -61,44 +61,59 @@ body {
 /* Hero section styling */
 .hero {
     background-image: url('../images/brunch3.jpg');
-    height: 100vh; /* Full viewport height */
+    height: 50vh; /* 50% of the viewport height */
     background-position: center;
     background-size: cover;
-
-    display: flex; 
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    background-repeat: no-repeat;
 }
 
 /* Hero section text styling */
 h1{
     font-family: var(--primary-font);
-    color:var(--secondary-color);
-    font-size: 10vw; /* Responsive font size */   
+    color: var(--secondary-color);
+    font-size: 5rem; /* Fixed font size */   
+    margin-bottom: 0;
+    margin: 0rem 2rem 0rem 1rem; /* Adjusted margin for better spacing as the H1 text does not feel centered with bootstrap */
 }
 
 /* Tagline */
-h2{
+#tagline {
     font-family: var(--primary-font);
     color: var(--primary-color);
-    font-size: 4vw; /* Responsive font size */
+    font-size: 2rem; /* Responsive font size */
+}
+
+/* Remove paragraph bottom margin for tagline */
+#tagline p {
+    margin-bottom: 0 !important;
+    padding: 0 1rem 0 0.3rem; /* Adjusted padding for better spacing as the H1 text does not feel centered with bootstrap */
 }
 
 /*Main content text style*/
-.text-box{
+.text-box {
     background-color: var(--primary-color);
-    margin: 0;
-    min-height: 100%;
+    min-height: 15vh;/* 15% of viewport hight */
+    max-width: 500px;
+    width: 90%;
+    margin: 0 1rem; 
+
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centers content horizontally */
+    align-items: flex-start; /* Aligns content to top*/
 }
 
 .breakfast-and-brunch-text{
     font-family: var(--primary-font);
     color: var(--secondary-color);
-    font-size: 4vw; 
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    font-size: 2rem; 
+    margin: 0; 
+    padding: 1rem 0; /* Adds some breathing room */
+}
+
+
+/* Remove Bootstrap container padding for main content sections */
+main .container {
+    padding: 0 !important; /* Removes default padding */
 }
 
 
@@ -111,6 +126,8 @@ h2{
     align-items: center; 
     justify-content: center; 
     min-height: 100%; /* Match the height of its container */
+    margin-left: 1rem;
+    margin-right: 1.7rem;
 }
 
 .main-images img {
@@ -120,57 +137,20 @@ h2{
     object-position: center; /* Keep center part of image */
 }
 
-
-
-/* For screens larger than or equal to 768px */
-@media (min-width: 768px) {
-
-    /* Make sure both columns have the same height on larger screens only */
-    .first-row {
-        display: flex;
-        align-items: stretch; /* Makes all columns same height */
-    }
-
+/* For screens equal to 1200px or larger (Desktop) */
+@media (min-width: 1200px) {
 
 }
 
-/* For screens smaller than or equal to 576px */
-@media (max-width:576px) {
+/* For screens equal to or larger than 768px (Tablet and up) */
+@media (min-width: 768px) {
 
-    h1 {
-        font-size: 16vw; 
-    }
+}
 
-    h2 {
-        font-size: 7.5vw;
-        white-space: wrap; 
-    }
+/* For screens smaller than or equal to 576px (Mobile only) */
+@media (max-width: 576px) {
+    
 
-    .hero {
-        height: 50vh; 
-    }
-
-    .text-box {
-       padding: 0 2rem 6rem 2rem; /* top right bottom left */
-       margin-left: 0.75rem; 
-       margin-right: 0.75rem; 
-    }
-
-    .breakfast-and-brunch-text {
-        font-size: 7.5vw; 
-        white-space: nowrap;
-    }
-
-    .main-images {
-        margin-left: 0.75rem; 
-        margin-right: 0.75rem; 
-    }
-
-    .navbar .nav-link.active::after {
-        width: 50px;
-        left: 5px; 
-
-    }
 }
 
 
