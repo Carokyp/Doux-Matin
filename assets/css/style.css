@@ -152,7 +152,10 @@ h1{
 }
 
 /* Responsive design for different screen sizes */
-@media (min-width: 375px) and (max-width: 500px) {
+
+/* Mobile devices small screens to large */
+
+@media (min-width: 375px) and (max-width: 600px) {
 
     h1 {
         font-size: 6rem;
@@ -173,4 +176,134 @@ h1{
     .breakfast-and-brunch-text {
         font-size: 2.3rem;
     }
+}
+
+@media (min-width:768px){
+
+    .navbar a {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+
+    .navbar .nav-link.active::after {
+        left: 1rem;
+    }
+
+    #tagline p {
+        font-size: 2.5rem;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    /* Make the tagline container wider to accommodate the nowrap text */
+    #tagline .col-12 {
+        max-width: 100%;
+        /* Ensure it can use full width */
+        overflow: visible;
+        /* Allow text to be visible */
+    }
+
+    /* Alternative: Make the entire container wider */
+    .container {
+        max-width: 100%;
+        /* Use full screen width */
+    }
+
+    .text-box {
+        margin-bottom: 0;
+    }
+    .first-row .col-md-3 {
+        padding: 0 !important;
+    }
+    
+    /* Use transform to move images left without affecting layout */
+    .first-row .col-md-3 {
+        transform: translateX(-1rem); /* Move both images left but preserve their spacing */
+        margin-left: 0.8rem ;
+        margin-right: 0.8rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .navbar a {
+        font-size: 1.8rem;
+        min-height: 4rem; 
+    }
+
+    .navbar .nav-link.active::after {
+        left: 1.4rem;
+        min-height: 0.3rem; 
+    }
+
+    h1 {
+        font-size: 10rem;
+    }
+
+    #tagline p {
+        font-size: 3rem;
+    }
+
+    .text-box {
+        max-width: 700px;
+        min-height: 16rem;
+    }
+
+    .btn-lg {
+        font-size: 2.5rem;
+    }
+
+        /* Use transform to move images left without affecting layout */
+    .first-row .col-md-3 {
+        transform: translateX(0.4rem); /* Move both images left but preserve their spacing */
+        margin-left: 0.8rem ;
+        margin-right: 0.8rem;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .navbar a {
+        font-size: 1.8rem;
+        min-height: 4rem; 
+    }
+
+    .navbar .nav-link.active::after {
+        left: 1.5rem;
+        min-height: 0.3rem; 
+    }
+
+    h1 {
+        font-size: 14rem;
+    }
+
+    #tagline p {
+        font-size: 4.5rem;
+    }
+
+    .text-box {
+        max-width: 700px;
+        min-height: 23rem;
+        gap: 2rem;
+    }
+
+    .breakfast-and-brunch-text{
+        font-size: 4rem;
+    }
+
+    .btn-lg {
+        font-size: 2.5rem;
+    }
+
+    .first-row .col-md-3 {
+        transform: translateX(0.4rem); /* Move both images left but preserve their spacing */
+        margin-left: 0.8rem ;
+        margin-right: 0.8rem;
+    }
+
 }
