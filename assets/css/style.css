@@ -98,8 +98,10 @@ h1{
     margin: 0 1rem; 
 
     display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: flex-start; /* Aligns content to top*/
+    flex-direction: column; /* Stacks text and button vertically */
+    justify-content: center; /* Centers everything vertically */
+    align-items: center; /* Centers everything horizontally */
+    gap: 1rem; /* Adds space between text and button */
 }
 
 .breakfast-and-brunch-text{
@@ -108,6 +110,22 @@ h1{
     font-size: 2rem; 
     margin: 0; 
     padding: 1rem 0; /* Adds some breathing room */
+}
+
+.btn-lg{
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 2rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 0;
+    padding: 0.75rem 2rem; /* Adds padding for better button size */
+
+
+    display: inline-flex; 
+    align-items: center; /* Centers text in button */
+    justify-content: center; /* Centers text in button */
 }
 
 
