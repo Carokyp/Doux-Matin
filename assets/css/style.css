@@ -93,7 +93,7 @@ h1 {
 /*Main content text style*/
 .text-box {
     background-color: var(--primary-color);
-    min-height: 20vh; /* 20% of viewport height */
+    min-height: 30vh; /* 30% of viewport height */
     max-width: 500px;
 
     display: flex;
@@ -104,7 +104,18 @@ h1 {
 
 .text-box2 {
     background-color: var(--primary-color);
-    min-height: 25vh;/* 25% of viewport height */
+    min-height: 35vh;/* 35% of viewport height */
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column; /* Stacks text and button vertically */
+    justify-content: center; /* Centers everything vertically */
+    align-items: center; /* Centers everything horizontally */
+}
+
+.text-box3 {
+    background-color: var(--secondary-color);
+    min-height: 40vh;/* 40% of viewport height */
     max-width: 500px;
 
     display: flex;
@@ -125,6 +136,31 @@ h1 {
     color: var(--secondary-color);
     font-size: 2.5rem;
     text-align: center;
+}
+
+.find-us-text {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.adress-text {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.open-hours-text {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.open-hours-text p {
+    margin-bottom: 0;
 }
 
 .btn-lg {
