@@ -44,8 +44,7 @@ body {
 .navbar a {
     color: var(--secondary-color) !important;
     font-family: var(--secondary-font);
-    font-weight: 600;
-    /* bold text */
+    font-weight: 600; /* bold text */
     font-size: 1.2rem;
 }
 
@@ -58,7 +57,7 @@ body {
 .navbar .nav-link.active::after {
     content: '';
     position: absolute;
-    left: 0%; /* Center the line */
+    left: 0.1%; /* Center the line */
     min-width: 3.6rem; /* control the length of the underline */
     min-height: 3px; /* Thicker line */
     background-color: var(--secondary-color);
@@ -87,54 +86,84 @@ h1 {
 #tagline p {
     font-family: var(--primary-font);
     color: var(--primary-color);
-    font-size: 2rem;/* Responsive font size */
+    font-size: 2rem;
+    /* Responsive font size */
 }
 
 /*Main content text style*/
 .text-box {
     background-color: var(--primary-color);
-    min-height: 30vh; /* 30% of viewport height */
-    max-width: 500px;
+    aspect-ratio: 1 / 1;
+    /* Makes it a perfect square */
+    min-height: 100%;
+    /* Match the height of its container */
 
     display: flex;
-    flex-direction: column; /* Stacks text and button vertically */
-    justify-content: center; /* Centers everything vertically */
-    align-items: center; /* Centers everything horizontally */
+    flex-direction: column;
+    /* Stacks text and button vertically */
+    justify-content: center;
+    /* Centers everything vertically */
+    align-items: center;
+    /* Centers everything horizontally */
+
+    gap: 1rem;
+    /* Space between text and button */
 }
 
 .text-box2 {
     background-color: var(--primary-color);
-    min-height: 35vh;/* 35% of viewport height */
-    max-width: 500px;
+    aspect-ratio: 1 / 1.1;
+    /* Makes it a perfect rectangle */
+    min-height: 100%;
+    /* Match the height of its container */
 
     display: flex;
-    flex-direction: column; /* Stacks text and button vertically */
-    justify-content: center; /* Centers everything vertically */
-    align-items: center; /* Centers everything horizontally */
+    flex-direction: column;
+    /* Stacks text and button vertically */
+    justify-content: center;
+    /* Centers everything vertically */
+    align-items: center;
+    /* Centers everything horizontally */
+
+    gap: 1rem;
+    /* Space between text and button */
 }
 
 .text-box3 {
     background-color: var(--secondary-color);
-    min-height: 40vh;/* 40% of viewport height */
-    max-width: 500px;
+    aspect-ratio: 1 / 1.5;
+    /* Makes it a perfect rectangle */
+    min-height: 100%;
+    /* Match the height of its container */
 
     display: flex;
-    flex-direction: column; /* Stacks text and button vertically */
-    justify-content: center; /* Centers everything vertically */
-    align-items: center; /* Centers everything horizontally */
+    flex-direction: column;
+    /* Stacks text and button vertically */
+    justify-content: center;
+    /* Centers everything vertically */
+    align-items: center;
+    /* Centers everything horizontally */
 }
 
 .breakfast-text {
     font-family: var(--primary-font);
     color: var(--secondary-color);
-    font-size: 2.5rem;
+    font-size: clamp(2.5rem, 2vw, 2.5rem); /* Responsive scaling */
+    line-height: 1.5;
+    margin: 0;
+    word-break: break-word; /* If long word */
     text-align: center;
+
+    gap: 1rem;
 }
 
 .get-fuzzy-text {
     font-family: var(--primary-font);
     color: var(--secondary-color);
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 2vw, 2.5rem); /* Responsive scaling */
+    line-height: 1.5;
+    margin: 0;
+    word-break: break-word; /* If long word */
     text-align: center;
 }
 
@@ -192,7 +221,7 @@ h1 {
 /* Main images styling for first and second rows*/
 .main-images {
     aspect-ratio: 1 / 1; /* Makes it a perfect square */
-    overflow: hidden;/* Hide overflow to crop */
+    overflow: hidden; /* Hide overflow to crop */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,20 +230,19 @@ h1 {
 }
 
 .main-images img {
-    width: 100%;/* Take full width */
-    height: 100%;/* Take full height */
-    object-fit: cover;/* Crop while maintaining aspect ratio */
-    object-position: center;/* Keep center part of image */
+    width: 100%; /* Take full width */
+    height: 100%; /* Take full height */
+    object-fit: cover; /* Crop while maintaining aspect ratio */
+    object-position: center; /* Keep center part of image */
 }
 
 /* Main images styling for second and second rows*/
 .main-images-second-row {
-    aspect-ratio: 1 / 1; /* Makes it a perfect rectangle */
-    overflow: hidden;  /* Hide overflow to crop */
+    aspect-ratio: 1 / 1.5; /* Makes it a perfect rectangle */
+    overflow: hidden; /* Hide overflow to crop */
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100%; /* Match the height of its container */
 }
 
 .main-images-second-row img {
@@ -224,16 +252,16 @@ h1 {
     object-position: center; /* Keep center part of image */
 }
 
-#google-map{
-    width: 100%;
-    height: 32rem;
+#google-map {
+    aspect-ratio: 1 / 1; /* Makes it a perfect square */
+    min-height: 100%; /* Match the height of its container */
+
 }
 
 #google-map-iframe {
     width: 100%;
     height: 100%;
     border: none;
-    margin: 0;
 }
 
 
@@ -241,22 +269,10 @@ h1 {
 /* Responsive design for different screen sizes */
 
 /* Mobile devices small screens to large */
-@media (min-width: 375px) and (max-width: 600px) {
+@media (min-width: 375px) and (max-width: 576px) {
 
     h1 {
         font-size: 6rem;
-    }
-
-    .text-box {
-        max-width: 600px;
-        min-height: 14rem;
-        gap: 1rem;
-    }
-
-    .text-box2 {
-        max-width: 600px;
-        min-height: 25rem;
-        gap: 1rem;
     }
 
     .btn-lg {
@@ -264,7 +280,8 @@ h1 {
     }
 
     .breakfast-text {
-        font-size: 2.3rem;
+        font-size: clamp(2.3rem, 2vw, 2.5rem); /* Responsive scaling */
+        line-height: 1.5;
         gap: 0.5rem;
     }
 
@@ -272,71 +289,170 @@ h1 {
         font-size: 2.5rem;
     }
 
+    .text-box {
+        aspect-ratio: 1 / 0.7;
+    }
+
+    .text-box2 {
+        aspect-ratio: 1 / 1.2;
+    }
+
+    .text-box3 {
+        aspect-ratio: 1 / 1.2;
+    }
+
 
 }
+
+
 /* Tablets and small laptops */
-@media (min-width:768px) {
+@media (min-width: 576px) and (max-width:768px) {
 
     .navbar a {
         font-size: 1.5rem;
     }
+    .navbar .nav-link.active::after {
+        left: 0.4rem;
+    }
 
     h1 {
-        font-size: 8rem;
+        font-size: 6rem;
     }
 
-    .navbar .nav-link.active::after {
-        left: 1rem;
+    h3{
+        font-size: 1rem;
     }
+
 
     #tagline p {
         font-size: 2.5rem;
-        white-space: nowrap;
         text-align: center;
     }
 
-    /* Make the tagline container wider to accommodate the nowrap text */
-    #tagline .col-12 {
-        max-width: 100%; /* Ensure it can use full width */
-        overflow: visible; /* Allow text to be visible */
+    .breakfast-text {
+        font-size: clamp(1.3rem, 2vw, 1.6rem);
+        line-height: 1.5;
     }
 
-    /* Alternative: Make the entire container wider */
-    .container {
-        max-width: 100%;
+    .btn-lg {
+        font-size: 0.8rem;
     }
 
     .text-box {
-        
+        gap: 0.5rem;
     }
+
 
     .text-box2 {
-        
-        height: 100%;/* Match container height */
-        min-height: 15rem;/* Maintain minimum height */
+        aspect-ratio: 1 / 1.5;
+        gap: 0.5rem;
     }
 
-    /* Main images styling for first and second rows*/
-    .main-images-second-row {
-        aspect-ratio: 1.5 / 2;/* Makes it a perfect rectangle */
-        overflow: hidden;/* Hide overflow to crop */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100%;/* Match the height of its container */
+    .text-box3 {
+        aspect-ratio: 1 / 2;
     }
 
-    .main-images-second-row img {
-        width: 100%;/* Take full width */
-        height: 100%;/* Take full height */
-        object-fit: cover;/* Crop while maintaining aspect ratio */
-        object-position: center;/* Keep center part of image */
+    .get-fuzzy-text {
+        font-size: clamp(1.3rem, 2vw, 1.6rem);
+        line-height: 1.5;
+    }    
+    
+    .find-us-text {
+        font-size: clamp(1.3rem, 2vw, 1.6rem);
+        line-height: 1.6;
     }
 
+    .adress-text {
+        font-size: clamp(0.7rem, 1vw, 0.8rem);
+        line-height: 1.6;
+
+    }
+
+    .open-hours-text {
+
+        font-size: clamp(0.7rem, 1vw, 0.8rem);
+        line-height: 1.6;
+
+    }
 
 
 }
-@media (min-width: 1024px) {
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .navbar a {
+        font-size: 1.6rem;
+        min-height: 3.5rem;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+
+    .navbar .nav-link.active::after {
+        left: 1.2rem;
+        min-height: 0.3rem;
+    }
+
+    #tagline p {
+        font-size: 2.8rem;
+    }
+
+    .breakfast-text {
+        font-size: clamp(2rem, 2vw, 2.5rem);
+        line-height: 1.5;
+    }
+
+    .btn-lg {
+        font-size: 1.2rem;
+    }
+
+    .text-box {
+        gap: 0.5rem;
+    }
+
+
+    .text-box2 {
+        aspect-ratio: 1 / 1.5;
+        gap: 0.5rem;
+    }
+
+    .text-box3 {
+        aspect-ratio: 1 / 2;
+        gap: 0.5rem;
+    }
+    .get-fuzzy-text {
+        font-size: clamp(2rem, 2vw, 2.5rem);
+        line-height: 1.5;
+    }    
+    
+    .find-us-text {
+        font-size: clamp(1.5rem, 2vw, 2rem);
+        line-height: 1.5;
+    }
+
+    .adress-text {
+        font-size: clamp(0.7rem, 1vw, 1rem);
+        line-height: 1.5;
+
+    }
+
+    .open-hours-text {
+
+        font-size: clamp(0.7rem, 1vw, 1rem);
+        line-height: 1.5;
+
+    }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
 
     .navbar a {
         font-size: 1.8rem;
@@ -348,38 +464,64 @@ h1 {
         min-height: 0.3rem;
     }
 
+    .hero {
+
+        min-height: 100vh;
+
+    }
+
     h1 {
         font-size: 10rem;
+    }
+
+    h3{
+        font-size: 1rem;
     }
 
     #tagline p {
         font-size: 3rem;
     }
 
-    .text-box {
-        max-width: 700px;
-        min-height: 16rem;
-        gap: 1.5rem;
+    .text-box2 {
+        aspect-ratio: 1 / 1.5;
+
+        gap: 3rem;
     }
 
-    .text-box2 {
-        gap: 2.5rem;
+    .text-box3 {
+        aspect-ratio: 1 / 2;
+        gap: 0.5rem;
+    }
+    .get-fuzzy-text {
+        font-size: clamp(2rem, 2vw, 2.5rem);
     }
 
     .btn-lg {
 
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
-    /* Use transform to move images left without affecting layout */
-    .first-row .col-md-3 {
-        transform: translateX(0.4rem);
-        /* Move both images left but preserve their spacing */
-        margin-left: 0.8rem;
-        margin-right: 0.8rem;
+    .find-us-text {
+        font-size: clamp(1.7rem, 2vw, 2rem);
+        line-height: 1.5;
     }
+
+    .adress-text {
+        font-size: clamp(0.9rem, 1vw, 1rem);
+        line-height: 1.5;
+
+    }
+
+    .open-hours-text {
+
+        font-size: clamp(0.9rem, 1vw, 1rem);
+        line-height: 1.5;
+
+    }
+
 
 }
+
 @media (min-width: 1440px) {
 
     .navbar a {
@@ -436,4 +578,5 @@ h1 {
         margin-left: 1.5rem;
         margin-right: 0.9rem;
     }
+
 }
