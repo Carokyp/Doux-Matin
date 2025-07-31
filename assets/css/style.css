@@ -224,6 +224,20 @@ h1 {
     object-position: center; /* Keep center part of image */
 }
 
+#google-map{
+    width: 100%;
+    height: 32rem;
+}
+
+#google-map-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+}
+
+
+
 /* Responsive design for different screen sizes */
 
 /* Mobile devices small screens to large */
