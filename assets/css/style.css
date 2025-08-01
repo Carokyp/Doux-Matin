@@ -131,18 +131,10 @@ h1 {
 
 .text-box3 {
     background-color: var(--secondary-color);
-    aspect-ratio: 1 / 1.5;
-    /* Makes it a perfect rectangle */
-    min-height: 100%;
-    /* Match the height of its container */
-
     display: flex;
     flex-direction: column;
-    /* Stacks text and button vertically */
     justify-content: center;
-    /* Centers everything vertically */
     align-items: center;
-    /* Centers everything horizontally */
 }
 
 .breakfast-text {
@@ -253,15 +245,17 @@ h1 {
 }
 
 #google-map {
-    aspect-ratio: 1 / 1; /* Makes it a perfect square */
-    min-height: 100%; /* Match the height of its container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 
 }
 
 #google-map-iframe {
     width: 100%;
     height: 100%;
-    border: none;
 }
 
 
@@ -301,11 +295,10 @@ h1 {
         aspect-ratio: 1 / 1.2;
     }
 
-
 }
 
 
-/* Tablets and small laptops */
+/* Large mobile to tablets */
 @media (min-width: 576px) and (max-width:768px) {
 
     .navbar a {
@@ -349,7 +342,10 @@ h1 {
     }
 
     .text-box3 {
-        aspect-ratio: 1 / 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .get-fuzzy-text {
@@ -358,27 +354,33 @@ h1 {
     }    
     
     .find-us-text {
-        font-size: clamp(1.3rem, 2vw, 1.6rem);
-        line-height: 1.6;
+        font-size: clamp(1.3rem, 1.5vw, 1.6rem);
+    }
+
+    .find-us-text > p {
+        margin-bottom: 0;
     }
 
     .adress-text {
         font-size: clamp(0.7rem, 1vw, 0.8rem);
-        line-height: 1.6;
+    }
 
+    .adress-text > p{
+        margin-bottom: 0;
     }
 
     .open-hours-text {
 
         font-size: clamp(0.7rem, 1vw, 0.8rem);
-        line-height: 1.6;
-
     }
 
-
+    .custom-margin {
+        margin-bottom: 1.3rem;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+/* Tablets and small laptops */
+@media (min-width: 768px) and (max-width:992px) {
 
     .navbar a {
         font-size: 1.6rem;
@@ -422,9 +424,12 @@ h1 {
     }
 
     .text-box3 {
-        aspect-ratio: 1 / 2;
-        gap: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
     .get-fuzzy-text {
         font-size: clamp(2rem, 2vw, 2.5rem);
         line-height: 1.5;
@@ -448,10 +453,14 @@ h1 {
 
     }
 
+    .custom-margin {
+        margin-bottom: 1.3rem;
+    }
+
 }
 
 
-
+/*large laptops to extra large laptops */
 @media (min-width: 992px) and (max-width: 1200px) {
 
     .navbar a {
@@ -475,7 +484,7 @@ h1 {
     }
 
     h3{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     #tagline p {
@@ -484,14 +493,15 @@ h1 {
 
     .text-box2 {
         aspect-ratio: 1 / 1.5;
-
         gap: 3rem;
     }
 
     .text-box3 {
-        aspect-ratio: 1 / 2;
-        gap: 0.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
     }
+
     .get-fuzzy-text {
         font-size: clamp(2rem, 2vw, 2.5rem);
     }
@@ -502,26 +512,36 @@ h1 {
     }
 
     .find-us-text {
-        font-size: clamp(1.7rem, 2vw, 2rem);
+        font-size: clamp(2rem, 2vw, 2rem);
         line-height: 1.5;
     }
 
+    .find-us-text > p {
+        margin-bottom: 0;
+    }
+
     .adress-text {
-        font-size: clamp(0.9rem, 1vw, 1rem);
+        font-size: clamp(1rem, 1vw, 1rem);
         line-height: 1.5;
 
+    }
+
+    .adress-text > p{
+        margin-bottom: 0;
     }
 
     .open-hours-text {
 
-        font-size: clamp(0.9rem, 1vw, 1rem);
+        font-size: clamp(1rem, 1vw, 1rem);
         line-height: 1.5;
 
     }
-
-
+    .custom-margin {
+        margin-bottom: 1.3rem;
+    }
 }
 
+/* Extra large laptops */
 @media (min-width: 1440px) {
 
     .navbar a {
@@ -534,49 +554,63 @@ h1 {
         min-height: 0.3rem;
     }
 
+    .hero {
+
+        min-height: 100vh;
+
+    }
+
     h1 {
-        font-size: 14rem;
+        font-size: 13rem;
+    }
+
+    h3{
+        font-size: 1.6rem;
     }
 
     #tagline p {
-        font-size: 4.5rem;
-    }
-
-    .text-box {
-        max-width: 700px;
-        min-height: 23rem;
-        gap: 2rem;
+        font-size: 3rem;
     }
 
     .text-box2 {
-        max-width: 700px;
-        min-height: 23rem;
-        padding-right: 0;
-        gap: 4rem;
+        aspect-ratio: 1 / 1.5;
+        gap: 3rem;
     }
 
-    .breakfast-text {
-        font-size: 4rem;
-    }
+    .text-box3 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
 
-    .brunch-text {
-        font-size: 4rem;
+    }
+    
+    .get-fuzzy-text {
+        font-size: clamp(2rem, 2vw, 2.5rem);
     }
 
     .btn-lg {
-        font-size: 2.5rem;
+
+        font-size: 2rem;
     }
 
-    .first-row .col-md-3 {
-        transform: translateX(0.4rem);
-        /* Move both images left but preserve their spacing */
-        margin-left: 0.8rem;
-        margin-right: 0.8rem;
+    .find-us-text {
+        font-size: clamp(2.5rem, 2vw, 2rem);
+        line-height: 1.5;
     }
 
-    .second-row .col-md-3 {
-        margin-left: 1.5rem;
-        margin-right: 0.9rem;
+    .adress-text {
+        font-size: clamp(1.5rem, 1vw, 1rem);
+        line-height: 1.5;
+
+    }
+
+    .open-hours-text {
+
+        font-size: clamp(1.5rem, 1vw, 1rem);
+        line-height: 1.5;
+
+    }
+    .custom-margin {
+        margin-bottom: 1.3rem;
     }
 
 }
