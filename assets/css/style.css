@@ -282,7 +282,8 @@ h1 {
     color: var(--secondary-color);
 }
 
-.booking-form-header h1 {
+.booking-form-header h1,
+.booking-confirmation h1 {
     font-family: var(--primary-font);
     font-size: 2.3rem;
     color: var(--primary-color);
@@ -295,7 +296,8 @@ h1 {
     font-weight: 600;
 }
 
-.booking-form-header p {
+.booking-form-header p,
+.booking-confirmation p {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     font-weight: 500;
@@ -324,13 +326,20 @@ select {
   opacity: 0.;
 }
 
-.submit-button {
+.submit-button{
     display: flex;
     justify-content: center;
     align-items: start;
     height: 100%;
     font-size: 1rem;
 }
+
+.return-home-button {
+
+    
+
+}
+
 
 
 /* Responsive design for different screen sizes */
