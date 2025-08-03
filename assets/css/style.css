@@ -86,47 +86,21 @@ h1 {
 #tagline p {
     font-family: var(--primary-font);
     color: var(--primary-color);
-    font-size: 2rem;
-    /* Responsive font size */
+    font-size: 2rem; /* Responsive font size */
 }
 
 /*Main content text style*/
-.text-box {
+.text-box, 
+.text-box2{
     background-color: var(--primary-color);
-    aspect-ratio: 1 / 1;
-    /* Makes it a perfect square */
-    min-height: 100%;
-    /* Match the height of its container */
 
     display: flex;
-    flex-direction: column;
-    /* Stacks text and button vertically */
-    justify-content: center;
-    /* Centers everything vertically */
-    align-items: center;
-    /* Centers everything horizontally */
+    flex-direction: column; /* Stacks text and button vertically */
+    justify-content: center; /* Centers everything vertically */
+    align-items: center; /* Centers everything horizontally */
+    min-height: 100%; /* Match the height of its container */
 
-    gap: 1rem;
-    /* Space between text and button */
-}
-
-.text-box2 {
-    background-color: var(--primary-color);
-    aspect-ratio: 1 / 1.1;
-    /* Makes it a perfect rectangle */
-    min-height: 100%;
-    /* Match the height of its container */
-
-    display: flex;
-    flex-direction: column;
-    /* Stacks text and button vertically */
-    justify-content: center;
-    /* Centers everything vertically */
-    align-items: center;
-    /* Centers everything horizontally */
-
-    gap: 1rem;
-    /* Space between text and button */
+    gap: 1rem; /* Space between text and button */
 }
 
 .text-box3 {
@@ -140,7 +114,7 @@ h1 {
 .breakfast-text {
     font-family: var(--primary-font);
     color: var(--secondary-color);
-    font-size: clamp(2.5rem, 2vw, 2.5rem); /* Responsive scaling */
+    font-size: clamp(2rem, 2vw, 2.5rem); /* Responsive scaling */
     line-height: 1.5;
     margin: 0;
     word-break: break-word; /* If long word */
@@ -159,6 +133,7 @@ h1 {
     text-align: center;
 }
 
+/* Contact section text styling */
 .find-us-text {
     font-family: var(--primary-font);
     color: var(--primary-color);
@@ -184,6 +159,7 @@ h1 {
     margin-bottom: 0;
 }
 
+/* Button styling */
 .btn-lg {
 
     display: inline-flex;
@@ -192,7 +168,7 @@ h1 {
 
     font-family: var(--secondary-font);
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: var(--secondary-color);
     color: var(--primary-color);
 
@@ -212,25 +188,35 @@ h1 {
 
 /* Main images styling for first and second rows*/
 .main-images {
-    aspect-ratio: 1 / 1; /* Makes it a perfect square */
+    aspect-ratio: 4 / 3;
     overflow: hidden; /* Hide overflow to crop */
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100%; /* Match the height of its container */
 
+    min-height: 100%;
 }
 
 .main-images img {
     width: 100%; /* Take full width */
     height: 100%; /* Take full height */
     object-fit: cover; /* Crop while maintaining aspect ratio */
-    object-position: center; /* Keep center part of image */
 }
+
+/* Custom image positioning first row */
+
+.main-images img.img-1 {
+    object-position: 0% 48%
+}
+
+.main-images img.img-2 {
+    object-position: 0% 60%
+}
+
 
 /* Main images styling for second and second rows*/
 .main-images-second-row {
-    aspect-ratio: 1 / 1.5; /* Makes it a perfect rectangle */
+    aspect-ratio: 4 / 3;
     overflow: hidden; /* Hide overflow to crop */
     display: flex;
     align-items: center;
@@ -241,10 +227,21 @@ h1 {
     width: 100%; /* Take full width */
     height: 100%; /* Take full height */
     object-fit: cover; /* Crop while maintaining aspect ratio */
-    object-position: center; /* Keep center part of image */
 }
 
+/* Custom image positioning second row */
+.main-images-second-row img.img-3 {
+    object-position: 0% 30%
+}
+
+.main-images-second-row img.img-4 {
+    object-position: 0% 20%
+}
+
+/* Google Map styling */
 #google-map {
+
+    aspect-ratio: 1 / 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -419,17 +416,15 @@ h1 {
 
 
     .text-box2 {
-        aspect-ratio: 1 / 1.5;
         gap: 0.5rem;
+        height: 100%;
+        width: 100%;
     }
 
     .text-box3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height: 100%;
+        width: 100%;
     }
-
     .get-fuzzy-text {
         font-size: clamp(2rem, 2vw, 2.5rem);
         line-height: 1.5;
@@ -453,9 +448,30 @@ h1 {
 
     }
 
-    .custom-margin {
-        margin-bottom: 1.3rem;
+    .custom-height {
+        height: 45vh;
     }
+
+    .custom-height-contact {
+        height: 40vh;
+    }
+
+    .main-images {
+        height: 100%;
+        width: 100%;
+    }
+
+    .main-images-second-row {
+        height: 100%;
+        width: 100%;
+    }
+
+    #google-map {
+        height: 100;
+        width: 100%;
+    }
+
+
 
 }
 
@@ -484,7 +500,7 @@ h1 {
     }
 
     h3{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     #tagline p {
@@ -492,14 +508,15 @@ h1 {
     }
 
     .text-box2 {
-        aspect-ratio: 1 / 1.5;
-        gap: 3rem;
+        gap: 0.5rem;
+        height: 100%;
+        width: 100%;
     }
 
     .text-box3 {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-
+        padding: 1rem;
+        height: 100%;
+        width: 100%;
     }
 
     .get-fuzzy-text {
@@ -507,12 +524,11 @@ h1 {
     }
 
     .btn-lg {
-
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .find-us-text {
-        font-size: clamp(2rem, 2vw, 2rem);
+        font-size: clamp(1.7rem, 2vw, 2rem);
         line-height: 1.5;
     }
 
@@ -538,6 +554,29 @@ h1 {
     }
     .custom-margin {
         margin-bottom: 1.3rem;
+    }
+
+    .custom-height {
+        height: 45vh;
+    }
+
+    .custom-height-contact {
+        height: 45vh;
+    }
+
+    .main-images {
+        height: 100%;
+        width: 100%;
+    }
+
+    .main-images-second-row {
+        height: 100%;
+        width: 100%;
+    }
+
+    #google-map {
+        height: 100;
+        width: 100%;
     }
 }
 
@@ -572,45 +611,73 @@ h1 {
         font-size: 3rem;
     }
 
+    .breakfast-text {
+
+        font-size: 2.5rem;
+
+    }
+
     .text-box2 {
-        aspect-ratio: 1 / 1.5;
-        gap: 3rem;
+        gap: 0.5rem;
+        height: 100%;
+        width: 100%;
     }
 
     .text-box3 {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        height: 100%;
+        width: 100%;
     }
     
     .get-fuzzy-text {
-        font-size: clamp(2rem, 2vw, 2.5rem);
+        font-size: 2.5rem;
+        line-height: 4rem;
     }
 
     .btn-lg {
-
         font-size: 2rem;
     }
 
+    .main-images {
+        height: 100%;
+        width: 100%;
+    }
+
+    .main-images-second-row {
+        height: 100%;
+        width: 100%;
+    }
+
     .find-us-text {
-        font-size: clamp(2.5rem, 2vw, 2rem);
-        line-height: 1.5;
+        font-size: 2.5rem;
+        line-height: 1.5rem;
     }
 
     .adress-text {
-        font-size: clamp(1.5rem, 1vw, 1rem);
-        line-height: 1.5;
-
+        font-size: 1.5rem;
+        line-height: 1.5rem;
     }
 
     .open-hours-text {
-
-        font-size: clamp(1.5rem, 1vw, 1rem);
+        font-size: 1.5rem;
         line-height: 1.5;
-
     }
     .custom-margin {
         margin-bottom: 1.3rem;
+    }
+
+    .custom-height {
+        height: 60vh;
+    }
+
+    .custom-height-contact {
+        height: 70vh;
+    }
+
+    #google-map {
+        height: 100;
+        width: 100%;
     }
 
 }
