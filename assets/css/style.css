@@ -562,8 +562,13 @@ a.return-home {
         width: 100%;
     }
 
+    .footer-text {
+        font-size: 0.7rem;
+    }
 
-
+    .social-media i {
+        font-size: 1rem;
+    }
 }
 
 

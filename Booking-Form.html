@@ -109,7 +109,7 @@
 
                     <div class="col-6 booking-form-fields mb-3">
                         <label for="date">Date</label>
-                        <input type="date" id="date" name="date" required>
+                        <input type="date" id="reservation-date" name="date" required>
 
                     </div>
 
@@ -134,7 +134,7 @@
             <div class="row">
                 <div class="col-12 justify-content-center align-items-center text-center mb-3 footer-text">
                     <div>
-                        <p class="mb-0">07700 900123</p>
+                        <p class="mb-0"><i class="fa-solid fa-phone"></i>07700 900123</p>
                     </div>
                     <div>
                         <p class="mb-0">Douxmatin@outlook.uk.co</p>
@@ -163,6 +163,13 @@
 
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/e3247db897.js" crossorigin="anonymous"></script>
+
+    <!-- Script to disable past dates in the reservation date field -->
+    <script>
+       // Get today's date in YYYY-MM-DD format
+       const today = new Date().toISOString().split('T')[0];
+      document.getElementById("reservation-date").setAttribute("min", today);
+    </script>
 
 </body>
 
