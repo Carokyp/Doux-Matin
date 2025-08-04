@@ -689,6 +689,19 @@ a.return-home {
         font-size: 1.2rem;
     }
 
+    .booking-confirmation h1{
+        font-size: 3.5rem;
+    }
+
+    .booking-confirmation p{
+        font-size: 1.5rem;
+    }
+
+    a.return-home {
+        font-size: 1.5rem;
+
+    }
+
 }
 
 /* Extra large laptops */
