@@ -289,6 +289,7 @@ h1 {
     color: var(--secondary-color);
 }
 
+/* Booking form styling */
 .booking-form-header h1,
 .booking-confirmation h1 {
     font-family: var(--primary-font);
@@ -317,6 +318,7 @@ h1 {
     font-weight: 500;
 }
 
+/* Booking form input styling */
 input,
 textarea,
 select {
@@ -333,6 +335,7 @@ select {
   opacity: 0.;
 }
 
+/* Booking form button styling */
 .submit-button{
     display: flex;
     justify-content: center;
@@ -340,10 +343,15 @@ select {
     height: 100%;
     font-size: 1rem;
 }
-
+/* Thank you return button styling */
 a.return-home {
   text-decoration: none;
   font-size: 1rem;
+}
+
+/* Autofill input styling */
+input:-webkit-autofill {
+    -webkit-text-fill-color: var(--primary-color); 
 }
 
 
@@ -713,8 +721,8 @@ a.return-home {
     }
 
     .navbar .nav-link.active::after {
-        left: 1.5rem;
-        min-height: 0.3rem;
+        min-height: 0.2rem;
+        min-width: 4rem;
     }
 
     .hero {
@@ -802,6 +810,14 @@ a.return-home {
     #google-map {
         height: 100;
         width: 100%;
+    }
+
+    .footer-text {
+        font-size: 1.5rem;
+    }
+
+    .social-media i {
+        font-size: 1.5rem;
     }
 
 }
