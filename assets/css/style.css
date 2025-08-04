@@ -484,8 +484,9 @@ a.return-home {
     }
 
     .navbar .nav-link.active::after {
-        left: 1.2rem;
-        min-height: 0.3rem;
+        left: 1rem;
+        min-height: 0.2rem;
+        width: 4rem;
     }
 
     #tagline p {
