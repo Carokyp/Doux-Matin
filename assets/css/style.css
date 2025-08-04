@@ -391,6 +391,11 @@ input:-webkit-autofill {
         aspect-ratio: 1 / 1.2;
     }
 
+    .submit-button{
+
+     font-size: 1rem;
+    }
+
 }
 
 
@@ -473,6 +478,8 @@ input:-webkit-autofill {
     .custom-margin {
         margin-bottom: 1.3rem;
     }
+
+
 }
 
 /* Tablets and small laptops */
@@ -581,6 +588,11 @@ input:-webkit-autofill {
 
     .booking-form-header h3{
         font-size: 1.2rem;
+    }
+
+    .submit-button{
+
+     font-size: 1rem;
     }
 
 }
@@ -830,6 +842,19 @@ input:-webkit-autofill {
 
     .submit-button {
         font-size: 1rem;
+    }
+
+    .booking-confirmation h1{
+        font-size: 4rem;
+    }
+
+    .booking-confirmation p{
+        font-size: 1.7rem;
+    }
+
+    a.return-home {
+        font-size: 1.7rem;
+
     }
 
 
