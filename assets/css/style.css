@@ -484,9 +484,9 @@ a.return-home {
     }
 
     .navbar .nav-link.active::after {
-        left: 1rem;
+        left: 0.1rem;
         min-height: 0.2rem;
-        width: 4rem;
+        min-width: 4rem;
     }
 
     #tagline p {
@@ -570,6 +570,11 @@ a.return-home {
     .social-media i {
         font-size: 1rem;
     }
+
+    .booking-form-header h3{
+        font-size: 1.2rem;
+    }
+
 }
 
 
