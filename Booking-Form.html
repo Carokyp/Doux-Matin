@@ -173,6 +173,21 @@
       document.getElementById("reservation-date").setAttribute("min", today);
     </script>
 
+
+    <!-- Custom Script to handle navbar toggler blur -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggler = document.querySelector(".navbar-toggler");
+
+            toggler.addEventListener("click", function () {
+                // Wait a tiny moment for the toggle to happen, then blur
+                setTimeout(() => {
+                    toggler.blur();
+                }, 200); // Delay ensures collapse runs first
+            });
+        });
+    </script>
+
 </body>
 
 </html>
