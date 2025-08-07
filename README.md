@@ -33,7 +33,7 @@ The customer goals of this website are:
 ## User Experience (UX)
 
 ### User stories
-* As a First-time visitor, I want easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
+* As a First-time visitor, I want easy navigation and a user-friendly design, including a responsive layout for my device so that I can find information quickly and efficiently without frustration.
 * As a customer, I want to see the food and drink options, so that I can decide what I’d like to order before I visit the place.
 * As a customer, I want to book a table online using a simple booking inquiry form, so I can easily organise a group visit or a special occasion.
 * As a customer, I need to find the location, contact details, social media, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the café.
@@ -48,23 +48,36 @@ On larger screens, the navigation bar has a blurry background effect, giving it 
 
 On smaller screens, the navigation transforms into a hamburger menu. When the user clicks the toggle button, a dropdown menu appears with the different sections displayed over a blurry background. Each time the toggle is clicked, the menu is also visually highlighted to enhance interactivity and user experience.
 
-__Homepage hero image__ 
+__Homepage hero image:__ \
 Include a top-view photograph of a brunch with a text overlay of the name of the cafe
 
 <img width="1728" height="962" alt="Image" src="https://github.com/user-attachments/assets/71d67037-eeee-4c4c-a3d9-3c6df16dbfc7" />
 
-__Tagline__ 
+__Tagline:__ \
 ‘’Doux Matin where mornings unfold softly‘’ tagline appears on the main page below the hero image 
 
 <img width="1191" height="105" alt="Image" src="https://github.com/user-attachments/assets/5291f55a-8f0b-4404-9420-3d42729ed1c9" />
 
+__Home Page__ 
+The homepage contains two distinct sections:
+* The first section allows users to view the brunch and breakfast menu, giving them a clear idea of the dishes offered.
+* The second section provides more details about the bottomless brunches, including available times and pricing.
+Both sections feature two images each to visually illustrate and enhance the content, giving users a warm and inviting preview of the experience.
+
+<img width="729" height="544" alt="Image" src="https://github.com/user-attachments/assets/e47c2786-d189-4735-9139-9d0ee0bf3c07" />
+
 __Menu Page__ 
-The menu page will list all the food and drink available in the shop it is split in multiple sections, sweet treat, brunch’s, coffee, tea, fresh juices, there is a special menu for bottomless brunch’s at the bottom 
+The menu lists all the food and drinks available at the café. It is divided into multiple sections: Breakfast, Brunch, and Drinks, which include coffee, tea, fresh juices, and Bottomless Cocktails.
 
 __About us Page__ 
-The About Us page will give more details about how created and in charge of the business but all how the food quality is important 
+The About Us page provides more details about who created and runs the business, as well as the team behind it. It also emphasises the café’s commitment to high-quality food and fresh ingredients.
 
 __Booking Page__ 
+Users are asked to provide their first name, last name, email address, phone number, event type, number of guests, and the desired booking date. They also have the option to include a message for any additional information or special requests.
+<img width="803" height="715" alt="Image" src="https://github.com/user-attachments/assets/880b8410-ef71-41fd-bb87-da5ccedc7025" />
+
+Upon submitting the form, a new tab opens displaying a thank you message along with a button to return to the homepage.
+<img width="749" height="725" alt="Image" src="https://github.com/user-attachments/assets/9743faa5-49c9-4c91-8eb7-eb0d59fbc9f7" />
 
 __Footer / Contact and How to Find Us__ 
 
