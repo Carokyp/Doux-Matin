@@ -48,47 +48,68 @@ On larger screens, the navigation bar has a blurry background effect, giving it 
 
 On smaller screens, the navigation transforms into a hamburger menu. When the user clicks the toggle button, a dropdown menu appears with the different sections displayed over a blurry background. Each time the toggle is clicked, the menu is also visually highlighted to enhance interactivity and user experience.
 
-__Homepage hero image:__ \
+__Hero image__ \
 Include a top-view photograph of a brunch with a text overlay of the name of the cafe
 
-<img width="1728" height="962" alt="Image" src="https://github.com/user-attachments/assets/71d67037-eeee-4c4c-a3d9-3c6df16dbfc7" />
+<img width="1728" height="962" alt="Image" src="https://github.com/user-attachments/assets/71d67037-eeee-4c4c-a3d9-3c6df16dbfc7"/><br>
 
-__Tagline:__ \
+__Tagline__ \
 ‘’Doux Matin where mornings unfold softly‘’ tagline appears on the main page below the hero image 
 
-<img width="1191" height="105" alt="Image" src="https://github.com/user-attachments/assets/5291f55a-8f0b-4404-9420-3d42729ed1c9" />
+<img width="1191" height="105" alt="Image" src="https://github.com/user-attachments/assets/5291f55a-8f0b-4404-9420-3d42729ed1c9"/><br>
 
-__Home Page__ 
+__Home Page__ \
 The homepage contains two distinct sections:
 * The first section allows users to view the brunch and breakfast menu, giving them a clear idea of the dishes offered.
 * The second section provides more details about the bottomless brunches, including available times and pricing.
-Both sections feature two images each to visually illustrate and enhance the content, giving users a warm and inviting preview of the experience.
+Both sections feature two images each to visually illustrate and enhance the content, giving users a warm and inviting preview of the experience.<br>
 
 <div align="center">
-  <img width="729" height="544" alt="Image" src="https://github.com/user-attachments/assets/e47c2786-d189-4735-9139-9d0ee0bf3c07" />
+  <img width="729" height="544" alt="Image" src="https://github.com/user-attachments/assets/e47c2786-d189-4735-9139-9d0ee0bf3c07"/>
 </div>
 
-__Menu Page__ 
+<br>__Menu Page__ \
 The menu lists all the food and drinks available at the café. It is divided into multiple sections: Breakfast, Brunch, and Drinks, which include coffee, tea, fresh juices, and Bottomless Cocktails.
+The menu opens in a new browser tab in a PDF format to allow users to browse the options without losing their place on the main website—making it easy to return to their booking or previous page at any time.
 
-__About us Page__ 
-The About Us page provides more details about who created and runs the business, as well as the team behind it. It also emphasises the café’s commitment to high-quality food and fresh ingredients.
+<div align="center">
+  <img width="250" height="500" alt="Image" src="https://github.com/user-attachments/assets/5f735d41-0835-4153-aeb5-d40f119aa083"/>
+    <img width="250" height="500" alt="Image" src="https://github.com/user-attachments/assets/67201c50-7348-4d0b-87e9-7ddb83736529"/>
+</div>
 
-__Booking Page__ 
+<br>__About us Page__ \
+The About Us page provides more details about who created and runs the business, as well as the team behind it. It also emphasises the café’s commitment to high-quality food and fresh ingredients.<br>
+
+<br>__Booking Page__ \
 Users are asked to provide their first name, last name, email address, phone number, event type, number of guests, and the desired booking date. They also have the option to include a message for any additional information or special requests.
 
 <div align="center">
-<img width="801" height="717" alt="Image" src="https://github.com/user-attachments/assets/0add1f81-abd0-4b5f-9427-fad50040fe0d" />
+<img width="601" height="517" alt="Image" src="https://github.com/user-attachments/assets/0add1f81-abd0-4b5f-9427-fad50040fe0d"/><br>
 </div>
 
-Upon submitting the form, a new tab opens displaying a thank you message along with a button to return to the homepage.
+<br>Upon submitting the form, a new tab opens displaying a thank you message along with a button to return to the homepage.
 
 <div align="center">
-<img width="749" height="725" alt="Image" src="https://github.com/user-attachments/assets/9743faa5-49c9-4c91-8eb7-eb0d59fbc9f7" />
+<img width="549" height="525" alt="Image" src="https://github.com/user-attachments/assets/9743faa5-49c9-4c91-8eb7-eb0d59fbc9f7"/>
 </div>
 
 
-__Footer / Contact and How to Find Us__ 
+<br>__Footer__ 
+
+The footer is included on the Home, Book Now, Thank You, and About pages. Clicking on the Contact section in the navigation bar automatically scrolls the user down to the footer, where all contact information is located.
+
+On the Home page, the footer contains:
+
+* Address: Displays the café’s full address so users can easily locate it for visits or bookings.
+* Opening Hours: Clearly states the days and times the café is open, helping users plan their visits or reservations.
+* Map: An embedded Google Map shows the exact location of Doux Matin, making it convenient for users to get directions or view the area.
+* Phone Number and Email Address: Provides direct contact options for users who may have inquiries, need help with bookings, or want to request more information.
+* Social Media Links: Icons linking to major social media platforms (e.g., Instagram, Facebook, Twitter).
+(Since Doux Matin is a fictional business, these links currently redirect to the main homepages of each respective platform.
+
+On the other pages of the website (Book Now, Thank You, and About), the footer is simplified and only includes the phone number, email address, and social media links.
+
+This design ensures that essential contact methods are always accessible, while keeping the interface clean and relevant to each page’s purpose.
 
 ## Design
 
@@ -110,7 +131,7 @@ Website: Emma Duckworth Bakes
 * Croissants: https://en.julskitchen.com/breakfast/italian-croissants \
 Artiste: https://www.instagram.com/julskitchen/ and https://www.instagram.com/tommyonweb/
 
-* People enjoyin a meal: https://www.restomontreal.ca/article/mimosas-music-and-brunch-vibes-montreals-top-weekend-picks/2101/en/ \
+* People enjoying a meal: https://www.restomontreal.ca/article/mimosas-music-and-brunch-vibes-montreals-top-weekend-picks/2101/en/ \
 Website: Restomontreal
 
 * Mimosa and brunch: https://www.restomontreal.ca/article/mimosas-music-and-brunch-vibes-montreals-top-weekend-picks/2101/en/ \
@@ -139,7 +160,6 @@ Website: Liquor.com / Tim Nusog
 
 * Strawberry: https://fr.freepik.com/photos-gratuite/delicieux-dessert-granite-assortiment-fraises_26003478.htm \
 Website: Freepik
-
 
 __About Page__
 
