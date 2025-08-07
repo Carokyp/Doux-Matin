@@ -48,10 +48,15 @@ On larger screens, the navigation bar has a blurry background effect, giving it 
 
 On smaller screens, the navigation transforms into a hamburger menu. When the user clicks the toggle button, a dropdown menu appears with the different sections displayed over a blurry background. Each time the toggle is clicked, the menu is also visually highlighted to enhance interactivity and user experience.
 
-__Landing Page Image and call to action__ 
+__Homepage hero image__ 
+Include a top-view photograph of a brunch with a text overlay of the name of the cafe
+
+<img width="1728" height="962" alt="Image" src="https://github.com/user-attachments/assets/71d67037-eeee-4c4c-a3d9-3c6df16dbfc7" />
 
 __Tagline__ 
-‘’Doux Matin where mornings unfold softly.‘’
+‘’Doux Matin where mornings unfold softly‘’ tagline appears on the main page below the hero image 
+
+<img width="1191" height="105" alt="Image" src="https://github.com/user-attachments/assets/5291f55a-8f0b-4404-9420-3d42729ed1c9" />
 
 __Menu Page__ 
 The menu page will list all the food and drink available in the shop it is split in multiple sections, sweet treat, brunch’s, coffee, tea, fresh juices, there is a special menu for bottomless brunch’s at the bottom 
