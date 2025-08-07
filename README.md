@@ -58,15 +58,17 @@ __Tagline:__ \
 
 <img width="1191" height="105" alt="Image" src="https://github.com/user-attachments/assets/5291f55a-8f0b-4404-9420-3d42729ed1c9" />
 
-__Home Page__ \
+__Home Page__ 
 The homepage contains two distinct sections:
 * The first section allows users to view the brunch and breakfast menu, giving them a clear idea of the dishes offered.
 * The second section provides more details about the bottomless brunches, including available times and pricing.
 Both sections feature two images each to visually illustrate and enhance the content, giving users a warm and inviting preview of the experience.
 
-<img width="729" height="544" alt="Image" src="https://github.com/user-attachments/assets/e47c2786-d189-4735-9139-9d0ee0bf3c07" />
+<div align="center">
+  <img width="729" height="544" alt="Image" src="https://github.com/user-attachments/assets/e47c2786-d189-4735-9139-9d0ee0bf3c07" />
+</div>
 
-__Menu Page__ \
+__Menu Page__ 
 The menu lists all the food and drinks available at the café. It is divided into multiple sections: Breakfast, Brunch, and Drinks, which include coffee, tea, fresh juices, and Bottomless Cocktails.
 
 __About us Page__ 
@@ -74,10 +76,17 @@ The About Us page provides more details about who created and runs the business,
 
 __Booking Page__ 
 Users are asked to provide their first name, last name, email address, phone number, event type, number of guests, and the desired booking date. They also have the option to include a message for any additional information or special requests.
-<img width="803" height="715" alt="Image" src="https://github.com/user-attachments/assets/880b8410-ef71-41fd-bb87-da5ccedc7025" />
+
+<div align="center">
+<img width="801" height="717" alt="Image" src="https://github.com/user-attachments/assets/0add1f81-abd0-4b5f-9427-fad50040fe0d" />
+</div>
 
 Upon submitting the form, a new tab opens displaying a thank you message along with a button to return to the homepage.
+
+<div align="center">
 <img width="749" height="725" alt="Image" src="https://github.com/user-attachments/assets/9743faa5-49c9-4c91-8eb7-eb0d59fbc9f7" />
+</div>
+
 
 __Footer / Contact and How to Find Us__ 
 
@@ -94,13 +103,6 @@ __Home page__
 * Hero Brunch Image: https://unsplash.com/fr/photos/pain-tranche-sur-plaque-de-ceramique-blanche-7N8amvEYF-0 \
 Artiste: Colin Michel \
 Artiste Profil: https://unsplash.com/fr/@colincyruz
-
-* Chicken Sandwitch: https://unsplash.com/fr/photos/un-sandwich-coupe-en-deux-pose-sur-une-assiette-blanche-6UjpUPobTUA \
-Artiste: Nima Naseri \
-Artiste Profil: https://unsplash.com/fr/@nimanaseri
-
-* Egg on top sandwitch: https://www.womanandhome.com/food/this-brunch-favourite-has-had-a-mouth-watering-makeover/ \
-Artiste: Sean Calitz
 
 * French Toast: https://emmaduckworthbakes.com/brioche-french-toast/ \
 Website: Emma Duckworth Bakes
@@ -152,9 +154,3 @@ Artiste Profil: https://unsplash.com/fr/@montatip
 * Flour and Eggs: https://unsplash.com/fr/photos/oeufs-et-farine-5evEHNh-Ft4 \
 Artiste: Wendy Rake \
 Artiste Profil: https://unsplash.com/fr/@wendyrake
-
-
-
-
-
-
