@@ -58,7 +58,7 @@ __Tagline:__ \
 
 <img width="1191" height="105" alt="Image" src="https://github.com/user-attachments/assets/5291f55a-8f0b-4404-9420-3d42729ed1c9" />
 
-__Home Page__ 
+__Home Page__ \
 The homepage contains two distinct sections:
 * The first section allows users to view the brunch and breakfast menu, giving them a clear idea of the dishes offered.
 * The second section provides more details about the bottomless brunches, including available times and pricing.
@@ -66,7 +66,7 @@ Both sections feature two images each to visually illustrate and enhance the con
 
 <img width="729" height="544" alt="Image" src="https://github.com/user-attachments/assets/e47c2786-d189-4735-9139-9d0ee0bf3c07" />
 
-__Menu Page__ 
+__Menu Page__ \
 The menu lists all the food and drinks available at the café. It is divided into multiple sections: Breakfast, Brunch, and Drinks, which include coffee, tea, fresh juices, and Bottomless Cocktails.
 
 __About us Page__ 
