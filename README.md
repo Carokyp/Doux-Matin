@@ -107,13 +107,55 @@ On the Home page, the footer contains:
 * Social Media Links: Icons linking to major social media platforms (e.g., Instagram, Facebook, Twitter).
 (Since Doux Matin is a fictional business, these links currently redirect to the main homepages of each respective platform.
 
-On the other pages of the website (Book Now, Thank You, and About), the footer is simplified and only includes the phone number, email address, and social media links.
+On the other pages of the website (Book Now, Thank You, and About), the footer is simplified, only including the phone number, email address, and social media links.
 
-This design ensures that essential contact methods are always accessible, while keeping the interface clean and relevant to each page’s purpose.
+This design ensures that essential contact methods are always accessible, while maintaining a clean and relevant interface that is tailored to each page’s purpose.
 
 ## Design
 
+### Visual Style
+
+Doux Matin adopts a soft, cosy, and cheerful aesthetic that reflects the warmth and sociability of a modern French café. The design blends soft pastel tones with rich, inviting food imagery to evoke a sense of comfort and indulgence. The photos were picked for their natural lighting and warm hues to highlight freshness, enhancing the overall ambience with a playful yet elegant tone.
+
+### Menus
+The menus were designed using Adobe Photoshop, drawing inspiration from curated visual references found on Pinterest. This design process ensured a cohesive and visually appealing layout that aligns with the overall brand identity of the café.
+
+### Colors 
+The colour palette was inspired by selections from [Color Hunt](https://colorhunt.co/) to evoke a light, appetising, and joyful mood. Soft corals, blush tones, and clean whites come together to create a user interface that feels both airy and welcoming.
+### Typography
+
+* Pacifico, a Google Font, is used prominently in the hero section and for larger headings to convey a handwritten, inviting charm.
+* Onest, also a Google modern sans-serif font, is used for navigation and body text, ensuring readability while maintaining a clean and approachable look.
+
+### Wireframes
+
+* Home Page
+  <img width="900" height="701" alt="Image" src="https://github.com/user-attachments/assets/61c4289d-c455-4a10-bd56-bac1198ae19c" />
+* Book Now Page
+  <img width="1019" height="431" alt="Image" src="https://github.com/user-attachments/assets/aec2b9bd-8095-450d-9dcd-b16de3a12ea9" />
+* Thank You Page
+  <img width="1032" height="365" alt="Image" src="https://github.com/user-attachments/assets/205c134f-21de-4a7a-aaa9-d1b724e61910" />
+* About Page
+
+
+
 ## Technologies Used
+
+__Languages Used__
+
+* CSS
+* HTML5
+* Bootstrap5
+* JavaScript
+
+__Frameworks, Libraries & Programs Used__
+
+* Google Fonts: was used to import the '' and '' fonts into the style.css 
+* Font Awesome: was used to add icons for aesthetic and UX purposes.
+* GitHub: is used as the repository for the project's code after being pushed from Git.
+* Photoshop: was used for early design to help having a better idea of wish color and image will suit the website it was also used to resize, eadit picture but also creating the menus and the color pallette
+* Visual Studio Git Source control: was used to commit and push or pull those into GitHub 
+* Balsamiq: was used to create the wireframes during the design process.
 
 ## Deployment
 
