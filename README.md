@@ -151,7 +151,7 @@ __Languages Used__
  
 __Frameworks, Libraries & Programs Used__
 
-* [Google Fonts](https://fonts.google.com/): was used to import the '' and '' fonts into the style.css 
+* [Google Fonts](https://fonts.google.com/): was used to import the 'Pacifico' and 'Onest' fonts into the style.css 
 * [Font Awesome](https://fontawesome.com/): was used to add icons for aesthetic and UX purposes.
 * [GitHub](https://github.com/): is used as the repository for the project's code after being pushed from Git.
 * [Photoshop](https://www.adobe.com/uk/products/photoshop.html): was used for early design to help having a better idea of wish color and image will suit the website it was also used to resize, eadit picture but also creating the menus and the color pallette
@@ -159,6 +159,17 @@ __Frameworks, Libraries & Programs Used__
 * [Balsamiq](https://balsamiq.com/): was used to create the wireframes during the design process.
 
 ## Deployment
+
+__Deploy with GitHub Pages__
+
+* Go to [my GitHub repository:](https://github.com/Carokyp/Doux-Matin)
+* Click the "Settings" tab (top of the repository)
+* Scroll down to "Pages" in the left sidebar
+* Under "Source": Select "Deploy from a branch"
+* Choose "main" branch
+* Choose "/ (root)" folder
+* Click "Save"
+* Wait 1-2 minutes for deployment the site will be live at: https://carokyp.github.io/Doux-Matin
 
 ## Credits
 
