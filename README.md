@@ -118,10 +118,11 @@ This design ensures that essential contact methods are always accessible, while 
 Doux Matin adopts a soft, cosy, and cheerful aesthetic that reflects the warmth and sociability of a modern French café. The design blends soft pastel tones with rich, inviting food imagery to evoke a sense of comfort and indulgence. The photos were picked for their natural lighting and warm hues to highlight freshness, enhancing the overall ambience with a playful yet elegant tone.
 
 ### Menus
-The menus were designed using Adobe Photoshop, drawing inspiration from curated visual references found on Pinterest. This design process ensured a cohesive and visually appealing layout that aligns with the overall brand identity of the café.
+The menus were designed using Adobe Photoshop, drawing inspiration from curated visual references found on [Pinterest](https://www.pinterest.com/). This design process ensured a cohesive and visually appealing layout that aligns with the overall brand identity of the café.
 
 ### Colors 
 The colour palette was inspired by selections from [Color Hunt](https://colorhunt.co/) to evoke a light, appetising, and joyful mood. Soft corals, blush tones, and clean whites come together to create a user interface that feels both airy and welcoming.
+
 ### Typography
 
 * Pacifico, a Google Font, is used prominently in the hero section and for larger headings to convey a handwritten, inviting charm.
@@ -129,13 +130,13 @@ The colour palette was inspired by selections from [Color Hunt](https://colorhun
 
 ### Wireframes
 
-* Home Page
+* __Home Page__
   <img width="900" height="701" alt="Image" src="https://github.com/user-attachments/assets/61c4289d-c455-4a10-bd56-bac1198ae19c" />
-* Book Now Page
+* __Book Now Page__
   <img width="1019" height="431" alt="Image" src="https://github.com/user-attachments/assets/aec2b9bd-8095-450d-9dcd-b16de3a12ea9" />
-* Thank You Page
+* __Thank You Page__
   <img width="1032" height="365" alt="Image" src="https://github.com/user-attachments/assets/205c134f-21de-4a7a-aaa9-d1b724e61910" />
-* About Page
+* __About Page__
 
 
 
@@ -143,19 +144,19 @@ The colour palette was inspired by selections from [Color Hunt](https://colorhun
 
 __Languages Used__
 
-* CSS
-* HTML5
-* Bootstrap5
-* JavaScript
-
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+ 
 __Frameworks, Libraries & Programs Used__
 
-* Google Fonts: was used to import the '' and '' fonts into the style.css 
-* Font Awesome: was used to add icons for aesthetic and UX purposes.
-* GitHub: is used as the repository for the project's code after being pushed from Git.
-* Photoshop: was used for early design to help having a better idea of wish color and image will suit the website it was also used to resize, eadit picture but also creating the menus and the color pallette
-* Visual Studio Git Source control: was used to commit and push or pull those into GitHub 
-* Balsamiq: was used to create the wireframes during the design process.
+* [Google Fonts](https://fonts.google.com/): was used to import the '' and '' fonts into the style.css 
+* [Font Awesome](https://fontawesome.com/): was used to add icons for aesthetic and UX purposes.
+* [GitHub](https://github.com/): is used as the repository for the project's code after being pushed from Git.
+* [Photoshop](https://www.adobe.com/uk/products/photoshop.html): was used for early design to help having a better idea of wish color and image will suit the website it was also used to resize, eadit picture but also creating the menus and the color pallette
+* [Visual Studio Git Source Control](https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=vs-2022): was used to commit and push or pull those into GitHub 
+* [Balsamiq](https://balsamiq.com/): was used to create the wireframes during the design process.
 
 ## Deployment
 
