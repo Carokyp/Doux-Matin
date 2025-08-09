@@ -30,6 +30,12 @@ body {
     top: 0;
 }
 
+/* Bootstrap navbar for about page */
+.navbar-about {
+    position: sticky;
+    top: 0;
+}
+
 /* Customize navbar toggler */
 .navbar-toggler {
     border-color: white !important;
@@ -354,7 +360,43 @@ input:-webkit-autofill {
     -webkit-text-fill-color: var(--primary-color); 
 }
 
+/* About Section Styles */
 
+/* Main images styling */
+.main-images-about {
+    aspect-ratio: 4 / 3;
+    overflow: hidden; /* Hide overflow to crop */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100%;
+}
+
+.main-images-about img {
+    width: 100%; /* Take full width */
+    height: 100%; /* Take full height */
+    object-fit: cover; /* Crop while maintaining aspect ratio */
+}
+
+.text-box1-about{
+    background-color: #FFFFFF;
+}
+
+.h1-about {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.text-box1-about > p {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
 
 /* Responsive design for different screen sizes */
 
