@@ -388,7 +388,6 @@ input:-webkit-autofill {
 }
 
 
-
 .text-box1-about{
     background-color: #FFFFFF;
 }
@@ -616,7 +615,6 @@ input:-webkit-autofill {
      line-height: 1.5;
     }
 
-
 }
 
 /* Tablets and small laptops */
@@ -734,6 +732,10 @@ input:-webkit-autofill {
     .submit-button{
 
      font-size: 1rem;
+    }
+
+    .text-box1-about > p {
+     font-size: 0.7rem;
     }
 
 }
@@ -873,6 +875,15 @@ input:-webkit-autofill {
 
     }
 
+    .main-images-about img.img-1 {
+        object-position: 0% 35%;
+    }
+
+    .text-box1-about > p {
+        font-size: 1rem;
+
+    }
+
 }
 
 /* Extra large laptops */
@@ -1009,6 +1020,14 @@ input:-webkit-autofill {
     a.return-home {
         font-size: 1.7rem;
 
+    }
+
+    .text-box1-about {
+        height: 100%;
+    }
+
+    .text-box1-about > p{
+        font-size: 1.5rem;
     }
 
 
