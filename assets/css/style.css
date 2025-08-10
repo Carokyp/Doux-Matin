@@ -192,7 +192,7 @@ h1 {
 }
 
 
-/* Main images styling for first and second rows*/
+/* Main images styling for first row*/
 .main-images {
     aspect-ratio: 4 / 3;
     overflow: hidden; /* Hide overflow to crop */
@@ -220,7 +220,7 @@ h1 {
 }
 
 
-/* Main images styling for second and second rows*/
+/* Main images styling for second row*/
 .main-images-second-row {
     aspect-ratio: 4 / 3;
     overflow: hidden; /* Hide overflow to crop */
@@ -378,6 +378,16 @@ input:-webkit-autofill {
     height: 100%; /* Take full height */
     object-fit: cover; /* Crop while maintaining aspect ratio */
 }
+
+.main-images-about img.img-1 {
+    object-position: 0% 40%
+}
+
+.main-images-about img.img-2 {
+    object-position: 20% 0%
+}
+
+
 
 .text-box1-about{
     background-color: #FFFFFF;
@@ -568,6 +578,42 @@ input:-webkit-autofill {
 
     .social-media i {
         font-size: 1rem;
+    }
+
+    .first-row-about {
+        align-items: center;
+    }
+
+    .h1-about{
+
+        font-size: 1rem;
+
+    }
+
+    .rows-about-page {
+        align-items: stretch; /* Makes both columns equal height */
+    }
+
+    .main-images-about > img-1 {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .main-images-about > img-2 {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .main-images-about > img-3 {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .text-box1-about > p {
+     font-family: var(--secondary-font);
+     color: var(--primary-color);
+     font-size: 0.6rem;
+     line-height: 1.5;
     }
 
 
