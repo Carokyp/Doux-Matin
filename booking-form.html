@@ -27,23 +27,23 @@
             <div class="navbar-collapse collapse" id="collapseNavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a>
+                        <a class="nav-link px-3" href="index.html"><span class="nav-text">HOME</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="assets/images/pdf/menu.pdf" target="_blank" rel="noopener noreferrer">MENU</a>
+                        <a class="nav-link" href="assets/images/pdf/menu.pdf" target="_blank" rel="noopener noreferrer"><span class="nav-text">MENU</span></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="booking-form.html">BOOK NOW</a>
+                        <a class="nav-link book-now active" href="booking-form.html"><span class="nav-text">BOOK NOW</span></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">CONTACT</a>
+                        <a class="nav-link" href="#contact"><span class="nav-text">CONTACT</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT</a>
+                        <a class="nav-link" href="about.html"><span class="nav-text">ABOUT</span></a>
                     </li>
                 </ul>
             </div>
@@ -109,7 +109,7 @@
                         </div>
 
                         <div class="col-9 col-md-4 col-xl-2 booking-form-fields mb-3">
-                            <label for="date">Date</label>
+                            <label for="reservation-date">Date</label>
                             <input type="date" id="reservation-date" name="date" required>
     
                         </div>
@@ -132,6 +132,8 @@
             </div>
         </form>
     </section>
+
+    <!-- Footer -->
 
     <footer id="contact">
         <div class="container">
@@ -187,6 +189,23 @@
             });
         });
     </script>
+
+    <!--
+    JavaScript adds 'active' class to clicked nav link and removes it from others.
+    This highlights the clicked menu and contact item with an underline
+    -->
+    <script>
+        document.querySelectorAll('.navbar .nav-link').forEach(link => {
+            link.addEventListener('click', e => {
+                // Remove active class from all links
+                document.querySelectorAll('.navbar .nav-link').forEach(nav => nav.classList.remove('active'));
+                // Add active class to the clicked link
+                e.currentTarget.classList.add('active');
+            });
+        });
+    </script>
+
+    
 
 </body>
 

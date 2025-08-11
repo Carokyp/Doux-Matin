@@ -3,7 +3,7 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: 'Pacifico', sans-serif;
+    --primary-font: 'Pacifico', sans-serif; 
     --secondary-font: 'Onest', sans-serif;
     --primary-color: #f39485; /* Dark pink */
     --secondary-color: #FFFFFF; /* White */
@@ -11,37 +11,34 @@
 
 /* General body styling */
 body {
-    background-color: #f9efee;
+    background-color: #f9efee; /* Light pink background */
 }
+
+/* #region Bootstrap Navbar styles */
 
 /* Bootstrap navbar styling */
 .navbar {
-    background-color: rgba(252, 153, 128, 0.445) !important;
+    background-color: rgba(252, 153, 128, 0.445) !important; /* Semi-transparent background */
     backdrop-filter: blur(10px); /* Blur effect */
     position: fixed; /* keeps the navbar to the top */
     z-index: 10;/* ensures the navbar is above other content */
-    width: 100%;
-    text-shadow: 2px 2px 1px rgba(88, 29, 5, 0.5);/* Drop shadow */
+    width: 100%; /* Full width */
+    text-shadow: 2px 2px 1px rgba(88, 29, 5, 0.5);/* Drop shadow for text*/
 }
 
-/* Bootstrap navbar for the booking page */
-.navbar-booking {
-    position: sticky;
-    top: 0;
+/* Bootstrap navbar styling for the Booking Page & About Page*/
+.navbar-booking, .navbar-about {
+    position: sticky; /* Keeps the navbar at the top */
+    top: 0; /* Sticks to the top */
 }
 
-/* Bootstrap navbar for about page */
-.navbar-about {
-    position: sticky;
-    top: 0;
-}
-
-/* Customize navbar toggler */
+/* Change the border of the navbar toggler to white */
 .navbar-toggler {
     border-color: white !important;
     border-width: 3px !important;
 }
 
+/* Change the color of navbar hamburger icon to white */
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='butt' stroke-miterlimit='10' stroke-width='3' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
@@ -49,6 +46,7 @@ body {
 /* Navbar links customization */
 .navbar a {
     color: var(--secondary-color) !important;
+
     font-family: var(--secondary-font);
     font-weight: 600; /* bold text */
     font-size: 1.2rem;
@@ -56,28 +54,36 @@ body {
 
 /* Active nav link with custom underline */
 .navbar .nav-link.active {
-    position: relative;
-    display: inline-block;
+    position: relative; /* Position relative for pseudo-element */
+    display: inline-block; /* Ensure the element is inline-block */
 }
 
-.navbar .nav-link.active::after {
-    content: '';
-    position: absolute;
-    left: 0.1%; /* Center the line */
-    width: 100%;
-    height: 3px; /* Thicker line */
-    background-color: var(--secondary-color);
-    display: block; /* Ensure it displays */
+.nav-text {
+  position: relative; /* Establish positioning context for pseudo-element */
+  display: inline-block; /* shrink to text width */
 }
+
+/* Active nav link underline */
+.nav-link.active .nav-text::after {
+  content: ''; /* Create empty pseudo-element for underline */
+  position: absolute; /* Position underline relative to .nav-text */
+  bottom: 0; /* Place underline at the bottom of the text */
+  left: 0; /* Align underline to the left edge */
+  width: 100%; /* matches text width */
+  height: 3px; /* Set underline thickness */
+  background-color: var(--secondary-color);
+}
+
+/* #endregion */
 
 /* Hero section styling */
 .hero {
     background-image: url('../images/brunch3.jpg');
-    min-height: 50vh;
-    /* 50% of the viewport height */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Scale image to cover entire element */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+
+    min-height: 50vh; /* take 50% of the viewport height */
 }
 
 /* Hero section text styling */
@@ -85,7 +91,6 @@ h1 {
     font-family: var(--primary-font);
     color: var(--secondary-color);
     font-size: 5rem;
-    /* Fixed font size */
 }
 
 /* Tagline */
@@ -95,110 +100,118 @@ h1 {
     font-size: 2rem; /* Responsive font size */
 }
 
-/*Main content text style*/
+/*Main content style*/
+
+/* #region Boxes and Text */
 .text-box, 
 .text-box2{
     background-color: var(--primary-color);
 
     display: flex;
-    flex-direction: column; /* Stacks text and button vertically */
+    flex-direction: column; /* Stacks text box */
     justify-content: center; /* Centers everything vertically */
     align-items: center; /* Centers everything horizontally */
-    min-height: 100%; /* Match the height of its container */
 
+    min-height: 100%; /* Match the height of its container */
     gap: 1rem; /* Space between text and button */
 }
 
 .text-box3 {
     background-color: var(--secondary-color);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+/* text in boxes */
+
 .breakfast-text {
     font-family: var(--primary-font);
-    color: var(--secondary-color);
     font-size: clamp(2rem, 2vw, 2.5rem); /* Responsive scaling */
-    line-height: 1.5;
-    margin: 0;
-    word-break: break-word; /* If long word */
-    text-align: center;
+    color: var(--secondary-color);
 
+    line-height: 1.5; /* Set the space between lines */
+    overflow-wrap: break-word; /* If long word */
+    text-align: center; 
+
+    margin: 0;
     gap: 1rem;
 }
 
 .get-fuzzy-text {
     font-family: var(--primary-font);
-    color: var(--secondary-color);
     font-size: clamp(2rem, 2vw, 2.5rem); /* Responsive scaling */
+    color: var(--secondary-color);
+    
     line-height: 1.5;
-    margin: 0;
-    word-break: break-word; /* If long word */
+    overflow-wrap: break-word; /* If long word */
     text-align: center;
-}
 
-/* Contact section text styling */
+    margin: 0;
+} /* #endregion */
+
+
+/* #region Contact section text styling */
+
 .find-us-text {
     font-family: var(--primary-font);
-    color: var(--primary-color);
     font-size: 2.5rem;
     text-align: center;
+    color: var(--primary-color);
 }
 
-.adress-text {
+.adress-text, .open-hours-text {
     font-family: var(--secondary-font);
-    color: var(--primary-color);
     font-size: 1.2rem;
     text-align: center;
-}
-
-.open-hours-text {
-    font-family: var(--secondary-font);
     color: var(--primary-color);
-    font-size: 1.2rem;
-    text-align: center;
 }
 
 .open-hours-text p {
     margin-bottom: 0;
-}
+}/* #endregion */
 
-/* Button styling */
+/* #region Button styling */
+
 .btn-lg {
-
-    display: inline-flex;
-    align-items: center; /* Centers text in button */
-    justify-content: center; /* Centers text in button */
+    display: inline-flex; 
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
 
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 1.5rem;
+    
     background-color: var(--secondary-color);
     color: var(--primary-color);
 
-    border: none;
-    border-radius: 0;
+    border: none; /* Remove default border */
+    border-radius: 0; /* No rounded corners */
+}
 
-
+a.btn-lg {
+    text-decoration: none; /* Remove underline from links */
 }
 
 .btn-lg:hover {
     background-color: var(--secondary-color);
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    box-shadow: 5px 5px 2px 2px #ed7a7f;
-}
+    box-shadow: 5px 5px 2px 2px #ed7a7f; /* Add shadow on hover */
+} /* #endregion */
 
+/* #region Images custom styling */
 
-/* Main images styling for first row*/
+/* Main images styling for the first row */
 .main-images {
-    aspect-ratio: 4 / 3;
-    overflow: hidden; /* Hide overflow to crop */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    aspect-ratio: 4 / 3; /* Maintain 4:3 width-to-height ratio */
+    overflow: hidden; /* Hide content that overflows container */
+
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
 
     min-height: 100%;
 }
@@ -212,18 +225,19 @@ h1 {
 /* Custom image positioning first row */
 
 .main-images img.img-1 {
-    object-position: 0% 48%
+    object-position: 0% 48%; /* Adjust position for image 1 */
 }
 
 .main-images img.img-2 {
-    object-position: 0% 60%
+    object-position: 0% 60%; /* Adjust position for image 2 */
 }
 
 
-/* Main images styling for second row*/
+/* Main images styling for the second row*/
 .main-images-second-row {
     aspect-ratio: 4 / 3;
     overflow: hidden; /* Hide overflow to crop */
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,39 +256,43 @@ h1 {
 
 .main-images-second-row img.img-4 {
     object-position: 0% 20%
+}/* #endregion */
+
+
+/* #region Footer styling */
+.footer {
+  position: fixed; /* Fix the footer to the bottom */
+  text-align: center;
+  bottom: 0; /* Align to the bottom */
+  left: 0; /* Align to the left */
+  width: 100%;
+}
+
+.footer-text {
+    font-family: var(--secondary-font);
+    font-size: 1.2rem;
+    text-align: center;
+
+    color: var(--primary-color);
 }
 
 /* Google Map styling */
 #google-map {
 
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 1; 
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     height: 100%;
 
 }
 
 #google-map-iframe {
-    width: 100%;
+    width: 100%; 
     height: 100%;
-}
-
-/* Footer styling */
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-}
-
-.footer-text {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-    font-size: 1.2rem;
-    text-align: center;
 }
 
 .social-media {
@@ -295,19 +313,21 @@ h1 {
     color: var(--secondary-color);
 }
 
-/* Booking form styling */
+/* #endregion */
+
+/* #region Booking form styling */
 .booking-form-header h1,
 .booking-confirmation h1 {
     font-family: var(--primary-font);
     font-size: 2.3rem;
-    color: var(--primary-color);
     font-weight: 600;
+    color: var(--primary-color);
 }
 
 .booking-form-header h3 {
     font-family: var(--secondary-font);
-    color: var(--primary-color);
     font-weight: 600;
+    color: var(--primary-color);
 }
 
 .booking-form-header p,
@@ -337,8 +357,8 @@ select {
 }
 
 #message::placeholder {
-  color: var(--tertiary-color);
-  opacity: 0.;
+  color: var(--tertiary-color); /* Change placeholder color */
+  opacity: 0;
 }
 
 /* Booking form button styling */
@@ -349,23 +369,29 @@ select {
     height: 100%;
     font-size: 1rem;
 }
+
+/* Autofill input styling */
+input:-webkit-autofill {
+    -webkit-text-fill-color: var(--primary-color); /* Change text color of the autofill */
+}
+
 /* Thank you return button styling */
 a.return-home {
   text-decoration: none;
   font-size: 1rem;
 }
 
-/* Autofill input styling */
-input:-webkit-autofill {
-    -webkit-text-fill-color: var(--primary-color); 
-}
+/* #endregion */
 
-/* About Section Styles */
+
+
+/* #region About Section Styles */
 
 /* Main images styling */
 .main-images-about {
     aspect-ratio: 4 / 3;
     overflow: hidden; /* Hide overflow to crop */
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -394,20 +420,21 @@ input:-webkit-autofill {
 
 .h1-about {
     font-family: var(--primary-font);
-    color: var(--primary-color);
     font-size: 2rem;
     font-weight: 600;
     line-height: 3rem;
+    color: var(--primary-color);
 }
 
 .text-box1-about > p {
     font-family: var(--secondary-font);
-    color: var(--primary-color);
     font-size: 1.2rem;
     line-height: 1.5;
-}
+    color: var(--primary-color);
+} /* #endregion */
 
-/* Responsive design for different screen sizes */
+
+/* #region Responsive design for different screen sizes */
 
 /* Mobile devices small screens to large */
 @media (min-width: 375px) and (max-width: 576px) {
@@ -421,7 +448,7 @@ input:-webkit-autofill {
     }
 
     .breakfast-text {
-        font-size: clamp(2.3rem, 2vw, 2.5rem); /* Responsive scaling */
+        font-size: clamp(2.3rem, 2vw, 2.5rem); 
         line-height: 1.5;
         gap: 0.5rem;
     }
@@ -457,7 +484,7 @@ input:-webkit-autofill {
 
     .submit-button{
 
-     font-size: 1rem;
+        font-size: 1rem;
     }
 
 }
@@ -477,6 +504,12 @@ input:-webkit-autofill {
         font-size: 6rem;
     }
 
+    .h1-about{
+
+        font-size: 1rem;
+
+    }
+
     h3{
         font-size: 1rem;
     }
@@ -485,15 +518,6 @@ input:-webkit-autofill {
     #tagline p {
         font-size: 2.5rem;
         text-align: center;
-    }
-
-    .breakfast-text {
-        font-size: clamp(1.3rem, 2vw, 1.6rem);
-        line-height: 1.5;
-    }
-
-    .btn-lg {
-        font-size: 0.8rem;
     }
 
     .text-box {
@@ -512,12 +536,17 @@ input:-webkit-autofill {
         width: 100%;
     }
 
-    .main-images {
-        height: 100%;
-        width: 100%;
+    .breakfast-text {
+        font-size: clamp(1.3rem, 2vw, 1.6rem);
+        line-height: 1.5;
     }
 
-    .main-images-second-row {
+    .btn-lg {
+        font-size: 0.8rem;
+    }
+
+    /* Images in Home Section */
+    .main-images , .main-images-second-row {
         height: 100%;
         width: 100%;
     }
@@ -536,7 +565,8 @@ input:-webkit-autofill {
         margin-bottom: 0;
     }
 
-    .adress-text {
+    .adress-text, 
+    .open-hours-text {
         font-size: clamp(0.7rem, 1vw, 0.8rem);
     }
 
@@ -544,15 +574,11 @@ input:-webkit-autofill {
         margin-bottom: 0;
     }
 
-    .open-hours-text {
-
-        font-size: clamp(0.7rem, 1vw, 0.8rem);
-    }
-
     .custom-margin {
         margin-bottom: 1.3rem;
     }
 
+    /* using custom height for specific elements */
     .custom-height {
         height: 30vh;
     }
@@ -562,7 +588,7 @@ input:-webkit-autofill {
     }
 
     #google-map {
-        height: 100;
+        height: 100%;
         width: 100%;
     }
 
@@ -579,30 +605,19 @@ input:-webkit-autofill {
         font-size: 1rem;
     }
 
+    /* Styling for the About Section */
+
     .first-row-about {
         align-items: center;
-    }
-
-    .h1-about{
-
-        font-size: 1rem;
-
     }
 
     .rows-about-page {
         align-items: stretch; /* Makes both columns equal height */
     }
 
-    .main-images-about > img-1 {
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .main-images-about > img-2 {
-        height: 100%;
-        object-fit: cover;
-    }
-
+    /* Images in About Section */
+    .main-images-about > img-1, 
+    .main-images-about > img-2, 
     .main-images-about > img-3 {
         height: 100%;
         object-fit: cover;
@@ -643,15 +658,6 @@ input:-webkit-autofill {
         font-size: 2.8rem;
     }
 
-    .breakfast-text {
-        font-size: clamp(2rem, 2vw, 2.5rem);
-        line-height: 1.5;
-    }
-
-    .btn-lg {
-        font-size: 1.2rem;
-    }
-
     .text-box {
         gap: 0.5rem;
     }
@@ -667,29 +673,28 @@ input:-webkit-autofill {
         height: 100%;
         width: 100%;
     }
-    .get-fuzzy-text {
+
+    .breakfast-text, .get-fuzzy-text {
         font-size: clamp(2rem, 2vw, 2.5rem);
         line-height: 1.5;
-    }    
+    } 
+
+    .btn-lg {
+        font-size: 1.2rem;
+    }
     
     .find-us-text {
         font-size: clamp(1.5rem, 2vw, 2rem);
         line-height: 1.5;
     }
 
-    .adress-text {
+    .adress-text, .open-hours-text {
         font-size: clamp(0.7rem, 1vw, 1rem);
         line-height: 1.5;
 
     }
 
-    .open-hours-text {
-
-        font-size: clamp(0.7rem, 1vw, 1rem);
-        line-height: 1.5;
-
-    }
-
+    /*custom height for element in Home page*/
     .custom-height {
         height: 45vh;
     }
@@ -702,6 +707,7 @@ input:-webkit-autofill {
         height: 40vh;
     }
 
+    /* Images in Home Section */
     .main-images {
         height: 100%;
         width: 100%;
@@ -713,7 +719,7 @@ input:-webkit-autofill {
     }
 
     #google-map {
-        height: 100;
+        height: 100%;
         width: 100%;
     }
 
@@ -755,9 +761,7 @@ input:-webkit-autofill {
     }
 
     .hero {
-
         min-height: 100vh;
-
     }
 
     h1 {
@@ -775,7 +779,6 @@ input:-webkit-autofill {
     .text-box {
         gap: 0.5rem;
         padding: 1rem;
-
     }
 
     .text-box2 {
@@ -807,7 +810,7 @@ input:-webkit-autofill {
         margin-bottom: 0;
     }
 
-    .adress-text {
+    .adress-text, .open-hours-text {
         font-size: clamp(1rem, 1vw, 1rem);
         line-height: 1.5;
 
@@ -817,16 +820,11 @@ input:-webkit-autofill {
         margin-bottom: 0;
     }
 
-    .open-hours-text {
-
-        font-size: clamp(1rem, 1vw, 1rem);
-        line-height: 1.5;
-
-    }
     .custom-margin {
         margin-bottom: 1.3rem;
     }
 
+    /* Custom height for elements in Home page */
     .custom-height {
         height: 45vh;
     }
@@ -839,6 +837,7 @@ input:-webkit-autofill {
         height: 45vh;
     }
 
+    /* Images in Home Section */
     .main-images {
         height: 100%;
         width: 100%;
@@ -850,7 +849,7 @@ input:-webkit-autofill {
     }
 
     #google-map {
-        height: 100;
+        height: 100%;
         width: 100%;
     }
 
@@ -881,7 +880,6 @@ input:-webkit-autofill {
 
     .text-box1-about > p {
         font-size: 1rem;
-
     }
 
 }
@@ -900,9 +898,7 @@ input:-webkit-autofill {
     }
 
     .hero {
-
         min-height: 100vh;
-
     }
 
     h1 {
@@ -917,12 +913,6 @@ input:-webkit-autofill {
         font-size: 3rem;
     }
 
-    .breakfast-text {
-
-        font-size: 2.5rem;
-
-    }
-
     .text-box2 {
         gap: 0.5rem;
         height: 100%;
@@ -934,6 +924,10 @@ input:-webkit-autofill {
         height: 100%;
         width: 100%;
     }
+
+    .breakfast-text {
+        font-size: 2.5rem;
+    }
     
     .get-fuzzy-text {
         font-size: 2.5rem;
@@ -943,6 +937,8 @@ input:-webkit-autofill {
     .btn-lg {
         font-size: 2rem;
     }
+
+    /* Images in Home Section */
 
     .main-images {
         height: 100%;
@@ -968,6 +964,8 @@ input:-webkit-autofill {
         font-size: 1.5rem;
         line-height: 1.5;
     }
+
+    /* Custom margin and height for elements in Home page */
     .custom-margin {
         margin-bottom: 1.3rem;
     }
@@ -985,16 +983,25 @@ input:-webkit-autofill {
     }
 
     #google-map {
-        height: 100;
+        height: 100%;
         width: 100%;
     }
 
+    /* Booking Form Section */
     .booking-form-header h1{
         font-size: 3.2rem;
     }
 
     .booking-form-header p{
         font-size: 1.5rem;
+    }
+
+    .booking-confirmation h1{
+        font-size: 4rem;
+    }
+
+    .booking-confirmation p{
+        font-size: 1.7rem;
     }
 
     .footer-text {
@@ -1007,14 +1014,6 @@ input:-webkit-autofill {
 
     .submit-button {
         font-size: 1rem;
-    }
-
-    .booking-confirmation h1{
-        font-size: 4rem;
-    }
-
-    .booking-confirmation p{
-        font-size: 1.7rem;
     }
 
     a.return-home {
@@ -1031,4 +1030,4 @@ input:-webkit-autofill {
     }
 
 
-}
+} /* #endregion */
