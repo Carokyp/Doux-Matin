@@ -748,7 +748,7 @@ a.return-home {
 
 
 /*large laptops to extra large laptops */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1400px) {
 
     .navbar a {
         font-size: 1.8rem;
@@ -878,14 +878,14 @@ a.return-home {
         object-position: 0% 35%;
     }
 
-    .text-box1-about > p {
-        font-size: 1rem;
+    .text-box1-about{
+        height: 100%;
     }
 
 }
 
 /* Extra large laptops */
-@media (min-width: 1440px) {
+@media (min-width: 1400px) {
 
     .navbar a {
         font-size: 1.8rem;

@@ -67,13 +67,13 @@
     
                     <div class="col-6 col-md-2 col-xl-2 booking-form-fields mb-3">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
+                        <input type="text" id="name" name="name" required pattern="[A-Za-zÀ-ÿ\s]+" title="Please enter letters only">
                     </div>
 
                     <div class="col-6 col-md-2 col-xl-2 booking-form-fields mb-3">
 
                         <label for="surname">Surname</label>
-                        <input type="text" id="surname" name="surname" required>
+                        <input type="text" id="surname" name="surname" required pattern="[A-Za-zÀ-ÿ\s]+" title="Please enter letters only">
     
                     </div>
 
@@ -85,8 +85,7 @@
     
                     <div class="col-12 col-md-3 col-xl-2 booking-form-fields mb-3">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" required>
-    
+                        <input type="tel" id="phone" name="phone" required pattern="[0-9]{11}" title="Please enter a valid phone number">
                     </div>
                     <div class="row justify-content-center align-items-center text-center px-0">
 
