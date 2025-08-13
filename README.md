@@ -162,34 +162,33 @@ __Frameworks, Libraries & Programs Used__
 
 ### Deploy with GitHub Pages
 
-This project was deployed using the steps below. Please do not make any changes to files within this repository if you want to have a copie of the repository, please see the other two options below.
+### Deploy with GitHub Pages
 
-<ol>
-<li>Go to [my GitHub repository:](https://github.com/Carokyp/Doux-Matin)</li>
-<li>Click the "Settings" tab (top of the repository)</li>
-<li>Under "Source": Select "Deploy from a branch"</li>
-<li>Choose "main" branch</li>
-<li>Choose "/ (root)" folder</li>
-<li>Click "Save"</li>
-<li>Wait 1-2 minutes for deployment, the site will be live at: https://carokyp.github.io/Doux-Matin</li>
-</ol> 
+This project was deployed using the steps below. Please do not make any changes to files within this repository. If you want to have a copy of the repository, please see the other two options below.
+
+1. Go to [my GitHub repository](https://github.com/Carokyp/Doux-Matin)
+2. Click the "Settings" tab (top of the repository)
+3. Under "Source": Select "Deploy from a branch"
+4. Choose "main" branch
+5. Choose "/ (root)" folder
+6. Click "Save"
+7. Wait 1-2 minutes for deployment, the site will be live at [https://carokyp.github.io/Doux-Matin](https://carokyp.github.io/Doux-Matin)
 
 ### Run a copy of this repository
 
 __Run locally__
 Paste git clone https://github.com/Carokyp/Doux-Matin.git into your terminal. To disconnect from this GitHub repository and type `git remote rm origin` into the terminal.
 
-__Create a new fork__
-A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project
-<ol>
-<li>First, set up Git</li>
-<li>Navigate to [Doux-Matin](https://github.com/Carokyp/Doux-Matin) repository</li>
-<li>Click the 'Fork' button on the upper right part of the page<li> 
-<img width="427" height="54" alt="Image" src="https://github.com/user-attachments/assets/f7f9b595-eae1-4a79-9eed-63830ad01428"/>
-<li>You now have a fork of the Doux-Matin repository added to your GitHub profile. Navigate to your profile and find the forked repository to add the required files.</li>
-<li>Above the list of forked files, click the 'Code' button.</li>
-<li>A drop-down menu will appear. Select the one which applies to your setup. Further details on completing the final step can be found on GitHub Fork https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repopage.</li>
-</ol> 
+__Create a new fork__  
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
+
+1. First, set up Git
+2. Navigate to [Doux-Matin](https://github.com/Carokyp/Doux-Matin) repository
+3. Click the 'Fork' button on the upper right part of the page  
+   ![Fork button](https://github.com/user-attachments/assets/f7f9b595-eae1-4a79-9eed-63830ad01428)
+4. You now have a fork of the Doux-Matin repository added to your GitHub profile. Navigate to your profile and find the forked repository to add the required files.
+5. Above the list of forked files, click the 'Code' button.
+6. A drop-down menu will appear. Select the one which applies to your setup. Further details on completing the final step can be found on [GitHub Fork Documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repository).
 
 ## Credits
 
