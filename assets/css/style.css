@@ -75,17 +75,6 @@ body {
 
 /* #endregion */
 
-/* Hero section styling */
-.hero {
-    background-image: url('../images/brunch3.webp'); /* Background image */
-    background-position: center; /* Center the background image */
-    background-size: cover; /* Scale image to cover entire element */
-    background-repeat: no-repeat; /* Prevent background image from repeating */
-
-    height: 50vh; /* take 50vh of the viewport height */
-
-}
-
 /* Hero section text styling */
 h1 {
     font-family: var(--primary-font);
@@ -94,10 +83,9 @@ h1 {
 }
 
 /* Tagline */
-#tagline p {
+#tagline{
     font-family: var(--primary-font);
     color: var(--primary-color);
-    font-size: 2rem; /* Responsive font size */
 }
 
 /*Main content style*/
