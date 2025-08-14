@@ -317,14 +317,14 @@ a.btn-lg {
 
 /* #region Booking form styling */
 .booking-form-header h1,
-.booking-confirmation h1 {
+.booking-confirmation .thank-you{
     font-family: var(--primary-font);
     font-size: 2.3rem;
     font-weight: 600;
     color: var(--primary-color);
 }
 
-.booking-form-header h3 {
+.booking-form-header h2 {
     font-family: var(--secondary-font);
     font-weight: 600;
     color: var(--primary-color);
