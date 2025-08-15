@@ -75,6 +75,11 @@ body {
 
 /* #endregion */
 
+.hero {
+    background: url('../images/brunch3-500px.webp') center/cover no-repeat;
+    height: 400px;
+}
+
 /* Hero section text styling */
 h1 {
     font-family: var(--primary-font);
@@ -618,6 +623,12 @@ a.return-home {
      line-height: 1.5;
     }
 
+    .hero {
+        background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
+        height: 50vh; 
+    }
+
+
 }
 
 /* Tablets and small laptops */
@@ -732,9 +743,11 @@ a.return-home {
      font-size: 0.7rem;
     }
 
+    .hero {
+        background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
+        height: 50vh; 
+    }
 }
-
-
 /*large laptops to extra large laptops */
 @media (min-width: 992px) and (max-width: 1400px) {
 
@@ -868,6 +881,11 @@ a.return-home {
 
     .text-box1-about{
         height: 100%;
+    }
+
+    .hero {
+        background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
+        height: 50vh; 
     }
 
 }
@@ -1017,5 +1035,9 @@ a.return-home {
         font-size: 1.5rem;
     }
 
+    .hero {
+        background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
+        height: 50vh; 
+    }
 
 } /* #endregion */
