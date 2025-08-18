@@ -1,10 +1,18 @@
 
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
 /* CSS Variables */
 :root {
     --primary-font: 'Pacifico', sans-serif; 
     --secondary-font: 'Onest', sans-serif;
-    --primary-color: #B5552C; /* Dark pink */
+    --primary-color: #B5552C; /* Chocolate Brown */
     --secondary-color: #FFFFFF; /* White */
 }
 
@@ -17,8 +25,9 @@ body {
 
 /* Bootstrap navbar styling */
 .navbar {
-    background-color: rgba(155, 57, 15, 0.5) !important; /* Semi-transparent background */
-    backdrop-filter: blur(10px); /* Blur effect */
+    background-color: rgba(155, 57, 15, 0.6) !important; /* Semi-transparent background */
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px); /* Blur effect */
     position: fixed; /* keeps the navbar to the top */
     z-index: 10;/* ensures the navbar is above other content */
     width: 100%; /* Full width */
@@ -153,14 +162,16 @@ a.btn-lg {
     background-color: var(--secondary-color);
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    box-shadow: 5px 5px 2px 2px #9b390f; /* Add shadow on hover */
+    -webkit-box-shadow: 5px 5px 2px 2px #9b390f;
+            box-shadow: 5px 5px 2px 2px #9b390f; /* Add shadow on hover */
 } 
 /* #endregion */
 
 
 /* Main image object fit helper */
 .object-fit-cover {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .social-media a {
@@ -212,6 +223,26 @@ select {
   width: 100%;
 }
 
+#message::-webkit-input-placeholder {
+  color: var(--tertiary-color); /* Change placeholder color */
+  opacity: 0;
+}
+
+#message::-moz-placeholder {
+  color: var(--tertiary-color); /* Change placeholder color */
+  opacity: 0;
+}
+
+#message:-ms-input-placeholder {
+  color: var(--tertiary-color); /* Change placeholder color */
+  opacity: 0;
+}
+
+#message::-ms-input-placeholder {
+  color: var(--tertiary-color); /* Change placeholder color */
+  opacity: 0;
+}
+
 #message::placeholder {
   color: var(--tertiary-color); /* Change placeholder color */
   opacity: 0;
@@ -219,9 +250,15 @@ select {
 
 /* Booking form button styling */
 .submit-button{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
     height: 100%;
     font-size: 1rem;
 }
@@ -245,16 +282,19 @@ a.return-home {
     color: var(--primary-color);
 }
 
-.custom-position > img {
-    object-position: 0% 30%;
+.custom-position img {
+    -o-object-position: 0% 30%;
+       object-position: 0% 30%;
 }
 
-.custom-position-2 > img{
-    object-position: 40% 35%;
+.custom-position-2 img {
+    -o-object-position: 40% 35%;
+       object-position: 40% 35%;
 }
 
-.custom-position-3 > img{
-    object-position: 0% 50%;
+.custom-position-3 img {
+    -o-object-position: 0% 50%;
+       object-position: 0% 50%;
 }
 
 .about-text{
@@ -394,6 +434,7 @@ a.return-home {
         background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
         height: 50vh;
     }
+
 
 }
 
