@@ -95,7 +95,6 @@ h1 {
 
 /*Main content style*/
 
-/* #region Boxes and Text */
 .text-box, 
 .text-box2{
     background-color: var(--primary-color);
@@ -111,11 +110,6 @@ h1 {
 
 .text-box3 {
     background-color: var(--secondary-color);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 /* text in boxes */
@@ -162,9 +156,6 @@ h1 {
     color: var(--primary-color);
 }
 
-.open-hours-text p {
-    margin-bottom: 0;
-}/* #endregion */
 
 /* #region Button styling */
 
