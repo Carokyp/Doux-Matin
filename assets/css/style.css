@@ -112,11 +112,11 @@ h1 {
 }
 
 /* Contact Section */
-#contact{
+.contact{
     color: var(--primary-color);
 }
 
-#contact h1{
+.contact h1{
     color: var(--primary-color);
     font-family: var(--primary-font);
     font-size: 1.8rem;
@@ -254,7 +254,7 @@ a.return-home {
     color: var(--primary-color);
 } 
 
-/* #region Responsive design for different screen sizes */
+/* Responsive design for different screen sizes */
 
 /* Mobile devices small screens to large */
 @media (min-width: 375px) and (max-width: 576px) {
@@ -273,8 +273,6 @@ a.return-home {
     }
 
 }
-
-
 
 /* Large mobile to tablets */
 @media (min-width: 576px) and (max-width:768px) {
@@ -358,21 +356,21 @@ a.return-home {
         font-size: 2rem;
     }
 
-    #contact h1{
+    .contact h1{
         font-size: 2.7rem;
         margin-bottom: 2rem;
     }
 
-    #contact{
+    .contact{
         font-size: 1.12rem;
         margin-bottom: 1rem;
     }
 
-    .booking-confirmation h1{
-        font-size: 3.5rem;
+    .booking-confirmation .thank-you{
+    font-size: 4rem;
     }
 
-    .booking-confirmation p{
+    .booking-confirmation  p{
         font-size: 1.5rem;
     }
 
@@ -420,12 +418,12 @@ a.return-home {
         margin-bottom: 2rem;
     }
 
-    #contact h1{
+    .contact h1{
         font-size: 2.7rem;
         margin-bottom: 3rem;
     }
 
-    #contact{
+    .contact{
         font-size: 1.8rem;
     }
 
@@ -438,8 +436,8 @@ a.return-home {
         font-size: 1.5rem;
     }
 
-    .booking-confirmation h1{
-        font-size: 4rem;
+    .booking-confirmation .thank-you{
+    font-size: 5rem;
     }
 
     .booking-confirmation p{
