@@ -77,7 +77,7 @@ body {
 
 .hero {
     background: url('../images/brunch3-500px.webp') center/cover no-repeat;
-    height: 400px;
+    min-height: 400px;
 }
 
 /* Hero section text styling */
@@ -93,80 +93,42 @@ h1 {
     color: var(--primary-color);
 }
 
-/*Main content style*/
-
+/* Main content boxes style*/
 .text-box, 
 .text-box2{
-    background-color: var(--primary-color);
-
-    display: flex;
-    flex-direction: column; /* Stacks text box */
-    justify-content: center; /* Centers everything vertically */
-    align-items: center; /* Centers everything horizontally */
-
-    min-height: 100%; /* Match the height of its container */
-    gap: 1rem; /* Space between text and button */
+    background-color: var(--primary-color);    
 }
 
 .text-box3 {
     background-color: var(--secondary-color);
 }
 
-/* text in boxes */
-
-.breakfast-text {
+/* Text in boxes */
+.breakfast-text, .get-fuzzy-text {
     font-family: var(--primary-font);
-    font-size: clamp(2rem, 2vw, 2.5rem); /* Responsive scaling */
+    font-size: 1.8rem;
     color: var(--secondary-color);
-
-    line-height: 1.5; /* Set the space between lines */
-    overflow-wrap: break-word; /* If long word */
-    text-align: center; 
-
-    margin: 0;
     gap: 1rem;
 }
 
-.get-fuzzy-text {
-    font-family: var(--primary-font);
-    font-size: clamp(2rem, 2vw, 2.5rem); /* Responsive scaling */
-    color: var(--secondary-color);
-    
-    line-height: 1.5;
-    overflow-wrap: break-word; /* If long word */
-    text-align: center;
-
-    margin: 0;
-} /* #endregion */
-
-
-/* #region Contact section text styling */
-
-.find-us-text {
-    font-family: var(--primary-font);
-    font-size: 2.5rem;
-    text-align: center;
+/* Contact Section */
+#contact{
     color: var(--primary-color);
 }
 
-.adress-text, .open-hours-text {
-    font-family: var(--secondary-font);
-    font-size: 1.2rem;
-    text-align: center;
+#contact h1{
     color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 1.8rem;
 }
 
 
 /* #region Button styling */
 
 .btn-lg {
-    display: inline-flex; 
-    align-items: center; /* Vertically center content */
-    justify-content: center; /* Horizontally center content */
-
+    display: inline-block; /* Make the button a block element */
     font-family: var(--secondary-font);
     font-weight: 700;
-    font-size: 1.5rem;
     
     background-color: var(--secondary-color);
     color: var(--primary-color);
@@ -184,120 +146,22 @@ a.btn-lg {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     box-shadow: 5px 5px 2px 2px #ed7a7f; /* Add shadow on hover */
-} /* #endregion */
-
-/* #region Images custom styling */
-
-/* Main images styling for the first row */
-.main-images {
-    aspect-ratio: 4 / 3; /* Maintain 4:3 width-to-height ratio */
-    overflow: hidden; /* Hide content that overflows container */
-
-    display: flex; /* Use flexbox layout */
-    align-items: center; /* Vertically center content */
-    justify-content: center; /* Horizontally center content */
-
-    min-height: 100%;
-}
-
-.main-images img {
-    width: 100%; /* Take full width */
-    height: 100%; /* Take full height */
-    object-fit: cover; /* Crop while maintaining aspect ratio */
-}
-
-/* Custom image positioning first row */
-
-.main-images img.img-1 {
-    object-position: 0% 48%; /* Adjust position for image 1 */
-}
-
-.main-images img.img-2 {
-    object-position: 0% 60%; /* Adjust position for image 2 */
-}
+} 
+/* #endregion */
 
 
-/* Main images styling for the second row*/
-.main-images-second-row {
-    aspect-ratio: 4 / 3;
-    overflow: hidden; /* Hide overflow to crop */
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.main-images-second-row img {
-    width: 100%; /* Take full width */
-    height: 100%; /* Take full height */
-    object-fit: cover; /* Crop while maintaining aspect ratio */
-}
-
-/* Custom image positioning second row */
-.main-images-second-row img.img-3 {
-    object-position: 0% 30%
-}
-
-.main-images-second-row img.img-4 {
-    object-position: 0% 20%
-}/* #endregion */
-
-
-/* #region Footer styling */
-.footer {
-  position: fixed; /* Fix the footer to the bottom */
-  text-align: center;
-  bottom: 0; /* Align to the bottom */
-  left: 0; /* Align to the left */
-  width: 100%;
-}
-
-.footer-text {
-    font-family: var(--secondary-font);
-    font-size: 1.2rem;
-    text-align: center;
-
-    color: var(--primary-color);
-}
-
-/* Google Map styling */
-#google-map {
-
-    aspect-ratio: 1 / 1; 
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    height: 100%;
-
-}
-
-#google-map-iframe {
-    width: 100%; 
-    height: 100%;
-}
-
-.social-media {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    gap: 1rem;
+/* Main image object fit helper */
+.object-fit-cover {
+    object-fit: cover;
 }
 
 .social-media a {
     color: var(--primary-color);
-    font-size: 1.5rem;
-    text-decoration: none;
 }
 
 .social-media a i:hover {
     color: var(--secondary-color);
 }
-
-/* #endregion */
 
 /* #region Booking form styling */
 .booking-form-header h1,
@@ -367,103 +231,40 @@ a.return-home {
 
 /* #endregion */
 
-
-
-/* #region About Section Styles */
-
-/* Main images styling */
-.main-images-about {
-    aspect-ratio: 4 / 3;
-    overflow: hidden; /* Hide overflow to crop */
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    min-height: 100%;
-}
-
-.main-images-about img {
-    width: 100%; /* Take full width */
-    height: 100%; /* Take full height */
-    object-fit: cover; /* Crop while maintaining aspect ratio */
-}
-
-.main-images-about img.img-1 {
-    object-position: 0% 40%
-}
-
-.main-images-about img.img-2 {
-    object-position: 20% 0%
-}
-
-
-.text-box1-about{
-    background-color: #FFFFFF;
-}
-
-.h1-about {
+/* About Section Styles */
+.about-title > h1 {
     font-family: var(--primary-font);
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 3rem;
     color: var(--primary-color);
 }
 
-.text-box1-about > p {
-    font-family: var(--secondary-font);
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: var(--primary-color);
-} /* #endregion */
+.custom-position > img {
+    object-position: 0% 30%;
+}
 
+.custom-position-2 > img{
+    object-position: 40% 35%;
+}
+
+.custom-position-3 > img{
+    object-position: 0% 50%;
+}
+
+.about-text{
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+} 
 
 /* #region Responsive design for different screen sizes */
 
 /* Mobile devices small screens to large */
 @media (min-width: 375px) and (max-width: 576px) {
 
-    h1 {
+    h1{
         font-size: 6rem;
     }
 
-    .btn-lg {
-        font-size: 2rem;
-    }
-
-    .breakfast-text {
-        font-size: clamp(2.3rem, 2vw, 2.5rem); 
-        line-height: 1.5;
-        gap: 0.5rem;
-    }
-
-    .get-fuzzy-text {
-        font-size: 2.5rem;
-        line-height: 4rem;
-    }
-
-    .text-box {
-        aspect-ratio: 1 / 0.7;
-    }
-
-    .text-box2 {
-        aspect-ratio: 1 / 1.2;
-    }
-
-    .text-box3 {
-        aspect-ratio: 1 / 1.2;
-    }
-
-    .adress-text {
-        width: 100%;
-    }
-
-    .adress-text > p {
-        margin-bottom: 0;
-    }
-
-    .find-us-text > p {
-        margin-bottom: 0;
+    .text-box{
+        padding: 2rem;
     }
 
     .submit-button{
@@ -474,149 +275,25 @@ a.return-home {
 }
 
 
+
 /* Large mobile to tablets */
 @media (min-width: 576px) and (max-width:768px) {
 
-    .navbar a {
-        font-size: 1.5rem;
-    }
-    .navbar .nav-link.active::after {
-        left: 0.4rem;
-    }
-
-    h1 {
-        font-size: 6rem;
-    }
-
     .h1-about{
-
-        font-size: 1rem;
-
-    }
-
-    h3{
         font-size: 1rem;
     }
 
-
-    #tagline p {
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    .text-box {
-        gap: 0.5rem;
-    }
-
-
-    .text-box2 {
-        gap: 0.5rem;
-        height: 100%;
-        width: 100%;
-    }
-
-    .text-box3 {
-        height: 100%;
-        width: 100%;
-    }
-
-    .breakfast-text {
-        font-size: clamp(1.3rem, 2vw, 1.6rem);
-        line-height: 1.5;
-    }
-
-    .btn-lg {
-        font-size: 0.8rem;
-    }
-
-    /* Images in Home Section */
-    .main-images , .main-images-second-row {
-        height: 100%;
-        width: 100%;
-    }
-
-    .get-fuzzy-text {
-        font-size: clamp(1.3rem, 2vw, 1.6rem);
-        line-height: 1.5;
-    }    
-    
-    .find-us-text {
-        font-size: clamp(1.3rem, 1.5vw, 1.6rem);
-        padding-bottom: 0.5rem;
-    }
-
-    .find-us-text > p {
-        margin-bottom: 0;
-    }
-
-    .adress-text, 
-    .open-hours-text {
-        font-size: clamp(0.7rem, 1vw, 0.8rem);
-    }
-
-    .adress-text > p{
-        margin-bottom: 0;
-    }
-
-    .custom-margin {
-        margin-bottom: 1.3rem;
-    }
-
-    /* using custom height for specific elements */
-    .custom-height {
-        height: 30vh;
-    }
-
-    .custom-height-contact {
-        height: 50vh;
-    }
-
-    #google-map {
-        height: 100%;
-        width: 100%;
-    }
-
-    .footer-text {
-        font-size: 0.8rem;
-        margin-bottom: 0;
-    }
-
-    .footer-text > p {
-        margin-bottom: 0;
-    }
-
-    .social-media i {
-        font-size: 1rem;
-    }
-
-    /* Styling for the About Section */
-
-    .first-row-about {
-        align-items: center;
-    }
-
-    .rows-about-page {
-        align-items: stretch; /* Makes both columns equal height */
-    }
-
-    /* Images in About Section */
-    .main-images-about > img-1, 
-    .main-images-about > img-2, 
-    .main-images-about > img-3 {
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .text-box1-about > p {
-     font-family: var(--secondary-font);
-     color: var(--primary-color);
-     font-size: 0.6rem;
-     line-height: 1.5;
+    .about-title {
+        margin-top: 1rem;
     }
 
     .hero {
         background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
         height: 50vh; 
+    }
+
+    .about-text{
+        font-size: 1.2rem;
     }
 
 
@@ -625,100 +302,12 @@ a.return-home {
 /* Tablets and small laptops */
 @media (min-width: 768px) and (max-width:992px) {
 
-    .navbar a {
-        font-size: 1.6rem;
-        min-height: 3.5rem;
-    }
-
     h1 {
         font-size: 7rem;
     }
 
-    h3 {
-        font-size: 0.8rem;
-    }
-
-    .navbar .nav-link.active::after {
-        left: 0.1rem;
-        min-height: 0.2rem;
-        min-width: 4rem;
-    }
-
-    #tagline p {
-        font-size: 2.8rem;
-    }
-
-    .text-box {
-        gap: 0.5rem;
-    }
-
-
-    .text-box2 {
-        gap: 0.5rem;
-        height: 100%;
-        width: 100%;
-    }
-
-    .text-box3 {
-        height: 100%;
-        width: 100%;
-    }
-
-    .breakfast-text, .get-fuzzy-text {
-        font-size: clamp(2rem, 2vw, 2.5rem);
-        line-height: 1.5;
-    } 
-
-    .btn-lg {
-        font-size: 1.2rem;
-    }
-    
-    .find-us-text {
-        font-size: clamp(1.5rem, 2vw, 2rem);
-        line-height: 1.5;
-    }
-
-    .adress-text, .open-hours-text {
-        font-size: clamp(0.7rem, 1vw, 1rem);
-        line-height: 1.5;
-
-    }
-
-    /*custom height for element in Home page*/
-    .custom-height {
-        height: 45vh;
-    }
-
-    .custom-height-first-row {
-        height: 35vh;
-    }
-
-    .custom-height-contact {
-        height: 40vh;
-    }
-
-    /* Images in Home Section */
-    .main-images {
-        height: 100%;
-        width: 100%;
-    }
-
-    .main-images-second-row {
-        height: 100%;
-        width: 100%;
-    }
-
-    #google-map {
-        height: 100%;
-        width: 100%;
-    }
-
-    .footer-text {
-        font-size: 0.7rem;
-    }
-
-    .social-media i {
-        font-size: 1rem;
+    .breakfast-text, .get-fuzzy-text{
+        font-size: 1.8rem;
     }
 
     .booking-form-header h3{
@@ -730,8 +319,11 @@ a.return-home {
      font-size: 1rem;
     }
 
-    .text-box1-about > p {
-     font-size: 0.7rem;
+    .about-text{
+        font-size: 0.75rem;
+        height: 100%;
+        max-height: 800px;
+
     }
 
     .hero {
@@ -743,13 +335,7 @@ a.return-home {
 @media (min-width: 992px) and (max-width: 1400px) {
 
     .navbar a {
-        font-size: 1.8rem;
-        min-height: 4rem;
-    }
-
-    .navbar .nav-link.active::after {
-        min-height: 0.2rem;
-        min-width: 4rem;
+        font-size: 1.5rem;
     }
 
     .hero {
@@ -760,97 +346,32 @@ a.return-home {
         font-size: 10rem;
     }
 
-    h3{
-        font-size: 1rem;
-    }
-
     #tagline p {
         font-size: 3rem;
     }
 
-    .text-box {
-        gap: 0.5rem;
-        padding: 1rem;
-    }
-
-    .text-box2 {
-        gap: 0.5rem;
-        height: 100%;
-        width: 100%;
-    }
-
-    .text-box3 {
-        padding: 1rem;
-        height: 100%;
-        width: 100%;
+    .breakfast-text{
+        font-size: 2.8rem;
+        line-height: 5rem;
     }
 
     .get-fuzzy-text {
-        font-size: clamp(2rem, 2vw, 2.5rem);
+        font-size: 2.8rem;
+        line-height: 5rem;
     }
 
-    .btn-lg {
-        font-size: 1rem;
+    .btn-lg{
+        font-size: 2rem;
     }
 
-    .find-us-text {
-        font-size: clamp(1.7rem, 2vw, 2rem);
-        line-height: 1.5;
+    #contact h1{
+        font-size: 2.7rem;
+        margin-bottom: 2rem;
     }
 
-    .find-us-text > p {
-        margin-bottom: 0;
-    }
-
-    .adress-text, .open-hours-text {
-        font-size: clamp(1rem, 1vw, 1rem);
-        line-height: 1.5;
-
-    }
-
-    .adress-text > p{
-        margin-bottom: 0;
-    }
-
-    .custom-margin {
-        margin-bottom: 1.3rem;
-    }
-
-    /* Custom height for elements in Home page */
-    .custom-height {
-        height: 45vh;
-    }
-
-    .custom-height-first-row {
-        height: 28vh;
-    }
-
-    .custom-height-contact {
-        height: 45vh;
-    }
-
-    /* Images in Home Section */
-    .main-images {
-        height: 100%;
-        width: 100%;
-    }
-
-    .main-images-second-row {
-        height: 100%;
-        width: 100%;
-    }
-
-    #google-map {
-        height: 100%;
-        width: 100%;
-    }
-
-    .footer-text {
-        font-size: 1rem;
-    }
-
-    .social-media i {
-        font-size: 1.2rem;
+    #contact{
+        font-size: 1.12rem;
+        margin-bottom: 1rem;
     }
 
     .booking-confirmation h1{
@@ -866,12 +387,11 @@ a.return-home {
 
     }
 
-    .main-images-about img.img-1 {
-        object-position: 0% 35%;
-    }
-
-    .text-box1-about{
+    .about-text{
+        font-size: 1.12rem;
         height: 100%;
+        max-height: 600px;
+
     }
 
     .hero {
@@ -886,12 +406,6 @@ a.return-home {
 
     .navbar a {
         font-size: 1.8rem;
-        min-height: 4rem;
-    }
-
-    .navbar .nav-link.active::after {
-        min-height: 0.2rem;
-        min-width: 4rem;
     }
 
     .hero {
@@ -902,86 +416,27 @@ a.return-home {
         font-size: 13rem;
     }
 
-    h3{
-        font-size: 1.6rem;
-    }
-
     #tagline p {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
-    .text-box2 {
-        gap: 0.5rem;
-        height: 100%;
-        width: 100%;
-    }
-
-    .text-box3 {
-        gap: 0.5rem;
-        height: 100%;
-        width: 100%;
-    }
-
-    .breakfast-text {
-        font-size: 2.5rem;
+    .breakfast-text, .get-fuzzy-text {
+        font-size: 3.8rem;
+        line-height: 6rem;
     }
     
-    .get-fuzzy-text {
-        font-size: 2.5rem;
-        line-height: 4rem;
-    }
-
-    .btn-lg {
+    .btn-lg{
         font-size: 2rem;
+        margin-bottom: 2rem;
     }
 
-    /* Images in Home Section */
-
-    .main-images {
-        height: 100%;
-        width: 100%;
+    #contact h1{
+        font-size: 2.7rem;
+        margin-bottom: 3rem;
     }
 
-    .main-images-second-row {
-        height: 100%;
-        width: 100%;
-    }
-
-    .find-us-text {
-        font-size: 2.5rem;
-        line-height: 1.5rem;
-    }
-
-    .adress-text {
-        font-size: 1.5rem;
-        line-height: 2.5rem;
-    }
-
-    .open-hours-text {
-        font-size: 1.5rem;
-        line-height: 1.5;
-    }
-
-    /* Custom margin and height for elements in Home page */
-    .custom-margin {
-        margin-bottom: 1.3rem;
-    }
-
-    .custom-height {
-        height: 60vh;
-    }
-
-    .custom-height-first-row {
-        height: 40vh;
-    }
-
-    .custom-height-contact {
-        height: 75vh;
-    }
-
-    #google-map {
-        height: 100%;
-        width: 100%;
+    #contact{
+        font-size: 1.8rem;
     }
 
     /* Booking Form Section */
@@ -1001,28 +456,15 @@ a.return-home {
         font-size: 1.7rem;
     }
 
-    .footer-text {
-        font-size: 1.3rem;
-    }
-
-    .social-media i {
-        font-size: 1.3rem;
-    }
-
     .submit-button {
         font-size: 1rem;
     }
 
     a.return-home {
         font-size: 1.7rem;
-
     }
 
-    .text-box1-about {
-        height: 100%;
-    }
-
-    .text-box1-about > p{
+    .about-text{
         font-size: 1.5rem;
     }
 
@@ -1031,4 +473,4 @@ a.return-home {
         height: 50vh; 
     }
 
-} /* #endregion */
+} 
