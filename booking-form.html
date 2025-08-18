@@ -4,13 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Reserve your table at Doux Matin, London's cozy brunch café. Book online to enjoy fresh pastries, specialty coffee, and delicious breakfasts.">
+    <meta name="description" content="Reserve your table at Doux Matin, London's cozy brunch café. Book online to enjoy fresh pastries, specialty coffee, and delicious breakfasts.">
     <title>Doux Matin - Booking</title>
 
     <!-- Load Bootstrap non-blocking -->
-    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-        onload="this.rel='stylesheet'">
+    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" onload="this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     </noscript>
@@ -24,14 +22,11 @@
 
     <!-- Preload critical fonts -->
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
-    <link rel="preload" as="style"
-        href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap">
 
     <!-- Google Fonts with font-display swap -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-        
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon_io/favicon-32x32.png">
 
@@ -42,8 +37,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark navbar-booking">
         <div class="container-fluid" id="body-max-width">
-            <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" aria-label="Toggle navigation"
-                data-bs-target="#collapseNavbar">
+            <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" aria-label="Toggle navigation" data-bs-target="#collapseNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse" id="collapseNavbar">
@@ -86,7 +80,7 @@
                         </p>
                         <h2 class="mb-3">Booking Inquiry</h2>
                     </div>
-    
+
                     <div class="col-6 col-md-2 col-xl-2 booking-form-fields mb-3">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" required pattern="[A-Za-zÀ-ÿ\s]+" title="Please enter letters only">
@@ -96,15 +90,15 @@
 
                         <label for="surname">Surname</label>
                         <input type="text" id="surname" name="surname" required pattern="[A-Za-zÀ-ÿ\s]+" title="Please enter letters only">
-    
+
                     </div>
 
                     <div class="col-12 col-md-4 col-xl-3 booking-form-fields mb-3">
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email" required>
-    
+
                     </div>
-    
+
                     <div class="col-12 col-md-3 col-xl-2 booking-form-fields mb-3">
                         <label for="phone">Phone Number</label>
                         <input type="tel" id="phone" name="phone" required pattern="[0-9]{11}" title="Please enter a valid phone number">
@@ -126,29 +120,28 @@
 
                             <label for="number-of-guests">Guests</label>
                             <input type="number" id="number-of-guests" name="number-of-guests" min="1" max="15" required>
-    
+
                         </div>
 
                         <div class="col-9 col-md-4 col-xl-2 booking-form-fields mb-3">
                             <label for="reservation-date">Date</label>
                             <input type="date" id="reservation-date" name="date" required>
-    
+
                         </div>
-    
-    
+
+
                     </div>
-    
+
                     <div class="col-12 col-xl-8 booking-form-fields mb-3 text-md-start">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="6"
-                            placeholder="Any additional information or requests"></textarea>
-    
+                        <textarea id="message" name="message" rows="6" placeholder="Any additional information or requests"></textarea>
+
                     </div>
-    
+
                     <div class="col-xl-8 mb-3">
                         <button type="submit" class="btn-lg submit-button">Submit</button>
                     </div>
-    
+
                 </div>
             </div>
         </form>
@@ -176,33 +169,34 @@
     </footer>
 
     <!-- Bootstrap 5 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/e3247db897.js" crossorigin="anonymous"></script>
 
     <!-- Script to disable past dates in the reservation date field -->
     <script>
-       // Get today's date in YYYY-MM-DD format
-       const today = new Date().toISOString().split('T')[0];
-      document.getElementById("reservation-date").setAttribute("min", today);
+// Get today's date in YYYY-MM-DD format
+const today = new Date().toISOString().split('T')[0];
+document.getElementById("reservation-date").setAttribute("min", today);
+
     </script>
 
 
     <!-- Custom Script to handle navbar toggler blur -->
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const toggler = document.querySelector(".navbar-toggler");
+document.addEventListener("DOMContentLoaded", function() {
+    const toggler = document.querySelector(".navbar-toggler");
 
-            toggler.addEventListener("click", function () {
-                // Wait a tiny moment for the toggle to happen, then blur
-                setTimeout(() => {
-                    toggler.blur();
-                }, 200); // Delay ensures collapse runs first
-            });
-        });
+    toggler.addEventListener("click", function() {
+        // Wait a tiny moment for the toggle to happen, then blur
+        setTimeout(() => {
+            toggler.blur();
+        }, 200); // Delay ensures collapse runs first
+    });
+});
+
     </script>
 
     <!--
@@ -210,17 +204,18 @@
     This highlights the clicked menu and contact item with an underline
     -->
     <script>
-        document.querySelectorAll('.navbar .nav-link').forEach(link => {
-            link.addEventListener('click', e => {
-                // Remove active class from all links
-                document.querySelectorAll('.navbar .nav-link').forEach(nav => nav.classList.remove('active'));
-                // Add active class to the clicked link
-                e.currentTarget.classList.add('active');
-            });
-        });
+document.querySelectorAll('.navbar .nav-link').forEach(link => {
+    link.addEventListener('click', e => {
+        // Remove active class from all links
+        document.querySelectorAll('.navbar .nav-link').forEach(nav => nav.classList.remove('active'));
+        // Add active class to the clicked link
+        e.currentTarget.classList.add('active');
+    });
+});
+
     </script>
 
-    
+
 
 </body>
 
