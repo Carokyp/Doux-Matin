@@ -4,25 +4,25 @@
 :root {
     --primary-font: 'Pacifico', sans-serif; 
     --secondary-font: 'Onest', sans-serif;
-    --primary-color: #f39485; /* Dark pink */
+    --primary-color: #B5552C; /* Dark pink */
     --secondary-color: #FFFFFF; /* White */
 }
 
 /* General body styling */
 body {
-    background-color: #f9efee; /* Light pink background */
+    background-color: #FFF7F6; /* Light pink background */
 }
 
 /* #region Bootstrap Navbar styles */
 
 /* Bootstrap navbar styling */
 .navbar {
-    background-color: rgba(252, 153, 128, 0.445) !important; /* Semi-transparent background */
+    background-color: rgba(155, 57, 15, 0.5) !important; /* Semi-transparent background */
     backdrop-filter: blur(10px); /* Blur effect */
     position: fixed; /* keeps the navbar to the top */
     z-index: 10;/* ensures the navbar is above other content */
     width: 100%; /* Full width */
-    text-shadow: 2px 2px 1px rgba(88, 29, 5, 0.5);/* Drop shadow for text*/
+    text-shadow: 2px 2px 1px rgba(116, 62, 44, 1);/* Drop shadow for text*/
 }
 
 /* Bootstrap navbar styling for the Booking Page & About Page*/
@@ -75,10 +75,18 @@ body {
 
 /* #endregion */
 
+#body-max-width{
+    max-width: 1800px;
+    margin: 0 auto; /* Center the content */
+}
+
 .hero {
     background: url('../images/brunch3-500px.webp') center/cover no-repeat;
     min-height: 400px;
+    max-width: 1800px;
+    margin: 0 auto;
 }
+
 
 /* Hero section text styling */
 h1 {
@@ -145,7 +153,7 @@ a.btn-lg {
     background-color: var(--secondary-color);
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    box-shadow: 5px 5px 2px 2px #ed7a7f; /* Add shadow on hover */
+    box-shadow: 5px 5px 2px 2px #9b390f; /* Add shadow on hover */
 } 
 /* #endregion */
 
