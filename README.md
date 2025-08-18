@@ -14,7 +14,6 @@ Guests can enjoy their time in the cosy indoor seating area or on the rooftop te
    * [Surface](#Surface)
 
 * [Features](#features)
-* [Design](#design)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
