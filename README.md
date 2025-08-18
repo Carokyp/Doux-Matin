@@ -82,6 +82,7 @@ This website will be organised using a 3-tier hierarchical structure, providing 
 * __Thank You Page__
   <img width="1032" height="365" alt="Image" src="https://github.com/user-attachments/assets/205c134f-21de-4a7a-aaa9-d1b724e61910" />
 * __About Page__
+  <img width="794" height="551" alt="Image" src="https://github.com/user-attachments/assets/55929693-d8a9-46c9-bfec-4b797d80741d" />
 
 
 
