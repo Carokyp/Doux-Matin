@@ -98,7 +98,7 @@ body {
 
 
 /* Hero section text styling */
-h1 {
+.hero h1 {
     font-family: var(--primary-font);
     text-shadow: 2px 2px 1px rgba(116, 62, 44, 1);
     color: var(--secondary-color);
@@ -119,6 +119,10 @@ h1 {
 
 .text-box3 {
     background-color: var(--secondary-color);
+}
+
+.text-box3 h2 {
+    font-size: 1rem;
 }
 
 /* Text in boxes */
@@ -308,7 +312,7 @@ a.return-home {
 /* Mobile devices small screens to large */
 @media (min-width: 375px) and (max-width: 576px) {
 
-    h1{
+    .hero h1{
         font-size: 6rem;
     }
 
@@ -346,7 +350,7 @@ a.return-home {
 /* Tablets and small laptops */
 @media (min-width: 768px) and (max-width:992px) {
 
-    h1 {
+    .hero h1 {
         font-size: 7rem;
     }
 
@@ -383,7 +387,7 @@ a.return-home {
         min-height: 100vh;
     }
 
-    h1 {
+    .hero h1 {
         font-size: 10rem;
     }
 
@@ -403,6 +407,10 @@ a.return-home {
 
     .btn-lg{
         font-size: 2rem;
+    }
+
+    .text-box3 h2 {
+        font-size: 1.5rem;
     }
 
     .contact h1{
@@ -450,7 +458,7 @@ a.return-home {
         min-height: 100vh;
     }
 
-    h1 {
+    .hero h1 {
         font-size: 13rem;
     }
 
@@ -475,6 +483,10 @@ a.return-home {
 
     .contact{
         font-size: 1.8rem;
+    }
+
+    .text-box3 h2 {
+        font-size: 1.5rem;
     }
 
     /* Booking Form Section */
