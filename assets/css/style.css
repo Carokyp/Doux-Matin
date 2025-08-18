@@ -282,11 +282,6 @@ a.return-home {
     .h1-about{
         font-size: 1rem;
     }
-
-    .about-title {
-        margin-top: 1rem;
-    }
-
     .hero {
         background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
         height: 50vh; 
@@ -294,8 +289,10 @@ a.return-home {
 
     .about-text{
         font-size: 1.2rem;
+        margin-bottom: 1rem;
+        margin-top: 0;
+        aspect-ratio: auto; /* let it grow naturally on mobile */
     }
-
 
 }
 
@@ -321,9 +318,6 @@ a.return-home {
 
     .about-text{
         font-size: 0.75rem;
-        height: 100%;
-        max-height: 800px;
-
     }
 
     .hero {
@@ -384,14 +378,10 @@ a.return-home {
 
     a.return-home {
         font-size: 1.5rem;
-
     }
 
     .about-text{
-        font-size: 1.12rem;
-        height: 100%;
-        max-height: 600px;
-
+        font-size: 1rem;
     }
 
     .hero {
