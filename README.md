@@ -1,28 +1,18 @@
 # Doux-Matin
 [Link to Live Website](https://carokyp.github.io/Doux-Matin/)
 
-Doux Matin is a fictional brunch and coffee shop inspired by the charm of French cafés and bakeries. The shop serves freshly baked pastries, French-inspired brunch dishes, coffee, a variety of other drinks, and also hosts bottomless brunches for special events.
+## About 
+Doux Matin is a fictional brunch and coffee shop inspired by the charm of French cafés and bakeries. The shop serves freshly baked pastries, French-inspired brunch dishes, coffee, a variety of other drinks, and hosts bottomless brunches for special events.
 Guests can enjoy their time in the cosy indoor seating area or on the rooftop terrace, perfect for relaxing, socialising, or celebrating special occasions.
 
-Who are the users?
-* Local residents
-* Tourists
-* Groups of friends who enjoy great food, drinks, casual coffee breaks, or lively social gatherings in a relaxed atmosphere.
-
-
-The business goals of the website are:
-* Maximise table reservations
-* Encourage bookings for events (Bottomless Brunches, Birthdays, ect)
-* Increase the number of customers and grow customer loyalty
-
-The customer goals of this website are:
-* A fast and easy way to book a table or reserve space for an event
-* Access to the full food and drinks menu
-* Find clear details about opening hours and location
-* Personalised and memorable experience
-
 ## Index – Table of Contents
-* [User Experience (UX)](#user-experience-ux) 
+* [User Experience (UX)](#user-experience-ux)
+   * [Strategy](#Strategy)
+   * [Scope](#Scope)
+   * [Skeleton](#Skeleton)
+   * [Structure](#Structure)
+   * [Surface](#Surface)
+
 * [Features](#features)
 * [Design](#design)
 * [Technologies Used](#technologies-used)
@@ -32,13 +22,86 @@ The customer goals of this website are:
 
 ## User Experience (UX)
 
-### User stories
-* As a First-time visitor, I want easy navigation and a user-friendly design, including a responsive layout for my device so that I can find information quickly and efficiently without frustration.
+### Strategy
+The website is designed for residents, tourists, and groups of friends seeking great food, drinks, casual coffee breaks, or lively social gatherings in a relaxed setting. It will provide new visitors with all the essential information about the location, upcoming events, and menu offerings.
+
+#### Business goals of the website are:
+* Maximise table reservations
+* Encourage bookings for events (Bottomless Brunches, Birthdays, etc.)
+* Increase the number of customers and grow customer loyalty
+
+#### The customer goals of this website are:
+* A fast and easy way to book a table or reserve space for an event
+* Access to the full food and drinks menu
+* Find clear details about opening hours and location
+* Personalised and memorable experience
+
+#### User stories
+* As a First-time visitor, I want easy navigation and a user-friendly design, including a responsive layout for my device, so that I can find information quickly and efficiently without frustration.
 * As a customer, I want to see the food and drink options, so that I can decide what I’d like to order before I visit the place.
 * As a customer, I want to book a table online using a simple booking inquiry form, so I can easily organise a group visit or a special occasion.
 * As a customer, I need to find the location, contact details, social media, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the café.
 * As a customer, I want to see images of the food and drinks, so I can decide if it’s the right atmosphere and suits my taste before visiting the place.
 * As a customer, I want to access an about section, so I can learn more about the café, the products it offers, and the people behind the business.
+
+### Scope
+
+The scope feature is kept simple. Below is a list of the leading features for this website.
+
+#### In scope Features:
+* Home page that shows the users what the website is about
+* Two different menus that intuitively open a new page in the browser
+* Booking page where users can easily reserve a table and include any special requests or notes with their reservation.
+* Confirmation page that thanks users, informs them their reservation has been received, assures them someone will be in touch soon, and provides an option to return to the homepage.
+* About page that provides users with the story of the business, details about the ingredients used, and an overview of the company’s mission.
+* Provide information on:
+    * Contacts
+    * Location
+
+#### Out of scope Features:
+* **Integrate the newsletter sign-up form** The website contains a sign-up form for the shop newsletter. The sign-up form is placed in the footer on every page, so that users can easily find it.
+* **Testimonials and reviews from other customers** include a section dedicated to displaying customer testimonials and reviews. Testimonials are visible and presented in a format that is easy to read and navigate
+* **Implementation of a “View Our Venue” Gallery** the section is available in the navigation bar. Contains a gallery showing photos of the environment, food and drinks and the Bottomless Brunch environment
+
+### Structure
+This website will be organised using a 3-tier hierarchical structure, providing a clear and logical navigation from main pages to sub-sections and detailed content. It will contain 5 pages in total (including the home page):
+
+* A homepage with a hero image and a horizontal navigation menu will welcome users. This will lead to pages: Menu, Book Now, Contact and About 
+* The navigation menu and footer will be consistent throughout the Book Now, Contact and About not the Menu page, as this will open in a new tab in the browser.
+* To assist users, a map will be inset on the homepage so they can plan their visit
+* The footer will contain contact information and social media links to support the website’s strategic objectives.
+
+
+### Skeleton
+
+### Wireframes
+
+* __Home Page__
+  <img width="900" height="701" alt="Image" src="https://github.com/user-attachments/assets/61c4289d-c455-4a10-bd56-bac1198ae19c" />
+* __Book Now Page__
+  <img width="1019" height="431" alt="Image" src="https://github.com/user-attachments/assets/aec2b9bd-8095-450d-9dcd-b16de3a12ea9" />
+* __Thank You Page__
+  <img width="1032" height="365" alt="Image" src="https://github.com/user-attachments/assets/205c134f-21de-4a7a-aaa9-d1b724e61910" />
+* __About Page__
+
+
+
+### Surface
+
+#### Visual Style
+
+Doux Matin adopts a soft, cosy, and cheerful aesthetic that reflects the warmth and sociability of a modern French café. The design blends soft pastel tones with rich, inviting food imagery to evoke a sense of comfort and indulgence. The photos were picked for their natural lighting and warm hues to highlight freshness, enhancing the overall ambience with a playful yet elegant tone.
+
+#### Menus
+The menus were designed using Adobe Photoshop, drawing inspiration from curated visual references found on [Pinterest](https://www.pinterest.com/). This design process ensured a cohesive and visually appealing layout that aligns with the overall brand identity of the café.
+
+#### Colors 
+The colour palette was inspired by selections from [Color Hunt](https://colorhunt.co/) to evoke a light, appetising, and joyful mood. Soft corals, blush tones, and clean whites come together to create a user interface that feels both airy and welcoming.
+
+#### Typography
+
+* Pacifico, a Google Font, is used prominently in the hero section and for larger headings to convey a handwritten, inviting charm.
+* Onest, also a Google modern sans-serif font, is used for navigation and body text, ensuring readability while maintaining a clean and approachable look.
 
 ## Features
 __Navigartion Bar__ \
@@ -110,35 +173,6 @@ On the Home page, the footer contains:
 On the other pages of the website (Book Now, Thank You, and About), the footer is simplified, only including the phone number, email address, and social media links.
 
 This design ensures that essential contact methods are always accessible, while maintaining a clean and relevant interface that is tailored to each page’s purpose.
-
-## Design
-
-### Visual Style
-
-Doux Matin adopts a soft, cosy, and cheerful aesthetic that reflects the warmth and sociability of a modern French café. The design blends soft pastel tones with rich, inviting food imagery to evoke a sense of comfort and indulgence. The photos were picked for their natural lighting and warm hues to highlight freshness, enhancing the overall ambience with a playful yet elegant tone.
-
-### Menus
-The menus were designed using Adobe Photoshop, drawing inspiration from curated visual references found on [Pinterest](https://www.pinterest.com/). This design process ensured a cohesive and visually appealing layout that aligns with the overall brand identity of the café.
-
-### Colors 
-The colour palette was inspired by selections from [Color Hunt](https://colorhunt.co/) to evoke a light, appetising, and joyful mood. Soft corals, blush tones, and clean whites come together to create a user interface that feels both airy and welcoming.
-
-### Typography
-
-* Pacifico, a Google Font, is used prominently in the hero section and for larger headings to convey a handwritten, inviting charm.
-* Onest, also a Google modern sans-serif font, is used for navigation and body text, ensuring readability while maintaining a clean and approachable look.
-
-### Wireframes
-
-* __Home Page__
-  <img width="900" height="701" alt="Image" src="https://github.com/user-attachments/assets/61c4289d-c455-4a10-bd56-bac1198ae19c" />
-* __Book Now Page__
-  <img width="1019" height="431" alt="Image" src="https://github.com/user-attachments/assets/aec2b9bd-8095-450d-9dcd-b16de3a12ea9" />
-* __Thank You Page__
-  <img width="1032" height="365" alt="Image" src="https://github.com/user-attachments/assets/205c134f-21de-4a7a-aaa9-d1b724e61910" />
-* __About Page__
-
-
 
 ## Technologies Used
 
