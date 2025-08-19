@@ -7,6 +7,15 @@
     --secondary-color: #FFFFFF; /* White */
 }
 
+/* Fixing cross-browser issue in Safari and Firefox for 'Event Type' dropdown */
+select {
+  background-color: white; /* normal background */
+  color: #B5552C; /* text color */
+  -webkit-appearance: none; /* Safari/Chrome */
+  -moz-appearance: none; /* Firefox */
+  appearance: none; /* standard */
+}
+
 /* General body styling */
 body {
     background-color: #fcf6f2; /* Light brown background */
