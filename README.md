@@ -2,7 +2,7 @@
 [Link to Live Website](https://carokyp.github.io/Doux-Matin/)
 
 ## About 
-Doux Matin is a fictional brunch and coffee shop inspired by the charm of French cafés and bakeries. The shop serves freshly baked pastries, French-inspired brunch dishes, coffee, a variety of other drinks, and hosts bottomless brunches for special events.
+Doux Matin, which means 'Sweet Morning' in French, is a fictional brunch and coffee shop inspired by the charm of French cafés and bakeries. The shop serves freshly baked pastries, French-inspired brunch dishes, coffee, a variety of other drinks, and hosts bottomless brunches for special events.
 Guests can enjoy their time in the cosy indoor seating area or on the rooftop terrace, perfect for relaxing, socialising, or celebrating special occasions.
 
 ## Index – Table of Contents
@@ -14,6 +14,7 @@ Guests can enjoy their time in the cosy indoor seating area or on the rooftop te
    * [Surface](#Surface)
 
 * [Features](#features)
+* [Design](#design)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -65,11 +66,27 @@ The scope feature is kept simple. Below is a list of the leading features for th
 ### Structure
 This website will be organised using a 3-tier hierarchical structure, providing a clear and logical navigation from main pages to sub-sections and detailed content. It will contain 5 pages in total (including the home page):
 
+**Level 1 - Home page**
+
 * A homepage with a hero image and a horizontal navigation menu will welcome users. This will lead to pages: Menu, Book Now, Contact and About 
-* The navigation menu and footer will be consistent throughout the Book Now, Contact and About not the Menu page, as this will open in a new tab in the browser.
+* The homepage features a main section with a layout of images and a text block that highlights the type of food, ambience, and services visitors can expect. 
+* Two menu buttons are also available on the main page, showing two different menus: brunch and bottomless brunch.
 * To assist users, a map will be inset on the homepage so they can plan their visit
 * The footer will contain contact information and social media links to support the website’s strategic objectives.
 
+**Level 2 - Navigation Page**
+
+* The navigation menu and footer will remain consistent across the Book Now, Contact, and About pages, but not on the Menu page, as this will open in a new browser tab.
+* The Menu link will open a PDF in a new tab, displaying all available menu items.
+* The Book Now link will take the user to a booking form, where all fields must be completed before the form can be submitted.
+* The Contact link will navigate the user to the contact section at the bottom of the Home or About page.
+* The About link will display detailed information about the business.
+
+**Level 3 - Supporting Elements**
+
+* After completing the Book Now form, the user will be taken to a Thank You page displaying a confirmation message and a “Return to Homepage” button, which redirects the user to the main page.
+* The Google Map “View Large Map” option will open in a new tab, allowing the user to see a larger version of the map.
+* The footer will include social media links that open the respective external social media pages. Since this website is based on a fictional coffee shop, the links will direct the user to the official main page of each social media platform.
 
 ### Skeleton
 
@@ -82,7 +99,6 @@ This website will be organised using a 3-tier hierarchical structure, providing 
 * __Thank You Page__
   <img width="1032" height="365" alt="Image" src="https://github.com/user-attachments/assets/205c134f-21de-4a7a-aaa9-d1b724e61910" />
 * __About Page__
-  <img width="794" height="551" alt="Image" src="https://github.com/user-attachments/assets/55929693-d8a9-46c9-bfec-4b797d80741d" />
 
 
 
@@ -193,8 +209,6 @@ __Frameworks, Libraries & Programs Used__
 * [Balsamiq](https://balsamiq.com/): was used to create the wireframes during the design process.
 
 ## Deployment
-
-### Deploy with GitHub Pages
 
 ### Deploy with GitHub Pages
 
