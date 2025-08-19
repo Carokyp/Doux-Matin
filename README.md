@@ -14,7 +14,6 @@ Guests can enjoy their time in the cosy indoor seating area or on the rooftop te
    * [Surface](#Surface)
 
 * [Features](#features)
-* [Design](#design)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -94,11 +93,16 @@ This website will be organised using a 3-tier hierarchical structure, providing 
 
 * __Home Page__
   <img width="900" height="701" alt="Image" src="https://github.com/user-attachments/assets/61c4289d-c455-4a10-bd56-bac1198ae19c" />
+  
 * __Book Now Page__
   <img width="1019" height="431" alt="Image" src="https://github.com/user-attachments/assets/aec2b9bd-8095-450d-9dcd-b16de3a12ea9" />
+  
 * __Thank You Page__
   <img width="1032" height="365" alt="Image" src="https://github.com/user-attachments/assets/205c134f-21de-4a7a-aaa9-d1b724e61910" />
+  
 * __About Page__
+ 
+  <img width="794" height="551" alt="Image" src="https://github.com/user-attachments/assets/97a1b310-11a8-4002-b9a5-751ac462cdbd" />
 
 
 
