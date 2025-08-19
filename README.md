@@ -43,6 +43,12 @@ The website is designed for residents, tourists, and groups of friends seeking g
 * As a customer, I want to see images of the food and drinks, so I can decide if it’s the right atmosphere and suits my taste before visiting the place.
 * As a customer, I want to access an about section, so I can learn more about the café, the products it offers, and the people behind the business.
 
+#### MVP Roadmap (Minimal Viable Product)
+
+<p align="center">
+  <img width="663" height="465" alt="Image" src="https://github.com/user-attachments/assets/44bd155e-f263-411f-8ade-cd137fe34ec4" />
+</p>
+
 ### Scope
 
 The scope feature is kept simple. Below is a list of the leading features for this website.
@@ -58,7 +64,7 @@ The scope feature is kept simple. Below is a list of the leading features for th
     * Location
 
 #### Out of scope Features:
-* **Integrate the newsletter sign-up form** The website contains a sign-up form for the shop newsletter. The sign-up form is placed in the footer on every page, so that users can easily find it.
+* **Integrate the newsletter sign-up form** The website contains a sign-up form for the shop newsletter. The sign-up form is placed in the footer on every page, allowing users to easily find it.
 * **Testimonials and reviews from other customers** include a section dedicated to displaying customer testimonials and reviews. Testimonials are visible and presented in a format that is easy to read and navigate
 * **Implementation of a “View Our Venue” Gallery** the section is available in the navigation bar. Contains a gallery showing photos of the environment, food and drinks and the Bottomless Brunch environment
 
@@ -88,40 +94,72 @@ This website will be organised using a 3-tier hierarchical structure, providing 
 * The footer will include social media links that open the respective external social media pages. Since this website is based on a fictional coffee shop, the links will direct the user to the official main page of each social media platform.
 
 ### Skeleton
+During this phase, wireframes for all pages were created using [Balsamiq](https://balsamiq.com/) (see samples below).
 
 ### Wireframes
+The design considered both desktop and mobile users. The website’s responsiveness was built using Bootstrap’s breakpoints, ensuring layouts adapt smoothly across all devices: 
+* Extra small (screens smaller than 576px)
+* Small (screens 576px and larger)
+* Medium (screens 768px and larger)
+* Large (screens 992px and larger)
+* Extra large (screens 1200px and larger)
+* Extra extra large (screens 1400px and larger)
 
-* __Home Page__
-  <img width="900" height="701" alt="Image" src="https://github.com/user-attachments/assets/61c4289d-c455-4a10-bd56-bac1198ae19c" />
-  
-* __Book Now Page__
-  <img width="1019" height="431" alt="Image" src="https://github.com/user-attachments/assets/aec2b9bd-8095-450d-9dcd-b16de3a12ea9" />
-  
-* __Thank You Page__
-  <img width="1032" height="365" alt="Image" src="https://github.com/user-attachments/assets/205c134f-21de-4a7a-aaa9-d1b724e61910" />
-  
-* __About Page__
- 
-  <img width="794" height="551" alt="Image" src="https://github.com/user-attachments/assets/97a1b310-11a8-4002-b9a5-751ac462cdbd" />
+This approach ensures the website displays correctly and remains user-friendly on mobile devices, tablets, and desktop monitors.
+
+This allows the website to display properly and remain user-friendly on all devices and desktop screens.
+
+* __Home Page__  
+  <p align="center">
+    <img width="900" height="701" alt="Image" src="https://github.com/user-attachments/assets/61c4289d-c455-4a10-bd56-bac1198ae19c" />
+  </p>
+
+* __Book Now Page__  
+  <p align="center">
+    <img width="1019" height="431" alt="Image" src="https://github.com/user-attachments/assets/aec2b9bd-8095-450d-9dcd-b16de3a12ea9" />
+  </p>
+
+* __Thank You Page__  
+  <p align="center">
+    <img width="1032" height="365" alt="Image" src="https://github.com/user-attachments/assets/205c134f-21de-4a7a-aaa9-d1b724e61910" />
+  </p>
+
+* __About Page__  
+  <p align="center">
+    <img width="794" height="551" alt="Image" src="https://github.com/user-attachments/assets/97a1b310-11a8-4002-b9a5-751ac462cdbd" />
+  </p>
 
 
 
 ### Surface
 
+Considering that accessibility was a key design criterion, a consistent colour palette, readable fonts, and a clear layout have been used throughout the design of this website.
+
 #### Visual Style
 
-Doux Matin adopts a soft, cosy, and cheerful aesthetic that reflects the warmth and sociability of a modern French café. The design blends soft pastel tones with rich, inviting food imagery to evoke a sense of comfort and indulgence. The photos were picked for their natural lighting and warm hues to highlight freshness, enhancing the overall ambience with a playful yet elegant tone.
-
-#### Menus
-The menus were designed using Adobe Photoshop, drawing inspiration from curated visual references found on [Pinterest](https://www.pinterest.com/). This design process ensured a cohesive and visually appealing layout that aligns with the overall brand identity of the café.
+The visual style of Doux Matin is warm, inviting, and French-inspired, capturing the charm of a cosy café and bakery. The colour palette features soft, muted tones—creamy neutrals, and warm accent colours that create a relaxed and welcoming atmosphere. Photos were picked for their natural lighting and warm hues to highlight freshness, enhancing the overall ambience with a playful yet elegant tone.
 
 #### Colors 
-The colour palette was inspired by selections from [Color Hunt](https://colorhunt.co/) to evoke a light, appetising, and joyful mood. Soft corals, blush tones, and clean whites come together to create a user interface that feels both airy and welcoming.
+The colour palette was inspired by selections from [Color Hunt](https://colorhunt.co/) to evoke a rich chocolate brown for the depth of freshly baked treats, white for a smooth, fresh contrast, and the very light brown provides a soft, gentle backdrop that wraps the site in a cosy, inviting glow. Together, these tones create a comforting, café-inspired atmosphere.
+
+<p align="center" >
+  <img width="316" height="432" alt="Image" src="https://github.com/user-attachments/assets/8fdf5349-f084-4ef1-a9f0-807315b67ed4" />
+</p>
+
+#### Menus
+The menu's design was created in Photoshop, inspired by mood boards and visual references gathered from [Pinterest](https://www.pinterest.com/). It reflects the overall visual style of Doux Matin, keeping the branding consistent and inviting. The design uses the rich chocolate brown from the website’s primary colour palette, paired with a clean white background and subtle light tones to ensure clarity and readability.
 
 #### Typography
 
-* Pacifico, a Google Font, is used prominently in the hero section and for larger headings to convey a handwritten, inviting charm.
-* Onest, also a Google modern sans-serif font, is used for navigation and body text, ensuring readability while maintaining a clean and approachable look.
+* **Pacifico** Google Font is featured in the hero section and larger headings. Its handwritten, playful style brings a warm and inviting charm, giving the site a distinctive and approachable personality.
+* **Onest** Google Font is applied to navigation and body text. As a modern sans-serif font, it provides clarity, legibility, and a clean structure, ensuring smooth readability across all devices.
+
+#### Images
+The images used on the website were sourced from [Unsplash](https://unsplash.com/) for their high quality and copyright-free availability. To support accessibility, all images include descriptive alt text.
+
+On the About page, images are optimised for responsive loading. For example, a larger 900px WebP image is served on screens wider than 768px, while a smaller 400px WebP version is used on mobile devices. This approach ensures that the appropriate image size is delivered based on the user’s device, improving both performance and visual quality.
+
+All images are styled with Bootstrap classes to maintain responsiveness and consistent scaling across different screen sizes.
 
 ## Features
 __Navigartion Bar__ \
