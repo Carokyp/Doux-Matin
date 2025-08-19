@@ -1,13 +1,4 @@
 
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
-
 /* CSS Variables */
 :root {
     --primary-font: 'Pacifico', sans-serif; 
@@ -18,7 +9,7 @@
 
 /* General body styling */
 body {
-    background-color: #fcf6f2; /* Light pink background */
+    background-color: #fcf6f2; /* Light brown background */
 }
 
 /* #region Bootstrap Navbar styles */
