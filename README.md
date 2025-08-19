@@ -162,7 +162,7 @@ On the About page, images are optimised for responsive loading. For example, a l
 All images are styled with Bootstrap classes to maintain responsiveness and consistent scaling across different screen sizes.
 
 ## Features
-#### Navigartion Bar
+#### Navigation Bar
 Each page features a consistent and responsive navigation bar that includes the following sections: Home, Menu, Book Now, Contact, and About. The navigation bar is sticky, meaning it remains visible at the top of the screen while the user scrolls down the page.
 
 On larger screens, the navigation bar has a blurry background effect, giving it a sleek, modern appearance while maintaining readability over page content.
@@ -221,11 +221,11 @@ The footer is included on the Home, Book Now, Thank You, and About pages. Clicki
 
 On the Home page, the footer contains:
 
-* Address: Displays the café’s full address so users can easily locate it for visits or bookings.
-* Opening Hours: Clearly states the days and times the café is open, helping users plan their visits or reservations.
-* Map: An embedded Google Map shows the exact location of Doux Matin, making it convenient for users to get directions or view the area.
-* Phone Number and Email Address: Provides direct contact options for users who may have inquiries, need help with bookings, or want to request more information.
-* Social Media Links: Icons linking to major social media platforms (e.g., Instagram, Facebook, Twitter).
+* **Address:** Displays the café’s full address so users can easily locate it for visits or bookings.
+* **Opening Hours:** Clearly states the days and times the café is open, helping users plan their visits or reservations.
+* **Map:** An embedded Google Map shows the exact location of Doux Matin, making it convenient for users to get directions or view the area.
+* **Phone Number** and Email Address: Provides direct contact options for users who may have inquiries, need help with bookings, or want to request more information.
+* **Social Media Links:** Icons linking to major social media platforms (e.g., Instagram, Facebook, Twitter).
 (Since Doux Matin is a fictional business, these links currently redirect to the main homepages of each respective platform.
 
 On the other pages of the website (Book Now, Thank You, and About), the footer is simplified, only including the phone number, email address, and social media links.
@@ -297,46 +297,42 @@ Full validation results are available on GitHub here :
    * HTML Result - About Page
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
 Result for style.css
 
-<img width="1364" height="185" alt="Image" src="https://github.com/user-attachments/assets/44dd7f0d-dfa3-4772-b494-dc10f5a5db05" />
+<img width="682" height="92.5" alt="Image" src="https://github.com/user-attachments/assets/44dd7f0d-dfa3-4772-b494-dc10f5a5db05" /><br>
 
 #### CSS Warnings
 
-<img width="1380" height="876" alt="Image" src="https://github.com/user-attachments/assets/6741dd4d-93ff-48b4-a667-5241c74ff7ed" />
+<img width="920" height="584" alt="Image" src="https://github.com/user-attachments/assets/6741dd4d-93ff-48b4-a667-5241c74ff7ed" /><br>
 
 Full validation results are available on GitHub here :
-   * CSS Validation Results (Screenshots):
+   * [CSS Validation](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/css-validation/css-validation-result.png)
+   * [CSS Warning 1](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/css-validation/css-warning-1.png)
+   * [CSS Warning 2](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/css-validation/css-warning2.png)
 
-  [<img width="400" alt="CSS Validation Screenshot 1" src="https://github.com/user-attachments/assets/c3462e4c-3e86-45ac-aa6f-5ac93770be9a" />](https://github.com/user-attachments/assets/c3462e4c-3e86-45ac-aa6f-5ac93770be9a)
-
-  [<img width="400" alt="CSS Validation Screenshot 2" src="https://github.com/user-attachments/assets/cc9ee5ee-5e96-4681-ab90-886b26644181" />](https://github.com/user-attachments/assets/cc9ee5ee-5e96-4681-ab90-886b26644181)
-
-  [<img width="400" alt="CSS Validation Screenshot 3" src="https://github.com/user-attachments/assets/1725d16d-7ea1-4b6d-9ab7-129a1d2c762d" />](https://github.com/user-attachments/assets/1725d16d-7ea1-4b6d-9ab7-129a1d2c762d)
-
-
-#### CSS Validation Notes: 
+### CSS Validation Notes: 
 
 During validation, some warnings appeared. These are not critical errors but expected outcomes when using modern CSS practices and ensuring cross-browser support:
 
-#### CSS Variables (--custom-variable)
+**CSS Variables (--custom-variable)**
    * Warning: “Due to their dynamic nature, CSS variables are not statically checked.”
 
 Explanation: This is normal. Validators cannot fully evaluate CSS variables, but they work correctly in modern browsers.
 
 
-#### Vendor Prefixes (-webkit-, -moz-, -ms-, -o-)
+**Vendor Prefixes (-webkit-, -moz-, -ms-, -o-)**
    * Example: -webkit-backdrop-filter, -ms-flexbox, -o-object-fit, etc.
 
 Explanation: These are vendor extensions included to ensure compatibility with older browsers. Validators flag them, but they are standard practice.
 
-#### Vendor Placeholder Styles
+**Vendor Placeholder Styles**
 
    * Example: ::-webkit-input-placeholder, ::-moz-placeholder, :-ms-input-placeholder, ::-ms-input-placeholder
 
 Explanation: These pseudo-classes/elements allow styling placeholders across different browsers. Again, validators flag them as non-standard, but they are necessary for consistent design.
 
-#### Autofill Styling
+**Autofill Styling**
 
    * Example: :-webkit-autofill, -webkit-text-fill-color
 
@@ -344,7 +340,7 @@ Explanation: Used to customise autofill input styles in WebKit browsers. These a
 
 The warnings are expected and do not indicate invalid CSS. They mainly arise from using CSS variables and vendor-prefixed properties to maintain cross-browser compatibility.
 
-## Browser Compatibility
+**Browser Compatibility**
 
 Testing has been carried out on the following browsers:
 
@@ -359,6 +355,53 @@ The website was thoroughly tested for functionality, usability, and responsivene
 Navigation links, interactive elements, forms, and content display correctly, with appropriate feedback for user input. 
 The layout, images, buttons, and text remain visible and properly aligned on mobile, tablet, and desktop screens. All tests passed successfully, confirming a user-friendly and fully responsive website.
 
+<img width="1375" height="652" alt="Image" src="https://github.com/user-attachments/assets/3e862090-fe4c-4343-b8f3-a423d23fb978" /><br>
+
+Full results are available on GitHub here:
+* [Test case 1](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/test-case-and-result/test-case-1.png)
+* [Test case 2](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/test-case-and-result/test-case-2.png)
+
+### Performance
+
+Using Lighthouse within Chrome Developer Tools, each page of the website was evaluated for performance on both desktop and mobile devices. The results are summarized in the tables below. Testing identified a few recurring issues, including large image sizes, noticeable layout shifts, and the use of third-party cookies due to embedded Google Maps.
+
+Images across the site have been optimised to reduce file size; however, the hero image on mobile devices is still flagged as relatively large, despite being under 500px, due to its visual prominence in the layout.
+
+**First test on mobile**
+
+<img width="1186" height="299" alt="Image" src="https://github.com/user-attachments/assets/855db379-5a51-478a-862b-c17bc50bc9c0" />
+
+**After acting on the result of the first test**
+
+<img width="1357" height="233" alt="Image" src="https://github.com/user-attachments/assets/3606e249-7626-4822-8f18-3cb95b343302" />
+
+**First test on desktop**
+
+<img width="1318" height="209" alt="Image" src="https://github.com/user-attachments/assets/17407284-7e2a-4dd6-b441-6ae2813d783b" />
+
+**After acting on the result of the first test**
+
+<img width="1353" height="248" alt="Image" src="https://github.com/user-attachments/assets/2c96ccb6-25e8-478c-9f02-07bccf2f1815" />
+
+### Testing User Stories
+
+User stories were tested to confirm that the website’s key goals have been achieved. A summary of the results is shown below.
+
+**As a First-time visitor, I want easy navigation and a user-friendly design, including a responsive layout for my device, so that I can find information quickly and efficiently without frustration.**
+   * All menus and links were tested on desktop, tablet, and mobile. Navigation is intuitive, links open correctly, and users can easily reach all pages.
+   * The layout adjusts correctly across different screen sizes. Text, images, buttons, and input fields remain visible and do not overlap.
+
+**As a customer, I want to see the food and drink options, so that I can decide what I’d like to order before I visit the place.**
+   * Users can easily switch between different menus (Brunch & Bottomless). All items, prices, and descriptions are clearly visible and easy to read, and users can return to the main site easily.
+
+**As a customer, I want to book a table online using a simple booking inquiry form, so I can easily organise a group visit or a special occasion.**
+   * Customers can fill out the form with valid inputs to book a table. Required fields are validated, optional fields do not block submission, and successful submission redirects to a confirmation/Thank You page.
+
+**As a customer, I need to find the location, contact details, social media, and opening hours clearly and concisely, so I can easily plan my visit or get in touch with the café.**
+   * Customers can easily view the café’s location, contact details, social media links, and opening hours. All information is clearly displayed and accessible, helping users plan their visit or get in touch.
+
+**As a customer, I want to access an About section, so I can learn more about the café, the products it offers, and the people behind the business.**
+   * The About section provides customers with information about the café, its founder, the business’s objectives, and the quality of its products.
 
 ## Deployment
 
