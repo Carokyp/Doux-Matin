@@ -162,24 +162,24 @@ On the About page, images are optimised for responsive loading. For example, a l
 All images are styled with Bootstrap classes to maintain responsiveness and consistent scaling across different screen sizes.
 
 ## Features
-__Navigartion Bar__ \
+#### Navigartion Bar
 Each page features a consistent and responsive navigation bar that includes the following sections: Home, Menu, Book Now, Contact, and About. The navigation bar is sticky, meaning it remains visible at the top of the screen while the user scrolls down the page.
 
 On larger screens, the navigation bar has a blurry background effect, giving it a sleek, modern appearance while maintaining readability over page content.
 
 On smaller screens, the navigation transforms into a hamburger menu. When the user clicks the toggle button, a dropdown menu appears with the different sections displayed over a blurry background. Each time the toggle is clicked, the menu is also visually highlighted to enhance interactivity and user experience.
 
-__Hero image__ \
+#### Hero image
 Include a top-view photograph of a brunch with a text overlay of the name of the cafe
 
 <img width="1728" height="962" alt="Image" src="https://github.com/user-attachments/assets/71d67037-eeee-4c4c-a3d9-3c6df16dbfc7"/><br>
 
-__Tagline__ \
+#### Tagline
 ‘’Doux Matin where mornings unfold softly‘’ tagline appears on the main page below the hero image 
 
 <img width="1191" height="105" alt="Image" src="https://github.com/user-attachments/assets/5291f55a-8f0b-4404-9420-3d42729ed1c9"/><br>
 
-__Home Page__ \
+#### Home Page
 The homepage contains two distinct sections:
 * The first section allows users to view the brunch and breakfast menu, giving them a clear idea of the dishes offered.
 * The second section provides more details about the bottomless brunches, including available times and pricing.
@@ -189,7 +189,7 @@ Both sections feature two images each to visually illustrate and enhance the con
   <img width="729" height="544" alt="Image" src="https://github.com/user-attachments/assets/e47c2786-d189-4735-9139-9d0ee0bf3c07"/>
 </div>
 
-<br>__Menu Page__ \
+#### Menu Page
 The menu lists all the food and drinks available at the café. It is divided into multiple sections: Breakfast, Brunch, and Drinks, which include coffee, tea, fresh juices, and Bottomless Cocktails.
 The menu opens in a new browser tab in a PDF format to allow users to browse the options without losing their place on the main website—making it easy to return to their booking or previous page at any time.
 
@@ -198,10 +198,10 @@ The menu opens in a new browser tab in a PDF format to allow users to browse the
     <img width="250" height="500" alt="Image" src="https://github.com/user-attachments/assets/67201c50-7348-4d0b-87e9-7ddb83736529"/>
 </div>
 
-<br>__About us Page__ \
+#### About us Page
 The About Us page provides more details about who created and runs the business, as well as the team behind it. It also emphasises the café’s commitment to high-quality food and fresh ingredients.<br>
 
-<br>__Booking Page__ \
+#### Booking Page
 Users are asked to provide their first name, last name, email address, phone number, event type, number of guests, and the desired booking date. They also have the option to include a message for any additional information or special requests.
 
 <div align="center">
@@ -215,7 +215,7 @@ Users are asked to provide their first name, last name, email address, phone num
 </div>
 
 
-<br>__Footer__ 
+#### Footer
 
 The footer is included on the Home, Book Now, Thank You, and About pages. Clicking on the Contact section in the navigation bar automatically scrolls the user down to the footer, where all contact information is located.
 
@@ -231,6 +231,16 @@ On the Home page, the footer contains:
 On the other pages of the website (Book Now, Thank You, and About), the footer is simplified, only including the phone number, email address, and social media links.
 
 This design ensures that essential contact methods are always accessible, while maintaining a clean and relevant interface that is tailored to each page’s purpose.
+
+#### Meta Data
+
+Meta data has been added to the website’s head section to support search engine visibility and improve traffic. In addition, each page has been given a clear, descriptive title to help users understand their location within the site.
+
+#### Future Features
+
+* **A newsletter sign-up form** allows visitors to subscribe to updates, promotions, and special offers.
+* **Reviews from other customers** showcase feedback from previous customers to build trust and credibility.
+* **An image gallery** provides a visual gallery highlighting the café, events, food, and drinks to engage visitors and help them plan their visit.
 
 ## Technologies Used
 
@@ -249,6 +259,106 @@ __Frameworks, Libraries & Programs Used__
 * [Photoshop](https://www.adobe.com/uk/products/photoshop.html): was used for early design to help having a better idea of wish color and image will suit the website it was also used to resize, eadit picture but also creating the menus and the color pallette
 * [Visual Studio Git Source Control](https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=vs-2022): was used to commit and push or pull those into GitHub 
 * [Balsamiq](https://balsamiq.com/): was used to create the wireframes during the design process.
+
+## Testing 
+
+### Validator Testing 
+
+[HTML Validator](https://validator.w3.org/)
+
+Result for Home Page
+
+<p align="center">
+  <img width="743" height="68" alt="Image" src="https://github.com/user-attachments/assets/2442b72e-6501-476d-9c25-fcc50a55c131" />
+</p>
+
+Result for Booking Page
+
+<p align="center">
+  <img width="743" height="68" alt="Image" src="https://github.com/user-attachments/assets/2442b72e-6501-476d-9c25-fcc50a55c131" />
+</p>
+
+Result for Thank You Page
+
+<p align="center">
+  <img width="743" height="68" alt="Image" src="https://github.com/user-attachments/assets/2442b72e-6501-476d-9c25-fcc50a55c131" />
+</p>
+
+Result for About Page
+
+<p align="center">
+  <img width="743" height="68" alt="Image" src="https://github.com/user-attachments/assets/2442b72e-6501-476d-9c25-fcc50a55c131" />
+</p>
+
+Full validation results are available on GitHub here :
+   * HTML Result - Home Page
+   * HTML Result - Booking Page
+   * HTML Result - Thank You Page
+   * HTML Result - About Page
+
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
+Result for style.css
+
+<img width="1364" height="185" alt="Image" src="https://github.com/user-attachments/assets/44dd7f0d-dfa3-4772-b494-dc10f5a5db05" />
+
+#### CSS Warnings
+
+<img width="1380" height="876" alt="Image" src="https://github.com/user-attachments/assets/6741dd4d-93ff-48b4-a667-5241c74ff7ed" />
+
+Full validation results are available on GitHub here :
+   * CSS Validation Results (Screenshots):
+
+  [<img width="400" alt="CSS Validation Screenshot 1" src="https://github.com/user-attachments/assets/c3462e4c-3e86-45ac-aa6f-5ac93770be9a" />](https://github.com/user-attachments/assets/c3462e4c-3e86-45ac-aa6f-5ac93770be9a)
+
+  [<img width="400" alt="CSS Validation Screenshot 2" src="https://github.com/user-attachments/assets/cc9ee5ee-5e96-4681-ab90-886b26644181" />](https://github.com/user-attachments/assets/cc9ee5ee-5e96-4681-ab90-886b26644181)
+
+  [<img width="400" alt="CSS Validation Screenshot 3" src="https://github.com/user-attachments/assets/1725d16d-7ea1-4b6d-9ab7-129a1d2c762d" />](https://github.com/user-attachments/assets/1725d16d-7ea1-4b6d-9ab7-129a1d2c762d)
+
+
+#### CSS Validation Notes: 
+
+During validation, some warnings appeared. These are not critical errors but expected outcomes when using modern CSS practices and ensuring cross-browser support:
+
+#### CSS Variables (--custom-variable)
+   * Warning: “Due to their dynamic nature, CSS variables are not statically checked.”
+
+Explanation: This is normal. Validators cannot fully evaluate CSS variables, but they work correctly in modern browsers.
+
+
+#### Vendor Prefixes (-webkit-, -moz-, -ms-, -o-)
+   * Example: -webkit-backdrop-filter, -ms-flexbox, -o-object-fit, etc.
+
+Explanation: These are vendor extensions included to ensure compatibility with older browsers. Validators flag them, but they are standard practice.
+
+#### Vendor Placeholder Styles
+
+   * Example: ::-webkit-input-placeholder, ::-moz-placeholder, :-ms-input-placeholder, ::-ms-input-placeholder
+
+Explanation: These pseudo-classes/elements allow styling placeholders across different browsers. Again, validators flag them as non-standard, but they are necessary for consistent design.
+
+#### Autofill Styling
+
+   * Example: :-webkit-autofill, -webkit-text-fill-color
+
+Explanation: Used to customise autofill input styles in WebKit browsers. These are valid but vendor-specific.
+
+The warnings are expected and do not indicate invalid CSS. They mainly arise from using CSS variables and vendor-prefixed properties to maintain cross-browser compatibility.
+
+## Browser Compatibility
+
+Testing has been carried out on the following browsers:
+
+   * Google Chrome - Version 139.0.7258.67
+   * Firefox - Version 141.0.3 
+   * Microsoft Edge - Version 139.0.3405.86
+   * Safari on macOS - Version 26.0, Copyright © 2003-2025 Apple Inc.
+
+## Test Cases and Results
+
+The website was thoroughly tested for functionality, usability, and responsiveness across multiple devices. 
+Navigation links, interactive elements, forms, and content display correctly, with appropriate feedback for user input. 
+The layout, images, buttons, and text remain visible and properly aligned on mobile, tablet, and desktop screens. All tests passed successfully, confirming a user-friendly and fully responsive website.
+
 
 ## Deployment
 
