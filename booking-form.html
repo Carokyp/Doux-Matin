@@ -184,16 +184,16 @@ document.getElementById("reservation-date").setAttribute("min", today);
     </script>
 
 
-    <!-- Custom Script to handle navbar toggler blur -->
+    <!-- Prevent navbar toggler from staying focused (removes outline after click) -->
     <script>
 document.addEventListener("DOMContentLoaded", function() {
     const toggler = document.querySelector(".navbar-toggler");
 
     toggler.addEventListener("click", function() {
-        // Wait a tiny moment for the toggle to happen, then blur
+        //Wait briefly for the collapse to run, then remove focus from the button
         setTimeout(() => {
             toggler.blur();
-        }, 200); // Delay ensures collapse runs first
+        }, 200); // Delay ensures Bootstrap’s collapse finishes before removing focus from the toggler
     });
 });
 

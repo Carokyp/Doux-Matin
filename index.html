@@ -201,7 +201,7 @@
     <script src="https://kit.fontawesome.com/e3247db897.js" crossorigin="anonymous">
     </script>
 
-    <!-- Custom Script to handle navbar toggler blur -->
+    <!-- Prevent navbar toggler from staying focused (removes outline after click) -->
     <script>
 document.addEventListener(
     "DOMContentLoaded",
@@ -213,13 +213,13 @@ document.addEventListener(
         toggler.addEventListener(
             "click",
             function() {
-                // Wait a tiny moment for the toggle to happen, then blur
+                //Wait briefly for the collapse to run, then remove focus from the button
                 setTimeout(
                     () => {
                         toggler
                             .blur();
                     },
-                    200); // Delay ensures collapse runs first
+                    200); // Delay ensures Bootstrap’s collapse finishes before removing focus from the toggler
             });
     });
 
