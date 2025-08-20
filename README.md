@@ -234,7 +234,7 @@ This design ensures that essential contact methods are always accessible, while 
 
 #### Meta Data
 
-Meta data has been added to the website’s head section to support search engine visibility and improve traffic. In addition, each page has been given a clear, descriptive title to help users understand their location within the site.
+Metadata has been added to the website’s header section to support search engine visibility and improve traffic. Additionally, each page has been assigned a clear, descriptive title to help users understand their location within the site.
 
 #### Future Features
 
@@ -501,8 +501,9 @@ __Menu Bottomless Brunch__
 * Lemon Cocktail: https://www.liquor.com/lynchburg-lemonade-cocktail-recipe-5199408 \
 Website: Liquor.com / Tim Nusog
 
-* Strawberry: https://fr.freepik.com/photos-gratuite/delicieux-dessert-granite-assortiment-fraises_26003478.htm \
-Website: Freepik
+* Orange Cocktail: (https://unsplash.com/photos/a-colorful-cocktail-garnished-with-a-flower-vfQ-TCKwlC4)
+Artiste: alexanderafan \
+Artiste Profil: https://unsplash.com/@alexanderafan
 
 __About Page__
 
