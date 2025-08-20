@@ -435,6 +435,33 @@ A fork is a copy of a repository. Forking a repository allows you to freely expe
 
 ## Credits
 
+### Code References
+
+Some parts of the project required utility scripts and styling tweaks. I adapted solutions from the following resources, modifying them to fit the project’s needs.
+
+**Navbar Toggler (Mobile Highlight Removal)**
+
+* Ensures the script only runs after the HTML has fully loaded [JavaScript-Tutorial](https://www.javascripttutorial.net/javascript-dom/javascript-domcontentloaded/)
+
+* Uses a small delay with 'setTimeout' to wait for the collapse to complete before preventing the navbar toggler from staying focused (removes outline after click) [W3shools](https://www.w3schools.com/jsref/met_win_settimeout.asp) and [Stackoverflow](https://stackoverflow.com/questions/42935315/bootstrap-collapsed-menu-toggle-doesnt-un-focus-when-clicked-a-second-time?utm_source=chatgpt.com)
+
+**Navbar Link Active State** 
+
+* Keeps the clicked nav link underlined (active) while removing the style from other links [Stackoverflow](https://stackoverflow.com/questions/55499458/click-a-nav-item-add-a-class-remove-class-from-other-nav-items-vanilla-js)
+
+* Underline effect design inspired by a CSS hover tutorial (adapted for active state, not hover) [ByteGrad YouTube Channel](https://www.youtube.com/watch?v=0uZ_ZnlEJ68)
+
+**Hamburger Icon Customisation**
+
+* Script for changing the Bootstrap hamburger icon colour on mobile
+[Stackoverflow](https://stackoverflow.com/questions/42586729/how-can-i-change-the-bootstrap-4-navbar-button-icon-color)
+
+**Disable past dates on datepicker**
+
+* Prevents users from selecting dates earlier than today in the reservation form [Stackoverflow](https://stackoverflow.com/questions/15757918/disable-past-dates-on-datepicker/78561570#78561570)
+
+### Images
+
 __Home page__ 
 
 * Hero Brunch Image: https://unsplash.com/fr/photos/pain-tranche-sur-plaque-de-ceramique-blanche-7N8amvEYF-0 \
@@ -453,7 +480,7 @@ Website: Restomontreal
 * Mimosa and brunch: https://www.restomontreal.ca/article/mimosas-music-and-brunch-vibes-montreals-top-weekend-picks/2101/en/ \
 Website: Restomontreal
 
-__Menu__ 
+__Menus__ 
 
 * Lemon Crepe: https://unsplash.com/fr/photos/photographie-a-plat-de-crepe-avec-glacage-jsgJtBOR6jY \
 Artiste: Monika Grabkowska \
@@ -490,3 +517,7 @@ Artiste Profil: https://unsplash.com/fr/@montatip
 * Flour and Eggs: https://unsplash.com/fr/photos/oeufs-et-farine-5evEHNh-Ft4 \
 Artiste: Wendy Rake \
 Artiste Profil: https://unsplash.com/fr/@wendyrake
+
+### Inspiration
+
+[Allo Mon Coco](https://allomoncoco.com/) The content on the About page and the Hero image layout were the main sources of visual and stylistic inspiration for this project.
