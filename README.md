@@ -1,4 +1,8 @@
 # Doux-Matin
+<div align="center">
+  <img width="710" height="430" alt="Image" src="https://github.com/user-attachments/assets/00d347c2-1490-4f1e-bef6-1a02a37768d7" /><br>
+</div>
+
 [Link to Live Website](https://carokyp.github.io/Doux-Matin/)
 
 ## About 
@@ -25,15 +29,15 @@ Guests can enjoy their time in the cosy indoor seating area or on the rooftop te
 The website is designed for residents, tourists, and groups of friends seeking great food, drinks, casual coffee breaks, or lively social gatherings in a relaxed setting. It will provide new visitors with all the essential information about the location, upcoming events, and menu offerings.
 
 #### Business goals of the website are:
-* Maximise table reservations
+* Maximise table reservations.
 * Encourage bookings for events (Bottomless Brunches, Birthdays, etc.)
-* Increase the number of customers and grow customer loyalty
+* Increase the number of customers and grow customer loyalty.
 
 #### The customer goals of this website are:
-* A fast and easy way to book a table or reserve space for an event
-* Access to the full food and drinks menu
-* Find clear details about opening hours and location
-* Personalised and memorable experience
+* A fast and easy way to book a table or reserve space for an event.
+* Access to the full food and drinks menu.
+* Find clear details about opening hours and location.
+* Personalised and memorable experience.
 
 #### User stories
 * As a First-time visitor, I want easy navigation and a user-friendly design, including a responsive layout for my device, so that I can find information quickly and efficiently without frustration.
@@ -257,7 +261,7 @@ __Languages Used__
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
- 
+* 
 __Frameworks, Libraries & Programs Used__
 
 * [Google Fonts](https://fonts.google.com/): was used to import the 'Pacifico' and 'Onest' fonts into the style.css 
@@ -266,6 +270,11 @@ __Frameworks, Libraries & Programs Used__
 * [Photoshop](https://www.adobe.com/uk/products/photoshop.html): was used for early design to help having a better idea of wish color and image will suit the website it was also used to resize, eadit picture but also creating the menus and the color pallette
 * [Visual Studio Git Source Control](https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=vs-2022): was used to commit and push or pull those into GitHub 
 * [Balsamiq](https://balsamiq.com/): was used to create the wireframes during the design process.
+* [WAVE](https://wave.webaim.org/) & [Lighthouse](https://developer.chrome.com/docs/lighthouse) Used for accessibility testing to ensure that all content is readable and accessible to every user.
+* [HTML Validator](https://validator.w3.org/#validate_by_input) Confirmed the HTML code is valid, with no errors detected.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Verified the CSS code, with no errors detected.
+* [JS-Beautify](https://beautifier.io/) Checked the formatting and structure of the HTML and CSS for consistency and readability.
+* [Squoosh](https://squoosh.app) was used in this project to resize, compress, and optimise images for the web, ensuring they load quickly while maintaining visual quality
 
 ## Testing 
 
@@ -370,7 +379,7 @@ Full results are available on GitHub here:
 
 ### Performance
 
-Using Lighthouse within Chrome Developer Tools, each page of the website was evaluated for performance on both desktop and mobile devices. The results are summarized in the tables below. Testing identified a few recurring issues, including large image sizes, noticeable layout shifts, and the use of third-party cookies due to embedded Google Maps.
+Using Lighthouse within Chrome Developer Tools, each page of the website was evaluated for performance on both desktop and mobile devices. The results are summarised in the tables below. Testing identified a few recurring issues, including large image sizes, noticeable layout shifts, and the use of third-party cookies due to embedded Google Maps.
 
 Images across the site have been optimised to reduce file size; however, the hero image on mobile devices is still flagged as relatively large, despite being under 500px, due to its visual prominence in the layout.
 
@@ -414,31 +423,96 @@ User stories were tested to confirm that the website’s key goals have been ach
 
 ### Deploy with GitHub Pages
 
-This project was deployed using the steps below. Please do not make any changes to files within this repository. If you want to have a copy of the repository, please see the other two options below.
+This project was deployed according to the steps outlined below. **Please do not make any changes directly to this repository**, as updates pushed to the main branch will automatically be reflected on the live website. Instead, follow the instructions below to fork or clone the site, so you can make changes safely without affecting the live version. Thank you!
 
-1. Go to [my GitHub repository](https://github.com/Carokyp/Doux-Matin)
+1. Log into [my GitHub repository](https://github.com/Carokyp/Doux-Matin)
+   
 2. Click the "Settings" tab (top of the repository)
-3. Under "Source": Select "Deploy from a branch"
-4. Choose "main" branch
-5. Choose "/ (root)" folder
-6. Click "Save"
-7. Wait 1-2 minutes for deployment, the site will be live at [https://carokyp.github.io/Doux-Matin](https://carokyp.github.io/Doux-Matin)
+   
+<div align="center">
+<img width="661" height="68" alt="Image" src="https://github.com/user-attachments/assets/de5eca45-661b-42e5-8351-3aa99a6095cd" /><br>
+</div>  
 
-### Run a copy of this repository
+3. Clicked "Pages" from the left-hand side menu.
+   
+<div align="center">
+<img width="635" height="262" alt="Image" src="https://github.com/user-attachments/assets/9a3a775f-4def-4ad1-a062-de6a37ef89be" /><br>
+</div>
 
-__Run locally__
-Paste git clone https://github.com/Carokyp/Doux-Matin.git into your terminal. To disconnect from this GitHub repository and type `git remote rm origin` into the terminal.
+4. Under the source section, click the Branch dropdown, and switch the selection from ‘None’ to ‘Main’ and choose "/ (root)" folder
+   
+<div align="center">
+<img width="556" height="275" alt="Image" src="https://github.com/user-attachments/assets/55aa0b35-8688-4eef-9cc6-bd82123b4ac6" />
+</div>
+
+5. Click "Save"
+   
+6. Wait 1-2 minutes for deployment, the site will be live at [https://carokyp.github.io/Doux-Matin](https://carokyp.github.io/Doux-Matin)
+
+### Run a copy of this repository via Fork
+
+Creates your copy of the repository under your GitHub account. You can make changes freely without affecting the original repo. You will be notified if updates are made to the original repo, and you can pull them in if needed.
 
 __Create a new fork__  
-A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
-1. First, set up Git
-2. Navigate to [Doux-Matin](https://github.com/Carokyp/Doux-Matin) repository
-3. Click the 'Fork' button on the upper right part of the page  
-   ![Fork button](https://github.com/user-attachments/assets/f7f9b595-eae1-4a79-9eed-63830ad01428)
-4. You now have a fork of the Doux-Matin repository added to your GitHub profile. Navigate to your profile and find the forked repository to add the required files.
+1. First, set up Git [Download and install Git on your computer](https://git-scm.com/downloads)
+   
+2. Go to [Doux-Matin](https://github.com/Carokyp/Doux-Matin) repository
+   
+3. Click the 'Fork' button on the upper right part of the page.
+   
+   <div align="center">
+     <img width="332" height="106" alt="Image" src="https://github.com/user-attachments/assets/d75c5ad2-f974-4a87-bd1c-f090fefea16b" />
+   </div>
+
+4. You now have a fork of the Doux-Matin repository in your GitHub account. Go to your profile, open the forked repository, and upload the required files.
+   
 5. Above the list of forked files, click the 'Code' button.
+
+<div align="center">
+  <img width="314" height="244" alt="Image" src="https://github.com/user-attachments/assets/907cfcb2-eced-4b9b-8d48-d827a2ea020d" />
+</div>
+
 6. A drop-down menu will appear. Select the one which applies to your setup. Further details on completing the final step can be found on [GitHub Fork Documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repository).
+
+**Create a new branch for your change**
+* `git checkout -b my-feature-branch`
+
+**Making Changes and Pushing Updates**
+1. Make your changes in your local repository.
+2. Stage and commit your changes:
+* `git add .`
+* `git commit -m "Describe your changes here"`
+3. Push your changes to your remote repository: \
+* `git push origin my-feature-branch`
+
+**Pull Request Fork**
+1. Go to your fork on GitHub.
+   
+   <div align="center">
+     <img width="812" height="216" alt="Image" src="https://github.com/user-attachments/assets/cb53c34c-4020-4a9e-986f-b3afdf56c605" />  
+   </div>
+   
+2. You’ll see a message: “Compare & pull request”. Click it.
+   
+   <div align="center">
+<img width="848" height="158" alt="Image" src="https://github.com/user-attachments/assets/8382e78a-f05a-4f50-91b5-511241a6fa4e" />
+   </div>
+   
+3. Ensure the pull request is set to merge from your fork/branch → into the original repo/main (or another branch).
+   
+4. Add a clear title and description of what you changed.
+   
+   <div align="center">
+       <img width="707" height="453" alt="Image" src="https://github.com/user-attachments/assets/35dcac5c-e2c9-4b69-8983-1fbcb1cb442c" />
+   </div>
+   
+5. Click Create Pull Request.
+
+**Pull Request Cloned repo**
+1. Open a Pull Request on GitHub (same as above).
+2. **Important:** If you don’t have write access to the original repo, you must fork it first.
+
 
 ## Credits
 
