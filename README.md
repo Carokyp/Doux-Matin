@@ -172,12 +172,14 @@ On smaller screens, the navigation transforms into a hamburger menu. When the us
 #### Hero image
 Include a top-view photograph of a brunch with a text overlay of the name of the cafe
 
-<img width="1728" height="962" alt="Image" src="https://github.com/user-attachments/assets/71d67037-eeee-4c4c-a3d9-3c6df16dbfc7"/><br>
+<img width="1142" height="573" alt="Image" src="https://github.com/user-attachments/assets/aaa50de3-cf13-4195-9a2a-00fd4214dfc7" />
 
 #### Tagline
 ‘’Doux Matin where mornings unfold softly‘’ tagline appears on the main page below the hero image 
+<div align="center">
+  <img width="816" height="76" alt="Image" src="https://github.com/user-attachments/assets/8fdc3e58-1d3c-4e2b-93ab-d96baa6b8ca0" />
+</div>
 
-<img width="1191" height="105" alt="Image" src="https://github.com/user-attachments/assets/5291f55a-8f0b-4404-9420-3d42729ed1c9"/><br>
 
 #### Home Page
 The homepage contains two distinct sections:
@@ -186,7 +188,7 @@ The homepage contains two distinct sections:
 Both sections feature two images each to visually illustrate and enhance the content, giving users a warm and inviting preview of the experience.<br>
 
 <div align="center">
-  <img width="729" height="544" alt="Image" src="https://github.com/user-attachments/assets/e47c2786-d189-4735-9139-9d0ee0bf3c07"/>
+  <img width="698" height="535" alt="Image" src="https://github.com/user-attachments/assets/6c3f680c-b6c0-45cf-91b1-1ee6354d7c95" />
 </div>
 
 #### Menu Page
@@ -194,24 +196,29 @@ The menu lists all the food and drinks available at the café. It is divided int
 The menu opens in a new browser tab in a PDF format to allow users to browse the options without losing their place on the main website—making it easy to return to their booking or previous page at any time.
 
 <div align="center">
-  <img width="250" height="500" alt="Image" src="https://github.com/user-attachments/assets/5f735d41-0835-4153-aeb5-d40f119aa083"/>
-    <img width="250" height="500" alt="Image" src="https://github.com/user-attachments/assets/67201c50-7348-4d0b-87e9-7ddb83736529"/>
+  <img width="225" height="455" alt="Image" src="https://github.com/user-attachments/assets/53e00d30-7d81-4a8a-9064-240e6f231eff" />
+    <img width="226" height="387" alt="Image" src="https://github.com/user-attachments/assets/69677eba-9878-439f-86bf-5fe5d66bf7bd" />
+    <img width="224" height="254" alt="Image" src="https://github.com/user-attachments/assets/940b627e-5884-4edd-bd2f-d32391acad23" />
 </div>
 
 #### About us Page
 The About Us page provides more details about who created and runs the business, as well as the team behind it. It also emphasises the café’s commitment to high-quality food and fresh ingredients.<br>
 
+<div align="center">
+  <img width="666" height="404" alt="Image" src="https://github.com/user-attachments/assets/cb9905b5-d211-42dc-8484-69fe1581582e" />
+</div>
+
 #### Booking Page
 Users are asked to provide their first name, last name, email address, phone number, event type, number of guests, and the desired booking date. They also have the option to include a message for any additional information or special requests.
 
 <div align="center">
-<img width="601" height="517" alt="Image" src="https://github.com/user-attachments/assets/0add1f81-abd0-4b5f-9427-fad50040fe0d"/><br>
+<img width="859" height="508" alt="Image" src="https://github.com/user-attachments/assets/e5a04c07-76a3-45dd-a642-41e88e80a25f" /><br>
 </div>
 
 <br>Upon submitting the form, a new tab opens displaying a thank you message along with a button to return to the homepage.
 
 <div align="center">
-<img width="549" height="525" alt="Image" src="https://github.com/user-attachments/assets/9743faa5-49c9-4c91-8eb7-eb0d59fbc9f7"/>
+<img width="822" height="515" alt="Image" src="https://github.com/user-attachments/assets/24c77076-5511-46bc-bed5-1d8303729fbb" />
 </div>
 
 
@@ -501,7 +508,7 @@ __Menu Bottomless Brunch__
 * Lemon Cocktail: https://www.liquor.com/lynchburg-lemonade-cocktail-recipe-5199408 \
 Website: Liquor.com / Tim Nusog
 
-* Orange Cocktail: (https://unsplash.com/photos/a-colorful-cocktail-garnished-with-a-flower-vfQ-TCKwlC4)
+* Orange Cocktail: (https://unsplash.com/photos/a-colorful-cocktail-garnished-with-a-flower-vfQ-TCKwlC4) \
 Artiste: alexanderafan \
 Artiste Profil: https://unsplash.com/@alexanderafan
 
