@@ -101,7 +101,7 @@
 
                     <div class="col-12 col-md-3 col-xl-2 booking-form-fields mb-3">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" required pattern="[0-9]{11}" title="Please enter a valid phone number">
+                        <input type="tel" id="phone" name="phone" required pattern="^(?:07\d{9}|\+447\d{9})$" placeholder="07XXXXXXXXXX" title="Please enter a valid UK phone number starting with 07 or +44">
                     </div>
                     <div class="row justify-content-center align-items-center text-center px-0">
 
@@ -134,7 +134,7 @@
 
                     <div class="col-12 col-xl-8 booking-form-fields mb-3 text-md-start">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="6" placeholder="Any additional information or requests"></textarea>
+                        <textarea id="message" name="message" rows="6" placeholder="Any additional information or requests."></textarea>
 
                     </div>
 

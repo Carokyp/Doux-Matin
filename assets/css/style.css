@@ -228,29 +228,44 @@ select {
   width: 100%;
 }
 
+#phone::-webkit-input-placeholder {
+  color: var(--primary-color); /* Change placeholder color for Chrome, Safari, newer Opera, Edge */
+  opacity: 0.7;
+}
+
+#phone::-moz-placeholder {
+  color: var(--primary-color); /* Change placeholder color for Firefox */
+  opacity: 0.7;
+}
+
+#phone:-ms-input-placeholder {
+  color: var(--primary-color); /* Change placeholder color Internet Explorer */
+  opacity: 0.7;
+}
+
+#phone::-ms-input-placeholder {
+  color: var(--primary-color); /* Change placeholder color for Edge (Legacy, pre-Chromium) */
+  opacity: 0.7;
+}
+
 #message::-webkit-input-placeholder {
-  color: var(--tertiary-color); /* Change placeholder color */
-  opacity: 0;
+  color: var(--primary-color); /* Change placeholder color for Chrome, Safari, newer Opera, Edge */
+  opacity: 0.7;
 }
 
 #message::-moz-placeholder {
-  color: var(--tertiary-color); /* Change placeholder color */
-  opacity: 0;
+  color: var(--primary-color); /* Change placeholder color for Firefox */
+  opacity: 0.7;
 }
 
 #message:-ms-input-placeholder {
-  color: var(--tertiary-color); /* Change placeholder color */
-  opacity: 0;
+  color: var(--primary-color); /* Change placeholder color Internet Explorer */
+  opacity: 0.7;
 }
 
 #message::-ms-input-placeholder {
-  color: var(--tertiary-color); /* Change placeholder color */
-  opacity: 0;
-}
-
-#message::placeholder {
-  color: var(--tertiary-color); /* Change placeholder color */
-  opacity: 0;
+  color: var(--primary-color); /* Change placeholder color for Edge (Legacy, pre-Chromium) */
+  opacity: 0.7;
 }
 
 /* Booking form button styling */
