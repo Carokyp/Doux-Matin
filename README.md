@@ -421,7 +421,7 @@ User stories were tested to confirm that the website’s key goals have been ach
 
 ## Deployment
 
-This project is hosted **on GitHub Pages**. Updates pushed to the main branch will automatically update the live site. **Please do not make changes directly to this repository**. Instead, follow the steps below to fork or clone the repository and make changes safely. Thank You!
+This project is hosted **on GitHub Pages**. Updates pushed to the main branch will automatically update the live site. **Please do not make changes directly to this repository**, since updates pushed to `main` will immediately update the live site. Use a fork or clone to make changes safely. Thank You!
 
 1. Log into [my GitHub repository](https://github.com/Carokyp/Doux-Matin)
    
@@ -431,7 +431,7 @@ This project is hosted **on GitHub Pages**. Updates pushed to the main branch wi
 <img width="661" height="68" alt="Image" src="https://github.com/user-attachments/assets/de5eca45-661b-42e5-8351-3aa99a6095cd" /><br>
 </div>  
 
-3. Clicked "Pages" from the left-hand side menu.
+3. Click "Pages" from the left-hand side menu.
    
 <div align="center">
 <img width="635" height="262" alt="Image" src="https://github.com/user-attachments/assets/9a3a775f-4def-4ad1-a062-de6a37ef89be" /><br>
@@ -480,7 +480,7 @@ Follow the same steps as Windows, but use Terminal instead of Git Bash.
 
 Forking creates a separate copy of the repository under your own GitHub account.
 	•	You can make changes freely.
-	•	If the original repository is updated, GitHub will notify you and you can pull updates into your fork.
+	•	If the original repository is updated, GitHub will notify you, and you can pull updates into your fork.
 
 __Create a new fork__  
 
@@ -540,7 +540,7 @@ __Create a new fork__
 
 **Pull Request Cloned repo**
 1. Open a Pull Request on GitHub (same as above).
-2. **Important:** If you don’t have write access to the original repo, you must fork it first.
+2. **Important:** If you cloned and have write access, you can push directly and open a Pull Request. If you cloned but don’t have write access, you must fork first.
 
 
 ## Credits
