@@ -26,7 +26,7 @@ body {
 /* Bootstrap navbar styling */
 .navbar {
     background-color: rgba(155, 57, 15, 0.6) !important; /* Semi-transparent background */
-    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
             backdrop-filter: blur(10px); /* Blur effect */
     position: fixed; /* keeps the navbar to the top */
     z-index: 10;/* ensures the navbar is above other content */
@@ -85,7 +85,7 @@ body {
 /* #endregion */
 
 #body-max-width{
-    max-width: 1800px;
+    max-width: 1800px; /* Maximum width for large screens */
     margin: 0 auto; /* Center the content */
 }
 
@@ -167,22 +167,23 @@ a.btn-lg {
     background-color: var(--secondary-color);
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    -webkit-box-shadow: 5px 5px 2px 2px #9b390f;
+    -webkit-box-shadow: 5px 5px 2px 2px #9b390f; /* Add shadow on hover for Safari */
             box-shadow: 5px 5px 2px 2px #9b390f; /* Add shadow on hover */
 } 
 /* #endregion */
 
 
-/* Main image object fit helper */
+/* Main image object fit helper, ensure images scale and crop to fully cover their container */
 .object-fit-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: cover; 
+       object-fit: cover; 
 }
 
 .social-media a {
     color: var(--primary-color);
 }
 
+/* Social media icon hover effect */
 .social-media a i:hover {
     color: var(--secondary-color);
 }
@@ -302,6 +303,7 @@ a.return-home {
     color: var(--primary-color);
 }
 
+/* Custom images positioning helper */
 .custom-position img {
     -o-object-position: 0% 30%;
        object-position: 0% 30%;
@@ -458,8 +460,6 @@ a.return-home {
         background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
         height: 50vh;
     }
-
-
 }
 
 /* Extra large laptops */
