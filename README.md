@@ -421,9 +421,7 @@ User stories were tested to confirm that the website’s key goals have been ach
 
 ## Deployment
 
-### Deploy with GitHub Pages
-
-This project was deployed according to the steps outlined below. **Please do not make any changes directly to this repository**, as updates pushed to the main branch will automatically be reflected on the live website. Instead, follow the instructions below to fork or clone the site, so you can make changes safely without affecting the live version. Thank you!
+This project is hosted **only on GitHub Pages** (no separate staging or development environments). Updates pushed to the main branch will automatically update the live site. **Please do not make changes directly to this repository**. Instead, follow the steps below to fork or clone the repository and make changes safely. Thank You!
 
 1. Log into [my GitHub repository](https://github.com/Carokyp/Doux-Matin)
    
@@ -448,6 +446,33 @@ This project was deployed according to the steps outlined below. **Please do not
 5. Click "Save"
    
 6. Wait 1-2 minutes for deployment, the site will be live at [https://carokyp.github.io/Doux-Matin](https://carokyp.github.io/Doux-Matin)
+
+### Clone this repository
+
+#### Windows
+
+1. Go to the [https://github.com/Carokyp/Doux-Matin.git](https://github.com/Carokyp/Doux-Matin) repository on GitHub
+2. Click Code, select HTTPS, and copy the link.
+
+<div align="center">
+<img width="542" height="264" alt="Image" src="https://github.com/user-attachments/assets/263a0239-080f-4d6f-8d5f-0db0600cde96" />
+</div>
+   
+3. Open Git Bash.
+4. Change the current working directory to the location where you want the cloned directory.
+5. Type `git clone`, and then paste the URL you copied earlier.
+6. `git clone https://github.com/Carokyp/Doux-Matin.git`
+7. Press Enter to create your local clone.
+
+#### Mac
+
+Follow the same steps as Windows, but use Terminal instead of Git Bash.
+
+1. Open Terminal
+2. Change the current working directory to the location where you want the cloned directory.
+3. Type `git clone`, and then paste the URL you copied earlier.
+4. `git clone https://github.com/Carokyp/Doux-Matin.git`
+5. Press Enter to create your local clone.
 
 ### Run a copy of this repository via Fork
 
