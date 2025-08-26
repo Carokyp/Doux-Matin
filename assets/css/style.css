@@ -143,6 +143,7 @@ body {
 .contact h1 {
     color: var(--primary-color);
     font-family: var(--primary-font);
+    margin-bottom: 1rem;
     font-size: 1.8rem;
 }
 
@@ -436,13 +437,22 @@ a.return-home {
         font-size: 1.5rem;
     }
 
-    .contact h1 {
-        font-size: 2.7rem;
-        margin-bottom: 2rem;
+    .text-box3 p {
+        margin-bottom: 3rem;
+        font-size: 1.3rem;
     }
 
+    .contact h1 {
+        font-size: 2.3rem;
+        margin-bottom: 3rem;
+    }
+
+    .contact h2 {
+        font-size: 1.3rem;
+    }   
+
     .contact {
-        font-size: 1.12rem;
+        font-size: 1.4rem;
         margin-bottom: 1rem;
     }
 
@@ -499,8 +509,16 @@ a.return-home {
     }
 
     .contact h1 {
-        font-size: 2.7rem;
+        font-size: 3rem;
         margin-bottom: 3rem;
+    }
+
+    .contact p {
+        margin-bottom: 3rem;
+    }
+
+    .contact h2 {
+        font-size: 2rem;
     }
 
     .contact {
@@ -508,7 +526,7 @@ a.return-home {
     }
 
     .text-box3 h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     /* Booking Form Section */
