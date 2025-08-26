@@ -261,7 +261,7 @@ __Languages Used__
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-* 
+  
 __Frameworks, Libraries & Programs Used__
 
 * [Google Fonts](https://fonts.google.com/): was used to import the 'Pacifico' and 'Onest' fonts into the style.css 
@@ -307,10 +307,10 @@ Result for About Page
 </p>
 
 Full validation results are available on GitHub here :
-   * HTML Result - Home Page
-   * HTML Result - Booking Page
-   * HTML Result - Thank You Page
-   * HTML Result - About Page
+   * [HTML Result - Home Page](https://github.com/Carokyp/Doux-Matin/tree/main/documentation/html-validation/index-validation)
+   * [HTML Result - Booking Page](https://github.com/Carokyp/Doux-Matin/tree/main/documentation/html-validation/booking-form-validation)
+   * [HTML Result - Thank You Page](https://github.com/Carokyp/Doux-Matin/tree/main/documentation/html-validation/thank-you-validation)
+   * [HTML Result - About Page](https://github.com/Carokyp/Doux-Matin/tree/main/documentation/html-validation/about-validation)
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
@@ -323,8 +323,7 @@ Result for style.css
 <img width="920" height="584" alt="Image" src="https://github.com/user-attachments/assets/6741dd4d-93ff-48b4-a667-5241c74ff7ed" /><br>
 
 Full validation results are available on GitHub here :
-   * [CSS Validation](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/css-validation/css-validation-result.png)
-   * [CSS Warnings](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/css-validation)
+   * [CSS Validation & Warnings](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/css-validation)
 
 ### CSS Validation Notes: 
 
@@ -379,7 +378,20 @@ Full results are available on GitHub here:
 
 Using Lighthouse within Chrome Developer Tools, each page of the website was evaluated for performance on both desktop and mobile devices. The results are summarised in the tables below. Testing identified a few recurring issues, including large image sizes, noticeable layout shifts, and the use of third-party cookies due to embedded Google Maps.
 
-Images across the site have been optimised to reduce file size; however, the hero image on mobile devices is still flagged as relatively large, despite being under 500px, due to its visual prominence in the layout.
+Images across the site have been optimised to reduce file size; however, Lighthouse still flags the hero, home, and about section images as too large. On mobile, these images are kept under 500px, while on tablet and desktop, they are no more than 900px and for the hero image 1400px, respectively. All images are also preloaded in the HTML, but the issue persists.
+
+#### Home page Lighthouse issues
+<p align="center">
+<img width="669" height="413" alt="Image" src="https://github.com/user-attachments/assets/91fdfa98-c8b0-4428-90b3-5d557a43815b" />
+<img width="650" height="513" alt="Image" src="https://github.com/user-attachments/assets/f5fc7cf9-ed70-4243-9213-634b13783134" />
+<img width="642" height="338" alt="Image" src="https://github.com/user-attachments/assets/7acd33e4-5cc5-4de7-abf0-81606a164a5c" />
+<p>
+	
+#### About page Lighthouse issues 
+<p align="center">
+<img width="438" height="509" alt="Image" src="https://github.com/user-attachments/assets/0784acab-f537-4d28-ae75-1685dbcc3968" />
+<img width="444" height="366" alt="Image" src="https://github.com/user-attachments/assets/b8fb8876-6dae-4da0-8ec3-cefab698ff32" />
+<p>
 
 **First test on mobile**
 
@@ -387,7 +399,7 @@ Images across the site have been optimised to reduce file size; however, the her
 
 **After acting on the result of the first test**
 
-<img width="1357" height="233" alt="Image" src="https://github.com/user-attachments/assets/3606e249-7626-4822-8f18-3cb95b343302" />
+<img width="1317" height="223" alt="Image" src="https://github.com/user-attachments/assets/91397f80-c218-4259-a9fa-32927c8a4a37" />
 
 **First test on desktop**
 
@@ -395,7 +407,7 @@ Images across the site have been optimised to reduce file size; however, the her
 
 **After acting on the result of the first test**
 
-<img width="1353" height="248" alt="Image" src="https://github.com/user-attachments/assets/2c96ccb6-25e8-478c-9f02-07bccf2f1815" />
+<img width="1316" height="254" alt="Image" src="https://github.com/user-attachments/assets/ca6e0046-3636-4aa5-938c-34da796afca2" />
 
 ### Testing User Stories
 
