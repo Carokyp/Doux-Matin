@@ -378,16 +378,16 @@ Full results are available on GitHub here:
 
 Using Lighthouse within Chrome Developer Tools, each page of the website was evaluated for performance on both desktop and mobile devices. The results are summarised in the tables below. Testing identified a few recurring issues, including large image sizes, noticeable layout shifts, and the use of third-party cookies due to embedded Google Maps.
 
-Images across the site have been optimised to reduce file size; however, Lighthouse still flags the hero, home, and about section images as too large. On mobile, these images are kept under 500px, while on tablet and desktop, they are no more than 900px and for the hero image 1400px, respectively. All images are also preloaded in the HTML, but the issue persists.
+Images across the site have been optimised to reduce file size; however, Lighthouse still flags the Hero, Home, and About section images as too large. On mobile, these images are kept under 500px, while on tablet and desktop, they are no more than 900px and for the hero image 1400px. All images are also preloaded in the HTML, but the issue persists.
 
-#### Home page Lighthouse issues
+#### Home page Lighthouse issues:
 <p align="center">
 <img width="669" height="413" alt="Image" src="https://github.com/user-attachments/assets/91fdfa98-c8b0-4428-90b3-5d557a43815b" />
 <img width="650" height="513" alt="Image" src="https://github.com/user-attachments/assets/f5fc7cf9-ed70-4243-9213-634b13783134" />
 <img width="642" height="338" alt="Image" src="https://github.com/user-attachments/assets/7acd33e4-5cc5-4de7-abf0-81606a164a5c" />
 <p>
 	
-#### About page Lighthouse issues 
+#### About page Lighthouse issues :
 <p align="center">
 <img width="438" height="509" alt="Image" src="https://github.com/user-attachments/assets/0784acab-f537-4d28-ae75-1685dbcc3968" />
 <img width="444" height="366" alt="Image" src="https://github.com/user-attachments/assets/b8fb8876-6dae-4da0-8ec3-cefab698ff32" />
@@ -395,11 +395,11 @@ Images across the site have been optimised to reduce file size; however, Lightho
 
 **First test on mobile**
 
-<img width="1186" height="299" alt="Image" src="https://github.com/user-attachments/assets/855db379-5a51-478a-862b-c17bc50bc9c0" />
+<img width="1186" height="300" alt="Image" src="https://github.com/user-attachments/assets/855db379-5a51-478a-862b-c17bc50bc9c0" />
 
 **After acting on the result of the first test**
 
-<img width="1317" height="223" alt="Image" src="https://github.com/user-attachments/assets/91397f80-c218-4259-a9fa-32927c8a4a37" />
+<img width="1317" height="350" alt="Image" src="https://github.com/user-attachments/assets/91397f80-c218-4259-a9fa-32927c8a4a37" />
 
 **First test on desktop**
 
@@ -554,6 +554,8 @@ __Create a new fork__
 
 
 ## Credits
+
+I would like to thank my mentor, Brian, for the help and support he provided throughout this project.
 
 ### Code References
 
