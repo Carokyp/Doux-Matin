@@ -85,7 +85,6 @@
                 </div>
             </div>
         </div>
-
         <div class="container">
             <div class="row g-3 justify-content-center align-items-stretch mb-sm-3" style="min-height: 400px;">
                 <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-5 d-flex flex-column justify-content-center text-center">
@@ -109,11 +108,8 @@
                     </div>
                 </div>
             </div>
-
             <div class="row g-3 justify-content-center align-items-stretch mb-sm-3" style="min-height: 400px;">
-
                 <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-5 d-flex flex-column justify-content-center text-center order-sm-2">
-
                     <div class="text-box2 p-3 mt-3 mt-sm-0 d-flex flex-column flex-fill justify-content-center text-center">
                         <p class="get-fuzzy-text mb-2 mb-md-4">
                             GET FIZZY!
@@ -139,7 +135,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <!--Contact Section-->
@@ -153,7 +148,6 @@
                         <h2 class="m-0 fw-bold">Opening Hours</h2>
                         <p class="m-0">Monday – Friday: 9:00 AM – 3:00 PM <br> Saturday: 9:00 AM – 5:00 PM<br> Sunday: 9:00 AM – 4:00 PM</p>
                     </div>
-
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 col-lg-7 col-xl-6">
                     <div id="google-map" class="ratio ratio-1x1 h-100">
@@ -201,26 +195,25 @@
 
     <!-- Prevent navbar toggler from staying focused (removes outline after click) -->
     <script>
-document.addEventListener(
-    "DOMContentLoaded",
-    function() {
-        const toggler = document
-            .querySelector(
-                ".navbar-toggler");
-
-        toggler.addEventListener(
-            "click",
+        document.addEventListener(
+            "DOMContentLoaded",
             function() {
-                //Wait briefly for the collapse to run, then remove focus from the button
-                setTimeout(
-                    () => {
-                        toggler
-                            .blur();
-                    },
-                    200); // Delay ensures Bootstrap’s collapse finishes before removing focus from the toggler
-            });
-    });
+                const toggler = document
+                    .querySelector(
+                        ".navbar-toggler");
 
+                toggler.addEventListener(
+                    "click",
+                    function() {
+                        //Wait briefly for the collapse to run, then remove focus from the button
+                        setTimeout(
+                            () => {
+                                toggler
+                                    .blur();
+                            },
+                            200); // Delay ensures Bootstrap’s collapse finishes before removing focus from the toggler
+                    });
+            });
     </script>
 
     <!--
@@ -228,32 +221,31 @@ document.addEventListener(
     This highlights the clicked menu and contact item with an underline
     -->
     <script>
-document.querySelectorAll(
-    '.navbar .nav-link').forEach(
-    link => {
-        link.addEventListener(
-            'click', e => {
-                // Remove active class from all links
-                document
-                    .querySelectorAll(
-                        '.navbar .nav-link'
-                    )
-                    .forEach(
-                        nav =>
-                        nav
-                        .classList
-                        .remove(
-                            'active'
-                        ));
-                // Add active class to the clicked link
-                e.currentTarget
-                    .classList
-                    .add(
-                        'active'
-                    );
+        document.querySelectorAll(
+            '.navbar .nav-link').forEach(
+            link => {
+                link.addEventListener(
+                    'click', e => {
+                        // Remove active class from all links
+                        document
+                            .querySelectorAll(
+                                '.navbar .nav-link'
+                            )
+                            .forEach(
+                                nav =>
+                                nav
+                                .classList
+                                .remove(
+                                    'active'
+                                ));
+                        // Add active class to the clicked link
+                        e.currentTarget
+                            .classList
+                            .add(
+                                'active'
+                            );
+                    });
             });
-    });
-
     </script>
 
 

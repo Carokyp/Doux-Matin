@@ -78,31 +78,23 @@
                         </p>
                         <h2 class="mb-3">Booking Inquiry</h2>
                     </div>
-
                     <div class="col-6 col-md-2 col-xl-2 booking-form-fields mb-3">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" required pattern="[A-Za-zÀ-ÿ\s]+" title="Please enter letters only">
                     </div>
-
                     <div class="col-6 col-md-2 col-xl-2 booking-form-fields mb-3">
-
                         <label for="surname">Surname</label>
                         <input type="text" id="surname" name="surname" required pattern="[A-Za-zÀ-ÿ\s]+" title="Please enter letters only">
-
                     </div>
-
                     <div class="col-12 col-md-4 col-xl-3 booking-form-fields mb-3">
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email" required>
-
                     </div>
-
                     <div class="col-12 col-md-3 col-xl-2 booking-form-fields mb-3">
                         <label for="phone">Phone Number</label>
                         <input type="tel" id="phone" name="phone" required pattern="^(?:07\d{9}|\+447\d{9})$" placeholder="07XXXXXXXXXX" title="Please enter a valid UK phone number starting with 07 or +44">
                     </div>
                     <div class="row justify-content-center align-items-center text-center px-0">
-
                         <div class="col-12 col-md-4 col-xl-2 booking-form-fields mb-3">
                             <label for="event-type">Event Type</label>
                             <select id="event-type" name="event-type" required>
@@ -113,33 +105,22 @@
                                 <option value="other">Other special occasion</option>
                             </select>
                         </div>
-
                         <div class="col-3 col-md-2 col-xl-1 booking-form-fields mb-3">
-
                             <label for="number-of-guests">Guests</label>
                             <input type="number" id="number-of-guests" name="number-of-guests" min="1" max="15" required>
-
                         </div>
-
                         <div class="col-9 col-md-4 col-xl-2 booking-form-fields mb-3">
                             <label for="reservation-date">Date</label>
                             <input type="date" id="reservation-date" name="date" required>
-
                         </div>
-
-
                     </div>
-
                     <div class="col-12 col-xl-8 booking-form-fields mb-3 text-md-start">
                         <label for="message">Message</label>
                         <textarea id="message" name="message" rows="6" placeholder="Any additional information or requests."></textarea>
-
                     </div>
-
                     <div class="col-xl-8 mb-3">
                         <button type="submit" class="btn-lg submit-button">Submit</button>
                     </div>
-
                 </div>
             </div>
         </form>
@@ -177,26 +158,24 @@
 
     <!-- Script to disable past dates in the reservation date field -->
     <script>
-// Get today's date in YYYY-MM-DD format
-const today = new Date().toISOString().split('T')[0];
-document.getElementById("reservation-date").setAttribute("min", today);
-
+        // Get today's date in YYYY-MM-DD format
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById("reservation-date").setAttribute("min", today);
     </script>
 
 
     <!-- Prevent navbar toggler from staying focused (removes outline after click) -->
     <script>
-document.addEventListener("DOMContentLoaded", function() {
-    const toggler = document.querySelector(".navbar-toggler");
+        document.addEventListener("DOMContentLoaded", function() {
+            const toggler = document.querySelector(".navbar-toggler");
 
-    toggler.addEventListener("click", function() {
-        //Wait briefly for the collapse to run, then remove focus from the button
-        setTimeout(() => {
-            toggler.blur();
-        }, 200); // Delay ensures Bootstrap’s collapse finishes before removing focus from the toggler
-    });
-});
-
+            toggler.addEventListener("click", function() {
+                //Wait briefly for the collapse to run, then remove focus from the button
+                setTimeout(() => {
+                    toggler.blur();
+                }, 200); // Delay ensures Bootstrap’s collapse finishes before removing focus from the toggler
+            });
+        });
     </script>
 
     <!--
@@ -204,17 +183,15 @@ document.addEventListener("DOMContentLoaded", function() {
     This highlights the clicked menu and contact item with an underline
     -->
     <script>
-document.querySelectorAll('.navbar .nav-link').forEach(link => {
-    link.addEventListener('click', e => {
-        // Remove active class from all links
-        document.querySelectorAll('.navbar .nav-link').forEach(nav => nav.classList.remove('active'));
-        // Add active class to the clicked link
-        e.currentTarget.classList.add('active');
-    });
-});
-
+        document.querySelectorAll('.navbar .nav-link').forEach(link => {
+            link.addEventListener('click', e => {
+                // Remove active class from all links
+                document.querySelectorAll('.navbar .nav-link').forEach(nav => nav.classList.remove('active'));
+                // Add active class to the clicked link
+                e.currentTarget.classList.add('active');
+            });
+        });
     </script>
-
 
 
 </body>
