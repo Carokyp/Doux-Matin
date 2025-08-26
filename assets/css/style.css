@@ -38,7 +38,7 @@ body {
 .navbar-booking,
 .navbar-about {
     position: sticky; /* Keeps the navbar at the top */
-    top: 0;/* Sticks to the top */
+    top: 0; /* Sticks to the top */
 }
 
 /* Change the border of the navbar toggler to white */
