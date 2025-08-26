@@ -7,8 +7,11 @@
     <meta name="description" content="Reserve your table at Doux Matin, London's cozy brunch café. Book online to enjoy fresh pastries, specialty coffee, and delicious breakfasts.">
     <title>Doux Matin - Booking Form</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <!-- Preload & asynchronously load Bootstrap -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    </noscript>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -26,7 +29,6 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon_io/favicon-32x32.png">
-
 </head>
 
 <body>

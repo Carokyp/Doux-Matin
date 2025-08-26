@@ -7,12 +7,16 @@
     <meta name="description" content="Discover the story behind Doux Matin, London’s cozy brunch café dedicated to fresh, seasonal flavors and warm hospitality.">
     <title>Doux Matin - About Us</title>
 
+    <!-- Preload hero images -->
     <link rel="preload" as="image" href="assets/images/croissant2-400px.webp" fetchpriority="high">
     <link rel="preload" as="image" href="assets/images/brunch2-600px.webp" fetchpriority="high">
     <link rel="preload" as="image" href="assets/images/egg-400px.webp" fetchpriority="high">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <!-- Preload & asynchronously load Bootstrap -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    </noscript>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -28,10 +32,8 @@
     <!-- Google Fonts with font-display swap -->
     <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon_io/favicon-32x32.png">
-
 </head>
 
 <body>
