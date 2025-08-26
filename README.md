@@ -30,7 +30,7 @@ The website is designed for residents, tourists, and groups of friends seeking g
 
 #### Business goals of the website are:
 * Maximise table reservations.
-* Encourage bookings for events (Bottomless Brunches, Birthdays, etc.)
+* Encourage bookings for events. (Bottomless Brunches, Birthdays, etc.)
 * Increase the number of customers and grow customer loyalty.
 
 #### The customer goals of this website are:
@@ -58,8 +58,8 @@ The website is designed for residents, tourists, and groups of friends seeking g
 The scope feature is kept simple. Below is a list of the leading features for this website.
 
 #### In scope Features:
-* Home page that shows the users what the website is about
-* Two different menus that intuitively open a new page in the browser
+* Home page that shows the users what the website is about.
+* Two different menus that intuitively open a new page in the browser.
 * Booking page where users can easily reserve a table and include any special requests or notes with their reservation.
 * Confirmation page that thanks users, informs them their reservation has been received, assures them someone will be in touch soon, and provides an option to return to the homepage.
 * About page that provides users with the story of the business, details about the ingredients used, and an overview of the company’s mission.
@@ -69,18 +69,18 @@ The scope feature is kept simple. Below is a list of the leading features for th
 
 #### Out of scope Features:
 * **Integrate the newsletter sign-up form** The website contains a sign-up form for the shop newsletter. The sign-up form is placed in the footer on every page, allowing users to easily find it.
-* **Testimonials and reviews from other customers** include a section dedicated to displaying customer testimonials and reviews. Testimonials are visible and presented in a format that is easy to read and navigate
-* **Implementation of a “View Our Venue” Gallery** the section is available in the navigation bar. Contains a gallery showing photos of the environment, food and drinks and the Bottomless Brunch environment
+* **Testimonials and reviews from other customers** include a section dedicated to displaying customer testimonials and reviews. Testimonials are visible and presented in a format that is easy to read and navigate.
+* **Implementation of a “View Our Venue” Gallery** the section is available in the navigation bar. Contains a gallery showing photos of the environment, food and drinks and the Bottomless Brunch environment.
 
 ### Structure
 This website will be organised using a 3-tier hierarchical structure, providing a clear and logical navigation from main pages to sub-sections and detailed content. It will contain 5 pages in total (including the home page):
 
 **Level 1 - Home page**
 
-* A homepage with a hero image and a horizontal navigation menu will welcome users. This will lead to pages: Menu, Book Now, Contact and About 
+* A homepage with a hero image and a horizontal navigation menu will welcome users. This will lead to pages: Menu, Book Now, Contact and About.
 * The homepage features a main section with a layout of images and a text block that highlights the type of food, ambience, and services visitors can expect. 
-* Two menu buttons are also available on the main page, showing two different menus: brunch and bottomless brunch.
-* To assist users, a map will be inset on the homepage so they can plan their visit
+* Two menu buttons are also available on the main page, showing two different menus for brunch and bottomless brunch.
+* To assist users, a map will be inset on the homepage so they can plan their visit.
 * The footer will contain contact information and social media links to support the website’s strategic objectives.
 
 **Level 2 - Navigation Page**
@@ -141,10 +141,10 @@ Considering that accessibility was a key design criterion, a consistent colour p
 
 #### Visual Style
 
-The visual style of Doux Matin is warm, inviting, and French-inspired, capturing the charm of a cosy café and bakery. The colour palette features soft, muted tones—creamy neutrals, and warm accent colours that create a relaxed and welcoming atmosphere. Photos were picked for their natural lighting and warm hues to highlight freshness, enhancing the overall ambience with a playful yet elegant tone.
+Doux Matin’s design is warm, inviting, and inspired by French cafés, capturing the cosy charm of a bakery. Photographs are selected for their natural lighting and warm hues, creating a relaxed, welcoming atmosphere.
 
 #### Colors 
-The colour palette was inspired by selections from [Color Hunt](https://colorhunt.co/) to evoke a rich chocolate brown for the depth of freshly baked treats, white for a smooth, fresh contrast, and the very light brown provides a soft, gentle backdrop that wraps the site in a cosy, inviting glow. Together, these tones create a comforting, café-inspired atmosphere.
+The colour palette was inspired by selections from [Color Hunt](https://colorhunt.co/) to evoke a rich chocolate brown for the depth of freshly baked treats, white for a smooth, fresh contrast, and a very light brown provides a soft, gentle backdrop that wraps the site in a cosy, inviting glow. Together, these tones create a comforting, café-inspired atmosphere.
 
 <p align="center" >
   <img width="316" height="432" alt="Image" src="https://github.com/user-attachments/assets/8fdf5349-f084-4ef1-a9f0-807315b67ed4" />
@@ -374,8 +374,7 @@ The layout, images, buttons, and text remain visible and properly aligned on mob
 <img width="1375" height="652" alt="Image" src="https://github.com/user-attachments/assets/3e862090-fe4c-4343-b8f3-a423d23fb978" /><br>
 
 Full results are available on GitHub here:
-* [Test case 1](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/test-case-and-result/test-case-1.png)
-* [Test case 2](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/test-case-and-result/test-case-2.png)
+* [Test case](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/test-case-and-result)
 
 ### Performance
 
