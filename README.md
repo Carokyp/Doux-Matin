@@ -1,7 +1,7 @@
 # Doux-Matin
 <div align="center">
   <img width="710" height="430" alt="Image" src="https://github.com/user-attachments/assets/00d347c2-1490-4f1e-bef6-1a02a37768d7" /><br>
-</div>
+</div><br>
 
 [Link to Live Website](https://carokyp.github.io/Doux-Matin/)
 
@@ -378,7 +378,14 @@ Full results are available on GitHub here:
 
 Using Lighthouse within Chrome Developer Tools, each page of the website was evaluated for performance on both desktop and mobile devices. The results are summarised in the tables below. Testing identified a few recurring issues, including large image sizes, noticeable layout shifts, and the use of third-party cookies due to embedded Google Maps.
 
-Images across the site have been optimised to reduce file size; however, Lighthouse still flags the Hero, Home, and About section images as too large. On mobile, these images are kept under 500px, while on tablet and desktop, they are no more than 900px and for the hero image 1400px. All images are also preloaded in the HTML, but the issue persists.
+Images across the site have been optimised to reduce file size. All images and the hero image have been optimised into WebP format and resized for different breakpoints:
+    * Mobile: ~500px
+    * Large phones & tablets: ~900px
+    * Laptops/desktop hero image: up to 1400px
+However, despite these optimisations, Lighthouse still flags the hero and images from the Home and About pages as too large for mobile.
+Further reducing image sizes would degrade visual quality, which is important for a food-focused design. The current sizes strike a balance between performance and design clarity.
+
+⸻
 
 #### Home page Lighthouse issues:
 <p align="center">
