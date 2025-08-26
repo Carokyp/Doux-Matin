@@ -183,6 +183,8 @@ a.btn-lg {
     object-fit: cover;
 }
 
+/* Social media section */
+
 .social-media a {
     color: var(--primary-color);
 }
@@ -351,13 +353,13 @@ a.return-home {
 /* Large mobile to tablets */
 @media (min-width: 576px) and (max-width:768px) {
 
-    .h1-about {
-        font-size: 1rem;
-    }
-
     .hero {
         background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
         height: 50vh;
+    }
+
+    .h1-about {
+        font-size: 1rem;
     }
 
     .about-text {
@@ -371,6 +373,11 @@ a.return-home {
 
 /* Tablets and small laptops */
 @media (min-width: 768px) and (max-width:992px) {
+
+    .hero {
+        background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
+        height: 50vh;
+    }
 
     .hero h1 {
         font-size: 7rem;
@@ -393,15 +400,15 @@ a.return-home {
     .about-text {
         font-size: 0.75rem;
     }
+}
+
+/*large laptops to extra large laptops */
+@media (min-width: 992px) and (max-width: 1400px) {
 
     .hero {
         background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
         height: 50vh;
     }
-}
-
-/*large laptops to extra large laptops */
-@media (min-width: 992px) and (max-width: 1400px) {
 
     .navbar a {
         font-size: 1.5rem;
@@ -433,6 +440,11 @@ a.return-home {
         font-size: 2rem;
     }
 
+    .text-box3 h1 {
+        font-size: 2.3rem;
+        margin-bottom: 3rem;
+    }
+
     .text-box3 h2 {
         font-size: 1.5rem;
     }
@@ -440,20 +452,6 @@ a.return-home {
     .text-box3 p {
         margin-bottom: 3rem;
         font-size: 1.3rem;
-    }
-
-    .contact h1 {
-        font-size: 2.3rem;
-        margin-bottom: 3rem;
-    }
-
-    .contact h2 {
-        font-size: 1.3rem;
-    }   
-
-    .contact {
-        font-size: 1.4rem;
-        margin-bottom: 1rem;
     }
 
     .booking-confirmation .thank-you {
@@ -471,15 +469,15 @@ a.return-home {
     .about-text {
         font-size: 1rem;
     }
+}
+
+/* Extra large laptops */
+@media (min-width: 1400px) {
 
     .hero {
         background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
         height: 50vh;
     }
-}
-
-/* Extra large laptops */
-@media (min-width: 1400px) {
 
     .navbar a {
         font-size: 1.8rem;
@@ -508,25 +506,17 @@ a.return-home {
         margin-bottom: 2rem;
     }
 
-    .contact h1 {
+    .text-box3 h1 {
         font-size: 3rem;
         margin-bottom: 3rem;
     }
 
-    .contact p {
-        margin-bottom: 3rem;
-    }
-
-    .contact h2 {
-        font-size: 2rem;
-    }
-
-    .contact {
-        font-size: 1.8rem;
-    }
-
     .text-box3 h2 {
         font-size: 1.8rem;
+    }
+
+    .text-box3 p {
+        margin-bottom: 3rem;
     }
 
     /* Booking Form Section */
@@ -556,11 +546,6 @@ a.return-home {
 
     .about-text {
         font-size: 1.5rem;
-    }
-
-    .hero {
-        background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
-        height: 50vh;
     }
 
 }
