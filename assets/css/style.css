@@ -355,7 +355,7 @@ a.return-home {
 @media (min-width: 576px) and (max-width:768px) {
 
     .hero {
-        background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
+        background: url('../images/brunch3-900px.webp') center/cover no-repeat;
         height: 50vh;
     }
 
@@ -376,7 +376,7 @@ a.return-home {
 @media (min-width: 768px) and (max-width:992px) {
 
     .hero {
-        background: url('../images/brunch3-1400px.webp') center/cover no-repeat;
+        background: url('../images/brunch3-900px.webp') center/cover no-repeat;
         height: 50vh;
     }
 
