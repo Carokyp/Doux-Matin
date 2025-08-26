@@ -379,13 +379,12 @@ Full results are available on GitHub here:
 Using Lighthouse within Chrome Developer Tools, each page of the website was evaluated for performance on both desktop and mobile devices. The results are summarised in the tables below. Testing identified a few recurring issues, including large image sizes, noticeable layout shifts, and the use of third-party cookies due to embedded Google Maps.
 
 Images across the site have been optimised to reduce file size. All images and the hero image have been optimised into WebP format and resized for different breakpoints:
-    * Mobile: ~500px
-    * Large phones & tablets: ~900px
-    * Laptops/desktop hero image: up to 1400px
+   * Mobile: ~500px
+   * Large phones & tablets: ~900px
+   * Laptops/desktop hero image: up to 1400px 
+     
 However, despite these optimisations, Lighthouse still flags the hero and images from the Home and About pages as too large for mobile.
 Further reducing image sizes would degrade visual quality, which is important for a food-focused design. The current sizes strike a balance between performance and design clarity.
-
-⸻
 
 #### Home page Lighthouse issues:
 <p align="center">
@@ -414,7 +413,7 @@ Further reducing image sizes would degrade visual quality, which is important fo
 
 **After acting on the result of the first test**
 
-<img width="1316" height="254" alt="Image" src="https://github.com/user-attachments/assets/ca6e0046-3636-4aa5-938c-34da796afca2" />
+<img width="1316" height="250" alt="Image" src="https://github.com/user-attachments/assets/84ae9f8d-f718-4bbc-87a3-82bee92144dd" />
 
 ### Testing User Stories
 
