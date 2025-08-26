@@ -324,8 +324,7 @@ Result for style.css
 
 Full validation results are available on GitHub here :
    * [CSS Validation](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/css-validation/css-validation-result.png)
-   * [CSS Warning 1](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/css-validation/css-warning-1.png)
-   * [CSS Warning 2](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/css-validation/css-warning2.png)
+   * [CSS Warnings](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/css-validation)
 
 ### CSS Validation Notes: 
 
@@ -374,7 +373,7 @@ The layout, images, buttons, and text remain visible and properly aligned on mob
 <img width="1375" height="652" alt="Image" src="https://github.com/user-attachments/assets/3e862090-fe4c-4343-b8f3-a423d23fb978" /><br>
 
 Full results are available on GitHub here:
-* [Test case](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/test-case-and-result)
+* [Test Case](https://github.com/Carokyp/Doux-Matin/blob/main/documentation/test-case-and-result)
 
 ### Performance
 
