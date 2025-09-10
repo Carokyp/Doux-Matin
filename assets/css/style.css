@@ -66,9 +66,9 @@ body {
 }
 
 .navbar .nav-link {
-  position: relative; /* required for ::after positioning */
+  position: relative; /* for ::after */
   display: inline-block; /* shrink to text width */
-  padding-bottom: 8px; /* space for underline */
+  padding-bottom: 8px;
   color: var(--secondary-color) !important;
   font-family: var(--secondary-font);
   font-weight: 600;
@@ -80,38 +80,38 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 2px; /* underline position */
+  bottom: 2px;
   height: 3px;
   width: 0;
   background-color: var(--secondary-color);
   transition: width 0.25s ease;
 }
 
-/* Hover underline */
+/* Hover underline on each link individually */
 .navbar .nav-link:hover::after,
 .navbar .nav-link:focus::after {
   width: 100%;
 }
 
-/* Active (HOME by default) */
+/* Active link underline stays by default */
 .navbar .nav-link.active::after {
   width: 100%;
 }
 
-/* If another link is hovered, hide underline from the active one */
-.navbar:hover .nav-link.active:not(:hover)::after {
+/* Hide active underline only if another link is hovered */
+.navbar .nav-item:hover .nav-link.active:not(:hover)::after {
   width: 0;
 }
 
-/* On mobile toggler: same behaviour inside dropdown */
+/* Mobile: collapsed menu */
 .navbar-collapse.show .nav-link.active:not(:hover)::after {
-  width: 100%; /* keep underline by default */
+  width: 100%; /* keep underline for active by default */
 }
 .navbar-collapse.show .nav-link:hover::after {
-  width: 100%; /* underline moves on hover/tap */
+  width: 100%; /* hover underline */
 }
-.navbar-collapse.show:hover .nav-link.active:not(:hover)::after {
-  width: 0; /* active disappears when another hovered */
+.navbar-collapse.show .nav-item:hover .nav-link.active:not(:hover)::after {
+  width: 0; /* active disappears if another link hovered */
 }
 
 /* #endregion */
@@ -484,8 +484,8 @@ a.return-home {
   }
 
   .tooltip-text::after {
-    top : 155%; /* position below the menu item */
-    left: 50%; /* center horizontally relative to parent */
+    top: 155%; /* position below the menu item */
+    left: 50%;  /* center horizontally relative to parent */
     transform: translateX(-50%); /* actual centering */
   }
 
