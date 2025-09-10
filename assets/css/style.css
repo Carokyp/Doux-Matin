@@ -231,6 +231,37 @@ a.btn-lg {
     box-shadow: 5px 5px 2px 2px #9b390f; /* Add shadow on hover */
 }
 
+.tooltip-text-btn {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip hidden by default */
+.tooltip-text-btn::after {
+  content: "Opens in new tab (PDF)"; /* change text as needed per button if needed */
+  position: absolute;
+  top: 115%; /* bottom the button */
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 4px 8px;
+  border-radius: 0px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 20;
+  text-shadow: none;
+}
+
+/* show on hover */
+.tooltip-text-btn:hover::after {
+  opacity: 1;
+}
+
+
 /* #endregion */
 
 
