@@ -116,18 +116,19 @@ body {
 
 /* #endregion */
 
-/* Tooltip on the span */
+/* Tooltip container */
 .tooltip-text {
   position: relative;
   display: inline-block;
 }
 
-/* hidden by default */
+/* Tooltip itself (hidden by default) */
 .tooltip-text::after {
   content: "Opens in new tab (PDF)";
   position: absolute;
-  bottom: -30px;
-  left: 0;
+  top: 50%;            /* vertically centered */
+  left: 100%;          /* appear to the right of the menu item */
+  transform: translateY(-50%);  /* adjust vertical center */
   background: var(--primary-color);
   color: var(--secondary-color);
   padding: 4px 8px;
@@ -139,9 +140,10 @@ body {
   transition: opacity 0.2s ease-in-out;
   z-index: 20;
   text-shadow: none;
+  margin-left: 8px;    /* space between menu and tooltip */
 }
 
-/* show on hover */
+/* Show on hover */
 .tooltip-text:hover::after {
   opacity: 1;
 }
@@ -477,6 +479,7 @@ a.return-home {
   }
 
   .tooltip-text::after {
+    top : 155%; /* position below the menu item */
     left: 50%; /* center horizontally relative to parent */
     transform: translateX(-50%); /* actual centering */
   }
@@ -523,6 +526,7 @@ a.return-home {
   }
 
   .tooltip-text::after {
+    top : 155%; /* position below the menu item */
     left: 50%; /* center horizontally relative to parent */
     transform: translateX(-50%); /* actual centering */
   }
@@ -601,6 +605,7 @@ a.return-home {
   }
 
   .tooltip-text::after {
+    top : 155%; /* position below the menu item */
     left: 50%; /* center horizontally relative to parent */
     transform: translateX(-50%); /* actual centering */
   }
