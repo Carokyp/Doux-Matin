@@ -247,8 +247,8 @@ a.btn-lg {
   top: 115%; /* bottom the button */
   left: 50%;
   transform: translateX(-50%);
-  background: var(--secondary-color);
-  color: var(--primary-color);
+  background: var(--primary-color);
+  color: var(--secondary-color);
   padding: 4px 8px;
   border-radius: 0px;
   font-size: 0.8rem;
@@ -465,6 +465,11 @@ a.return-home {
     margin-top: 0;
     aspect-ratio: auto; /* let it grow naturally on mobile */
   }
+
+  /* Tooltip hidden by default */
+.tooltip-text-btn::after {
+  padding: 4px 7px;
+}
 }
 
 /* Tablets and small laptops */
