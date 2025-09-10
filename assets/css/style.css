@@ -61,29 +61,86 @@ body {
     font-size: 1.2rem;
 }
 
-/* Active nav link with custom underline */
-.navbar .nav-link.active {
-    position: relative; /* Position relative for pseudo-element */
-    display: inline-block; /* Ensure the element is inline-block */
+.navbar .nav-link {
+  position: relative;  /* required for ::after positioning */
+  display: inline-block; /* shrink to text width */
+  padding-bottom: 8px; /* space for underline */
+  color: var(--secondary-color) !important;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
-.nav-text {
-    position: relative; /* Establish positioning context for pseudo-element */
-    display: inline-block; /* shrink to text width */
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px; /* underline position */
+  height: 3px;
+  width: 0;
+  background-color: var(--secondary-color);
+  transition: width 0.25s ease;
 }
 
-/* Active nav link underline */
-.nav-link.active .nav-text::after {
-    content: ''; /* Create empty pseudo-element for underline */
-    position: absolute; /* Position underline relative to .nav-text */
-    bottom: 0; /* Place underline at the bottom of the text */
-    left: 0; /* Align underline to the left edge */
-    width: 100%; /* matches text width */
-    height: 3px; /* Set underline thickness */
-    background-color: var(--secondary-color);
+/* Hover underline */
+.navbar .nav-link:hover::after,
+.navbar .nav-link:focus::after {
+  width: 100%;
+}
+
+/* Active (HOME by default) */
+.navbar .nav-link.active::after {
+  width: 100%;
+}
+
+/* If another link is hovered, hide underline from the active one */
+.navbar:hover .nav-link.active:not(:hover)::after {
+  width: 0;
+}
+
+/* On mobile toggler: same behaviour inside dropdown */
+.navbar-collapse.show .nav-link.active:not(:hover)::after {
+  width: 100%; /* keep underline by default */
+}
+.navbar-collapse.show .nav-link:hover::after {
+  width: 100%; /* underline moves on hover/tap */
+}
+.navbar-collapse.show:hover .nav-link.active:not(:hover)::after {
+  width: 0; /* active disappears when another hovered */
 }
 
 /* #endregion */
+
+/* Tooltip on the span */
+.tooltip-text {
+  position: relative;
+  display: inline-block;
+}
+
+/* hidden by default */
+.tooltip-text::after {
+  content: "Opens in new tab (PDF)";
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 4px 8px;
+  border-radius: 0px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 20;
+  text-shadow: none;
+}
+
+/* show on hover */
+.tooltip-text:hover::after {
+  opacity: 1;
+}
 
 #body-max-width {
     max-width: 1800px; /* Maximum width for large screens */
@@ -384,6 +441,12 @@ a.return-home {
         font-size: 7rem;
     }
 
+
+    .tooltip-text::after {
+        left: 50%; /* center horizontally relative to parent */
+        transform: translateX(-50%); /* actual centering */
+    }
+
     .breakfast-text,
     .get-fuzzy-text {
         font-size: 1.8rem;
@@ -425,6 +488,12 @@ a.return-home {
 
     #tagline p {
         font-size: 3rem;
+    }
+
+    .tooltip-text::after {
+
+        left: 50%; /* center horizontally relative to parent */
+        transform: translateX(-50%); /* actual centering */
     }
 
     .breakfast-text {
@@ -499,6 +568,12 @@ a.return-home {
 
     #tagline p {
         font-size: 4rem;
+    }
+
+    .tooltip-text::after {
+
+        left: 50%; /* center horizontally relative to parent */
+        transform: translateX(-50%); /* actual centering */
     }
 
     .breakfast-text,
