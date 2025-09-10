@@ -1,6 +1,6 @@
 # Doux-Matin
 <div align="center">
-  <img width="710" height="430" alt="Image" src="https://github.com/user-attachments/assets/00d347c2-1490-4f1e-bef6-1a02a37768d7" /><br>
+  <img width="1188" height="622" alt="Image" src="https://github.com/user-attachments/assets/0406e520-3ee5-4dc3-b819-73e6a3c3766d" /><br>
 </div><br>
 
 [Link to Live Website](https://carokyp.github.io/Doux-Matin/)
@@ -115,7 +115,7 @@ This allows the website to display properly and remain user-friendly on all devi
 
 * __Home Page__  
   <p align="center">
-    <img width="900" height="701" alt="Image" src="https://github.com/user-attachments/assets/61c4289d-c455-4a10-bd56-bac1198ae19c" />
+    <img width="860.5" height="433" alt="Image" src="https://github.com/user-attachments/assets/07e1a4b9-12ed-4c3b-ad79-76d046ab9cf3" />
   </p>
 
 * __Book Now Page__  
@@ -176,7 +176,9 @@ On smaller screens, the navigation transforms into a hamburger menu. When the us
 #### Hero image
 Include a top-view photograph of a brunch with a text overlay of the name of the cafe
 
-<img width="1142" height="573" alt="Image" src="https://github.com/user-attachments/assets/aaa50de3-cf13-4195-9a2a-00fd4214dfc7" />
+  <p align="center">
+    <img width="860.5" height="433" alt="Image" src="https://github.com/user-attachments/assets/07e1a4b9-12ed-4c3b-ad79-76d046ab9cf3" />
+  </p>
 
 #### Tagline
 ‘’Doux Matin where mornings unfold softly‘’ tagline appears on the main page below the hero image 
@@ -209,14 +211,14 @@ The menu opens in a new browser tab in a PDF format to allow users to browse the
 The About Us page provides more details about who created and runs the business, as well as the team behind it. It also emphasises the café’s commitment to high-quality food and fresh ingredients.<br>
 
 <div align="center">
-  <img width="666" height="404" alt="Image" src="https://github.com/user-attachments/assets/cb9905b5-d211-42dc-8484-69fe1581582e" />
+  <img width="858" height="409" alt="Image" src="https://github.com/user-attachments/assets/4f04c4ee-d426-4329-a34c-08c5386b9ac7" />
 </div>
 
 #### Booking Page
 Users are asked to provide their first name, last name, email address, phone number, event type, number of guests, and the desired booking date. They also have the option to include a message for any additional information or special requests.
 
 <div align="center">
-<img width="859" height="508" alt="Image" src="https://github.com/user-attachments/assets/e5a04c07-76a3-45dd-a642-41e88e80a25f" /><br>
+<img width="858.5" height="429" alt="Image" src="https://github.com/user-attachments/assets/038c6192-0323-4dc6-8640-9cd582202643" />
 </div>
 
 <br>Upon submitting the form, a new tab opens displaying a thank you message along with a button to return to the homepage.
