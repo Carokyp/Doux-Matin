@@ -216,7 +216,7 @@ body {
 
 .card {
   border: none;
-  border-radius: 12px;
+  border-radius: 2px;
   background-color: #fcf6f2;
 }
 
@@ -307,12 +307,6 @@ a.btn-lg {
 }
 
 /* #endregion Button styling */
-
-/* Main image object fit helper, ensure images scale and crop to fully cover their container 
-.object-fit-cover {
-  -o-object-fit: cover;
-  object-fit: cover;
-} */
 
 /* Social media section */
 
@@ -454,51 +448,29 @@ a.return-home {
   color: var(--primary-color);
 }
 
-/* Custom images positioning helper 
-.custom-position img {
-  -o-object-position: 0% 30%;
-  object-position: 0% 30%;
+.text-box-4{
+  background-color: var(--secondary-color);
 }
 
-.custom-position-2 img {
-  -o-object-position: 40% 35%;
-  object-position: 40% 35%;
-}
-
-.custom-position-3 img {
-  -o-object-position: 0% 50%;
-  object-position: 0% 50%;
-}
-
-.about-text {
-  font-family: var(--secondary-font);
+.about-title{
+  font-family: var(--primary-font);
   color: var(--primary-color);
-}*/
+  line-height: 2.5rem;
+}
+
 
 /* Responsive Design Media Queries */
+
+/* Small mobile devices */
+@media (min-width: 375px) and (max-width: 576px) {
+
+}
 
 /* Large mobile to tablets */
 @media (min-width: 576px) and (max-width: 768px) {
   .hero {
     background: url("../images/brunch3-900px.webp") center/cover no-repeat;
     height: 50vh;
-  }
-
-  .h1-about {
-    font-size: 1rem;
-  }
-
-  .about-text {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    margin-top: 0;
-    aspect-ratio: auto;
-    /* let it grow naturally on mobile */
-  }
-
-  /* Tooltip hidden by default */
-  .tooltip-text-btn::after {
-    padding: 4px 7px;
   }
 }
 
@@ -507,24 +479,6 @@ a.return-home {
   .hero {
     background: url("../images/brunch3-900px.webp") center/cover no-repeat;
     height: 50vh;
-  }
-
-  .hero h1 {
-    font-size: 7rem;
-  }
-
-  .tooltip-text::after {
-    top: 155%;
-    /* position below the menu item */
-    left: 50%;
-    /* center horizontally relative to parent */
-    transform: translateX(-50%);
-    /* actual centering */
-  }
-
-  .breakfast-text,
-  .get-fuzzy-text {
-    font-size: 1.8rem;
   }
 
   .booking-form-header h3 {
@@ -551,54 +505,6 @@ a.return-home {
     font-size: 1.5rem;
   }
 
-  .hero {
-    min-height: 100vh;
-  }
-
-  .hero h1 {
-    font-size: 10rem;
-  }
-
-  #tagline p {
-    font-size: 3rem;
-  }
-
-  .tooltip-text::after {
-    top: 155%;
-    /* position below the menu item */
-    left: 50%;
-    /* center horizontally relative to parent */
-    transform: translateX(-50%);
-    /* actual centering */
-  }
-
-  .breakfast-text {
-    font-size: 2.8rem;
-    line-height: 5rem;
-  }
-
-  .get-fuzzy-text {
-    font-size: 2.8rem;
-    line-height: 5rem;
-  }
-
-  .btn-lg {
-    font-size: 2rem;
-  }
-
-  .text-box3 h1 {
-    font-size: 2.3rem;
-    margin-bottom: 3rem;
-  }
-
-  .text-box3 h2 {
-    font-size: 1.5rem;
-  }
-
-  .text-box3 p {
-    margin-bottom: 3rem;
-    font-size: 1.3rem;
-  }
 
   .contact {
     font-size: 1.4rem;
@@ -633,49 +539,12 @@ a.return-home {
     font-size: 1.8rem;
   }
 
-  .hero {
-    min-height: 100vh;
-  }
-
   .hero h1 {
-    font-size: 13rem;
+    font-size: 9rem;
   }
 
   #tagline p {
     font-size: 4rem;
-  }
-
-  .tooltip-text::after {
-    top: 155%;
-    /* position below the menu item */
-    left: 50%;
-    /* center horizontally relative to parent */
-    transform: translateX(-50%);
-    /* actual centering */
-  }
-
-  .breakfast-text,
-  .get-fuzzy-text {
-    font-size: 3.8rem;
-    line-height: 6rem;
-  }
-
-  .btn-lg {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .text-box3 h1 {
-    font-size: 3rem;
-    margin-bottom: 3rem;
-  }
-
-  .text-box3 h2 {
-    font-size: 1.8rem;
-  }
-
-  .text-box3 p {
-    margin-bottom: 3rem;
   }
 
   .contact {
