@@ -2,47 +2,77 @@
 :root {
   --primary-font: "Pacifico", sans-serif;
   --secondary-font: "Onest", sans-serif;
-  --primary-color: #b5552c; /* Chocolate Brown */
-  --secondary-color: #ffffff; /* White */
+  --primary-color: #b5552c;
+  /* Chocolate Brown */
+  --secondary-color: #ffffff;
+  /* White */
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page layout */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 /* Fixing cross-browser issue in Safari and Firefox for 'Event Type' dropdown */
 select {
-  background-color: white; /* normal background */
-  color: #b5552c; /* text color */
-  -webkit-appearance: none; /* Safari/Chrome */
-  -moz-appearance: none; /* Firefox */
-  appearance: none; /* standard */
+  background-color: white;
+  /* normal background */
+  color: #b5552c;
+  /* text color */
+  -webkit-appearance: none;
+  /* Safari/Chrome */
+  -moz-appearance: none;
+  /* Firefox */
+  appearance: none;
+  /* standard */
 }
 
 /* General body styling */
 body {
-  background-color: #fcf6f2; /* Light brown background */
+  background-color: #fcf6f2;
+  /* Light brown background */
 }
 
 /* #region Bootstrap Navbar styles */
 
 /* Bootstrap navbar styling */
 .navbar {
-  background-color: rgba(
-    155,
-    57,
-    15,
-    0.6
-  ) !important; /* Semi-transparent background */
-  -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
-  backdrop-filter: blur(10px); /* Blur effect */
-  position: fixed; /* keeps the navbar to the top */
-  z-index: 10; /* ensures the navbar is above other content */
-  width: 100%; /* Full width */
-  text-shadow: 2px 2px 1px rgba(116, 62, 44, 1); /* Drop shadow for text*/
+  background-color: rgba(155,
+      57,
+      15,
+      0.6) !important;
+  /* Semi-transparent background */
+  -webkit-backdrop-filter: blur(10px);
+  /* Blur effect for Safari */
+  backdrop-filter: blur(10px);
+  /* Blur effect */
+  position: fixed;
+  /* keeps the navbar to the top */
+  z-index: 10;
+  /* ensures the navbar is above other content */
+  width: 100%;
+  /* Full width */
+  text-shadow: 2px 2px 1px rgba(116, 62, 44, 1);
+  /* Drop shadow for text*/
 }
 
 /* Bootstrap navbar styling for the Booking Page & About Page*/
 .navbar-booking,
 .navbar-about {
-  position: sticky; /* Keeps the navbar at the top */
-  top: 0; /* Sticks to the top */
+  position: sticky;
+  /* Keeps the navbar at the top */
+  top: 0;
+  /* Sticks to the top */
 }
 
 /* Change the border of the navbar toggler to white */
@@ -61,13 +91,16 @@ body {
   color: var(--secondary-color) !important;
 
   font-family: var(--secondary-font);
-  font-weight: 600; /* bold text */
+  font-weight: 600;
+  /* bold text */
   font-size: 1.2rem;
 }
 
 .navbar .nav-link {
-  position: relative; /* for ::after */
-  display: inline-block; /* shrink to text width */
+  position: relative;
+  /* for ::after */
+  display: inline-block;
+  /* shrink to text width */
   padding-bottom: 8px;
   color: var(--secondary-color) !important;
   font-family: var(--secondary-font);
@@ -107,56 +140,28 @@ body {
 .navbar-collapse.show .nav-link.active:not(:hover)::after {
   width: 100%; /* keep underline for active by default */
 }
+
 .navbar-collapse.show .nav-link:hover::after {
   width: 100%; /* hover underline */
 }
+
 .navbar-collapse.show .nav-item:hover .nav-link.active:not(:hover)::after {
   width: 0; /* active disappears if another link hovered */
 }
 
 /* #endregion */
 
-/* Tooltip container */
-.tooltip-text {
-  position: relative;
-  display: inline-block;
-}
-
-/* Tooltip itself (hidden by default) */
-.tooltip-text::after {
-  content: "Opens in new tab (PDF)";
-  position: absolute;
-  top: 50%;            /* vertically centered */
-  left: 100%;          /* appear to the right of the menu item */
-  transform: translateY(-50%);  /* adjust vertical center */
-  background: var(--primary-color);
-  color: var(--secondary-color);
-  padding: 4px 8px;
-  border-radius: 0px;
-  font-size: 0.8rem;
-  white-space: nowrap;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease-in-out;
-  z-index: 20;
-  text-shadow: none;
-  margin-left: 8px;    /* space between menu and tooltip */
-}
-
-/* Show on hover */
-.tooltip-text:hover::after {
-  opacity: 1;
-}
-
 #body-max-width {
-  max-width: 1800px; /* Maximum width for large screens */
-  margin: 0 auto; /* Center the content */
+  max-width: 1800px;
+  /* Maximum width for large screens */
+  margin: 0 auto;
+  /* Center the content */
 }
 
 .hero {
   background: url("../images/brunch3-500px.webp") center/cover no-repeat;
-  min-height: 400px;
-  max-width: 1800px;
+  min-height: 50vh;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -180,24 +185,66 @@ body {
   background-color: var(--primary-color);
 }
 
-.text-box3 {
-  background-color: var(--secondary-color);
-}
-
-.text-box3 h2 {
-  font-size: 1rem;
-}
-
 /* Text in boxes */
 .breakfast-text,
 .get-fuzzy-text {
   font-family: var(--primary-font);
-  font-size: 1.8rem;
   color: var(--secondary-color);
-  gap: 1rem;
 }
 
-/* Contact Section */
+
+/* #region Menu Section */
+.menu-category-container {
+  background-color: var(--primary-color, #b5552c);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.menu-category-title {
+  color: var(--secondary-color, #ffffff);
+  font-weight: 600;
+  font-family: 'Onest', sans-serif;
+}
+
+.brunch-text {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  background-color: #fcf6f2;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  color: #b5552c;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #5a3a2b;
+  margin-bottom: 0.5rem;
+}
+
+.fw-bold {
+  color: #b5552c;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* #endregion Menu Section */
+
+/* #region Contact Section */
 .contact {
   color: var(--primary-color);
 }
@@ -209,69 +256,63 @@ body {
   font-size: 1.8rem;
 }
 
+.card.contact-card {
+  background-color: var(--secondary-color);
+  border-radius: 0px;
+}
+
+#find-us {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+}
+
+.contact-card>h2,
+p {
+  color: var(--primary-color);
+}
+
+/* #endregion Menu Section */
+
 /* #region Button styling */
 
 .btn-lg {
-  display: inline-block; /* Make the button a block element */
+  display: block;
+  margin: 0 auto;
+
   font-family: var(--secondary-font);
-  font-weight: 700;
+
+  min-width: 50px;
+  max-width: 200px;
 
   background-color: var(--secondary-color);
   color: var(--primary-color);
 
-  border: none; /* Remove default border */
-  border-radius: 0; /* No rounded corners */
+  border-radius: 0;
+  /* No rounded corners */
 }
 
 a.btn-lg {
-  text-decoration: none; /* Remove underline from links */
+  text-decoration: none;
+  /* Remove underline from links */
 }
 
 .btn-lg:hover {
   background-color: var(--secondary-color);
   font-family: var(--secondary-font);
   color: var(--primary-color);
-  -webkit-box-shadow: 5px 5px 2px 2px #9b390f; /* Add shadow on hover for Safari */
-  box-shadow: 5px 5px 2px 2px #9b390f; /* Add shadow on hover */
+  -webkit-box-shadow: 5px 5px 2px 2px #9b390f;
+  /* Add shadow on hover for Safari */
+  box-shadow: 5px 5px 2px 2px #9b390f;
+  /* Add shadow on hover */
 }
 
-.tooltip-text-btn {
-  position: relative;
-  display: inline-block;
-}
+/* #endregion Button styling */
 
-/* Tooltip hidden by default */
-.tooltip-text-btn::after {
-  content: "Opens in new tab (PDF)"; /* change text as needed per button if needed */
-  position: absolute;
-  top: 115%; /* bottom the button */
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--primary-color);
-  color: var(--secondary-color);
-  padding: 4px 8px;
-  border-radius: 0px;
-  font-size: 0.8rem;
-  white-space: nowrap;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease-in-out;
-  z-index: 20;
-  text-shadow: none;
-}
-
-/* show on hover */
-.tooltip-text-btn:hover::after {
-  opacity: 1;
-}
-
-/* #endregion */
-
-/* Main image object fit helper, ensure images scale and crop to fully cover their container */
+/* Main image object fit helper, ensure images scale and crop to fully cover their container 
 .object-fit-cover {
   -o-object-fit: cover;
   object-fit: cover;
-}
+} */
 
 /* Social media section */
 
@@ -327,50 +368,50 @@ select {
 }
 
 #phone::-webkit-input-placeholder {
-  color: var(
-    --primary-color
-  ); /* Change placeholder color for Chrome, Safari, newer Opera, Edge */
+  color: var(--primary-color);
+  /* Change placeholder color for Chrome, Safari, newer Opera, Edge */
   opacity: 0.7;
 }
 
 #phone::-moz-placeholder {
-  color: var(--primary-color); /* Change placeholder color for Firefox */
+  color: var(--primary-color);
+  /* Change placeholder color for Firefox */
   opacity: 0.7;
 }
 
 #phone:-ms-input-placeholder {
-  color: var(--primary-color); /* Change placeholder color Internet Explorer */
+  color: var(--primary-color);
+  /* Change placeholder color Internet Explorer */
   opacity: 0.7;
 }
 
 #phone::-ms-input-placeholder {
-  color: var(
-    --primary-color
-  ); /* Change placeholder color for Edge (Legacy, pre-Chromium) */
+  color: var(--primary-color);
+  /* Change placeholder color for Edge (Legacy, pre-Chromium) */
   opacity: 0.7;
 }
 
 #message::-webkit-input-placeholder {
-  color: var(
-    --primary-color
-  ); /* Change placeholder color for Chrome, Safari, newer Opera, Edge */
+  color: var(--primary-color);
+  /* Change placeholder color for Chrome, Safari, newer Opera, Edge */
   opacity: 0.7;
 }
 
 #message::-moz-placeholder {
-  color: var(--primary-color); /* Change placeholder color for Firefox */
+  color: var(--primary-color);
+  /* Change placeholder color for Firefox */
   opacity: 0.7;
 }
 
 #message:-ms-input-placeholder {
-  color: var(--primary-color); /* Change placeholder color Internet Explorer */
+  color: var(--primary-color);
+  /* Change placeholder color Internet Explorer */
   opacity: 0.7;
 }
 
 #message::-ms-input-placeholder {
-  color: var(
-    --primary-color
-  ); /* Change placeholder color for Edge (Legacy, pre-Chromium) */
+  color: var(--primary-color);
+  /* Change placeholder color for Edge (Legacy, pre-Chromium) */
   opacity: 0.7;
 }
 
@@ -387,30 +428,33 @@ select {
   align-items: start;
   height: 100%;
   font-size: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 3px;
 }
 
 /* Autofill input styling */
 input:-webkit-autofill {
-  -webkit-text-fill-color: var(
-    --primary-color
-  ); /* Change text color of the autofill */
+  -webkit-text-fill-color: var(--primary-color);
+  /* Change text color of the autofill */
 }
 
 /* Thank you return button styling */
 a.return-home {
   text-decoration: none;
   font-size: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 3px;
 }
 
 /* #endregion */
 
 /* About Section Styles */
-.about-title > h1 {
+.about-title>h1 {
   font-family: var(--primary-font);
   color: var(--primary-color);
 }
 
-/* Custom images positioning helper */
+/* Custom images positioning helper 
 .custom-position img {
   -o-object-position: 0% 30%;
   object-position: 0% 30%;
@@ -429,24 +473,9 @@ a.return-home {
 .about-text {
   font-family: var(--secondary-font);
   color: var(--primary-color);
-}
+}*/
 
 /* Responsive Design Media Queries */
-
-/* small mobile devices */
-@media (min-width: 375px) and (max-width: 576px) {
-  .hero h1 {
-    font-size: 6rem;
-  }
-
-  .text-box {
-    padding: 2rem;
-  }
-
-  .submit-button {
-    font-size: 1rem;
-  }
-}
 
 /* Large mobile to tablets */
 @media (min-width: 576px) and (max-width: 768px) {
@@ -463,13 +492,14 @@ a.return-home {
     font-size: 1.2rem;
     margin-bottom: 1rem;
     margin-top: 0;
-    aspect-ratio: auto; /* let it grow naturally on mobile */
+    aspect-ratio: auto;
+    /* let it grow naturally on mobile */
   }
 
   /* Tooltip hidden by default */
-.tooltip-text-btn::after {
-  padding: 4px 7px;
-}
+  .tooltip-text-btn::after {
+    padding: 4px 7px;
+  }
 }
 
 /* Tablets and small laptops */
@@ -484,9 +514,12 @@ a.return-home {
   }
 
   .tooltip-text::after {
-    top: 155%; /* position below the menu item */
-    left: 50%;  /* center horizontally relative to parent */
-    transform: translateX(-50%); /* actual centering */
+    top: 155%;
+    /* position below the menu item */
+    left: 50%;
+    /* center horizontally relative to parent */
+    transform: translateX(-50%);
+    /* actual centering */
   }
 
   .breakfast-text,
@@ -531,9 +564,12 @@ a.return-home {
   }
 
   .tooltip-text::after {
-    top : 155%; /* position below the menu item */
-    left: 50%; /* center horizontally relative to parent */
-    transform: translateX(-50%); /* actual centering */
+    top: 155%;
+    /* position below the menu item */
+    left: 50%;
+    /* center horizontally relative to parent */
+    transform: translateX(-50%);
+    /* actual centering */
   }
 
   .breakfast-text {
@@ -610,9 +646,12 @@ a.return-home {
   }
 
   .tooltip-text::after {
-    top : 155%; /* position below the menu item */
-    left: 50%; /* center horizontally relative to parent */
-    transform: translateX(-50%); /* actual centering */
+    top: 155%;
+    /* position below the menu item */
+    left: 50%;
+    /* center horizontally relative to parent */
+    transform: translateX(-50%);
+    /* actual centering */
   }
 
   .breakfast-text,
