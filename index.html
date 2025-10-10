@@ -73,14 +73,14 @@
 
     <!--Header-->
     <header>
-        <div class="hero d-flex justify-content-center align-items-center text-center">
+        <div id="body-max-width" class="hero d-flex justify-content-center align-items-center text-center ">
             <h1>Doux Matin</h1>
         </div>
     </header>
 
     <!--Main Content-->
     <main>
-        <div class="container-fluid px-2">
+        <div class="container-fluid px-2 px-lg-2 px-xl-2">
             <!-- Tagline -->
             <div class="row justify-content-center">
                 <div id="tagline" class="col-12 text-center fs-1 fw-bold my-2">
@@ -89,51 +89,52 @@
             </div>
 
             <!-- Breakfast / Brunch Section -->
-            <div class="row justify-content-center align-items-stretch g-2 mb-2">
+            <div id="body-max-width" class="row justify-content-center align-items-stretch g-2 g-xxl-3">
                 <!-- Text Block -->
-                <div class="col-12 col-md-4 col-lg-5 col-xl-4 d-flex">
-                    <div class="text-center text-box p-3 d-flex flex-column justify-content-center">
-                        <p class="fs-1 breakfast-text mb-3">
+                <div class="col-12 col-md-6 col-lg-6 d-flex">
+                    <div class="text-center text-box p-3 d-flex flex-column justify-content-center h-100 w-100">
+                        <p class="fs-2 breakfast-text mb-3">
                             Time for some breakfast or brunch?
                         </p>
-                        <a href="menu.html" class="btn-lg fs-3 fw-bold mx-auto">MENU</a>
+                        <a href="menu.html" class="btn-lg fs-4 fw-bold mx-auto">MENU</a>
                     </div>
                 </div>
 
                 <!-- Images as Cards -->
-                <div class="col-6 col-md-4 col-lg-3 col-xl-2 d-flex">
-                    <div class="card h-100 w-100">
+                <div class="col-6 col-md-3 col-lg-3 d-flex">
+                    <div class="card h-100 w-100 img1">
                         <img src="assets/images/french-toast-400px.webp" alt="French toast" />
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 col-xl-2 d-flex">
-                    <div class="card h-100 w-100">
+                <div class="col-6 col-md-3 col-lg-3 d-flex">
+                    <div class="card h-100 w-100 img2">
                         <img src="assets/images/croissant-400px.webp" alt="Croissants" />
                     </div>
                 </div>
             </div>
 
             <!-- Get Fizzy Section -->
-            <div class="row justify-content-center align-items-stretch g-2">
+            <div id="body-max-width" class="row justify-content-center align-items-stretch g-2 g-xxl-3 mb-2">
                 <!-- Text Block -->
-                <div class="col-12 col-md-4 col-lg-5 col-xl-4 d-flex order-md-2">
-                    <div class="text-center text-box p-3 d-flex flex-column justify-content-center">
-                        <p class="fs-1 get-fuzzy-text mb-3">
+                <div class="card col-12 col-md-6 col-lg-6 d-flex order-md-2">
+                    <div class="text-center text-box p-3 d-flex flex-column justify-content-center h-100 w-100">
+                        <p class="fs-3 get-fuzzy-text mb-3">
                             GET FIZZY!<br />
                             Bottomless Bubbles, Beer or Cocktails
                         </p>
-                        <a href="menu.html#bottomless-cocktail" class="btn-lg fs-3 fw-bold mx-auto">MORE DETAILS</a>
+                        <a href="menu.html#bottomless-cocktail" class="btn-lg fs-5 fw-bold mx-auto">MORE
+                            DETAILS</a>
                     </div>
                 </div>
 
                 <!-- Images as Cards -->
-                <div class="col-6 col-md-4 col-lg-3 col-xl-2 d-flex order-sm-1">
-                    <div class="card h-100 w-100">
+                <div class="col-6 col-md-3 col-lg-3 d-flex order-sm-1">
+                    <div class="card h-100 w-100 img3">
                         <img src="assets/images/brunch1-500px.webp" class="img-fluid h-100 w-100" alt="Brunch table" />
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 col-xl-2 d-flex order-sm-3">
-                    <div class="card h-100 w-100">
+                <div class="col-6 col-md-3 col-lg-3 d-flex order-sm-3">
+                    <div class="card h-100 w-100 img4">
                         <img src="assets/images/people-at-brunch-500px.webp" class="img-fluid h-100 w-100"
                             alt="People enjoying brunch" />
                     </div>
@@ -142,38 +143,45 @@
         </div>
 
         <!-- Contact Section -->
-        <div class="container-fluid px-2 py-2">
-            <div class="row g-3 align-items-stretch text-center">
+        <div id="body-max-width" class="container-fluid px-2 py-2">
+            <div class="row g-3 align-items-stretch">
                 <!-- Info Cards -->
-                <div class="col-12 col-md-6 col-lg-8 d-flex">
-                    <div class="card contact-card d-flex flex-column justify-content-center text-center w-100 py-3">
-                        <h1 id="find-us" class="fs-1 mb-2">Come and find us here</h1>
-                        <h2 class="fs-5 mb-1">Address</h2>
-                        <p class="mb-3">
-                            Doux Matin Brunch Café,<br />136 Borough High St, Southwark,<br />London
-                            SE1 1LB
-                        </p>
-                        <h2 class="fs-5 mb-1">Opening Hours</h2>
-                        <p class="mb-0">
-                            Monday – Friday: 9:00 AM – 3:00 PM<br />
-                            Saturday: 9:00 AM – 5:00 PM<br />
-                            Sunday: 9:00 AM – 4:00 PM
-                        </p>
+                <div class="col-12 col-md-8 col-lg-7 col-xl-5 d-flex">
+                    <div class="card contact-card d-flex flex-column justify-content-center w-100 h-100 py-3 px-md-3">
+                        <h1 id="find-us" class="fs-2 mb-4 text-center">Come and find us here</h1>
+
+                        <div class="row text-center">
+                            <!-- Address -->
+                            <div id="contact-address" class="col-12 col-md-6 col-lg-6 mb-3 mb-lg-0">
+                                <h2 class="fs-5 fw-bold">Address</h2>
+                                <p class="mb-0">
+                                    Doux Matin Brunch Café,<br>
+                                    136 Borough High St, Southwark,<br>
+                                    London SE1 1LB
+                                </p>
+                            </div>
+
+                            <!-- Opening Hours -->
+                            <div id="opening-hours" class="col-12 col-md-6 col-lg-6">
+                                <h2 class="fs-5 fw-bold mb-1">Opening Hours</h2>
+                                <p class="mb-0">
+                                    Monday – Friday: 9:00 AM – 3:00 PM<br>
+                                    Saturday: 9:00 AM – 5:00 PM<br>
+                                    Sunday: 9:00 AM – 4:00 PM
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Google Map Card -->
-                <div class="col-12 col-md-6 col-lg-4 d-flex">
-                    <div class="card h-100 w-100">
-                        <div id="google-map" class="ratio ratio-1x1">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.7905268861514!2d-0.0930935798919991!3d51.50255509424796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760358433cb10d%3A0xa7df8f926e630a94!2s136%20Borough%20High%20St%2C%20London!5e0!3m2!1sen!2suk!4v1753944672528!5m2!1sen!2suk"
-                                class="h-100 w-100" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"
-                                title="Google Map showing the location of Doux Matin café">
-                            </iframe>
-                        </div>
-                    </div>
+                <div class="col-12 col-md-4 col-lg-5 col-xl-7 d-flex">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.7905268861514!2d-0.0930935798919991!3d51.50255509424796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760358433cb10d%3A0xa7df8f926e630a94!2s136%20Borough%20High%20St%2C%20London!5e0!3m2!1sen!2suk!4v1753944672528!5m2!1sen!2suk"
+                            class="h-100 w-100" style="border:0; min-height: 200px;" allowfullscreen loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Google Map showing the location of Doux Matin café">
+                        </iframe>
                 </div>
             </div>
         </div>

@@ -138,15 +138,18 @@ body {
 
 /* Mobile: collapsed menu */
 .navbar-collapse.show .nav-link.active:not(:hover)::after {
-  width: 100%; /* keep underline for active by default */
+  width: 100%;
+  /* keep underline for active by default */
 }
 
 .navbar-collapse.show .nav-link:hover::after {
-  width: 100%; /* hover underline */
+  width: 100%;
+  /* hover underline */
 }
 
 .navbar-collapse.show .nav-item:hover .nav-link.active:not(:hover)::after {
-  width: 0; /* active disappears if another link hovered */
+  width: 0;
+  /* active disappears if another link hovered */
 }
 
 /* #endregion */
@@ -448,11 +451,11 @@ a.return-home {
   color: var(--primary-color);
 }
 
-.text-box-4{
+.text-box-4 {
   background-color: var(--secondary-color);
 }
 
-.about-title{
+.about-title {
   font-family: var(--primary-font);
   color: var(--primary-color);
   line-height: 2.5rem;
@@ -462,9 +465,7 @@ a.return-home {
 /* Responsive Design Media Queries */
 
 /* Small mobile devices */
-@media (min-width: 375px) and (max-width: 576px) {
-
-}
+@media (min-width: 375px) and (max-width: 576px) {}
 
 /* Large mobile to tablets */
 @media (min-width: 576px) and (max-width: 768px) {
@@ -472,6 +473,22 @@ a.return-home {
     background: url("../images/brunch3-900px.webp") center/cover no-repeat;
     height: 50vh;
   }
+
+  .text-box {
+    max-height: 200px;
+  }
+
+  .card,
+  img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  #contact-address,
+  #opening-hours{
+    font-size: 0.8rem;
+  }
+
 }
 
 /* Tablets and small laptops */
@@ -501,10 +518,23 @@ a.return-home {
     height: 50vh;
   }
 
+  .hero h1 {
+    font-size: 8rem;
+  }
+
   .navbar a {
     font-size: 1.5rem;
   }
 
+  .text-box {
+    max-height: 200px;
+  }
+
+  .card,
+  img {
+    max-height: 200px;
+    object-fit: cover;
+  }
 
   .contact {
     font-size: 1.4rem;
@@ -532,7 +562,7 @@ a.return-home {
 @media (min-width: 1400px) {
   .hero {
     background: url("../images/brunch3-1400px.webp") center/cover no-repeat;
-    height: 50vh;
+    height: 52vh;
   }
 
   .navbar a {
@@ -545,6 +575,24 @@ a.return-home {
 
   #tagline p {
     font-size: 4rem;
+  }
+
+  .text-box {
+    max-height: 320px;
+  }
+
+ img {
+    max-height: 320px;
+    object-fit: cover;
+  }
+  .card,
+  .img1 {
+    object-position: 20% 50%;
+  }
+
+  .breakfast-text,
+  .get-fuzzy-text {
+    font-size: 3rem !important;
   }
 
   .contact {
