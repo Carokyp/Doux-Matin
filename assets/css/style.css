@@ -507,7 +507,16 @@ a.return-home {
   }
 
   .about-text {
-    font-size: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .social-media a i {
+    font-size: 1.2rem;
+  }
+
+  .card-about img{
+    max-height: 450px;
+    object-fit: cover;
   }
 }
 
@@ -536,6 +545,15 @@ a.return-home {
     object-fit: cover;
   }
 
+  .card-about img{
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+  .card-about{
+    font-size: 1rem;
+  }
+
   .contact {
     font-size: 1.4rem;
     margin-bottom: 1rem;
@@ -554,7 +572,15 @@ a.return-home {
   }
 
   .about-text {
-    font-size: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .contact {
+    font-size: 1.2rem;
+  }
+
+  .social-media a i {
+    font-size: 1.2rem;
   }
 }
 
@@ -585,9 +611,14 @@ a.return-home {
     max-height: 320px;
     object-fit: cover;
   }
+
   .card,
   .img1 {
     object-position: 20% 50%;
+  }
+  .card-about img{
+    max-height: 380px;
+    object-fit: cover;
   }
 
   .breakfast-text,
@@ -596,7 +627,11 @@ a.return-home {
   }
 
   .contact {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+  }
+
+  .social-media a i {
+    font-size: 1.2rem;
   }
 
   /* Booking Form Section */
