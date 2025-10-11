@@ -486,7 +486,7 @@ a.return-home {
   }
 
   #contact-address,
-  #opening-hours{
+  #opening-hours {
     font-size: 0.8rem;
   }
 
@@ -519,7 +519,7 @@ a.return-home {
     font-size: 1.2rem;
   }
 
-  .card-about img{
+  .card-about img {
     max-height: 450px;
     object-fit: cover;
   }
@@ -562,12 +562,12 @@ a.return-home {
     font-size: 1.1rem;
   }
 
-  .card-about img{
+  .card-about img {
     max-height: 400px;
     object-fit: cover;
   }
 
-  .card-about{
+  .card-about {
     font-size: 1rem;
   }
 
@@ -624,7 +624,7 @@ a.return-home {
     max-height: 320px;
   }
 
- img {
+  img {
     max-height: 320px;
     object-fit: cover;
   }
@@ -633,7 +633,8 @@ a.return-home {
   .img1 {
     object-position: 20% 50%;
   }
-  .card-about img{
+
+  .card-about img {
     max-height: 380px;
     object-fit: cover;
   }
@@ -680,4 +681,5 @@ a.return-home {
     font-size: 1.5rem;
   }
 }
+
 /* #endregion Responsive Design Media Queries */
