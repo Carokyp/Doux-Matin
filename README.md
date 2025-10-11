@@ -151,7 +151,7 @@ The colour palette was inspired by selections from [Color Hunt](https://colorhun
 </p>
 
 #### Menus
-The menu's design was created in Photoshop, inspired by mood boards and visual references gathered from [Pinterest](https://www.pinterest.com/). It reflects the overall visual style of Doux Matin, keeping the branding consistent and inviting. The design uses the rich chocolate brown from the website’s primary colour palette, paired with a clean white background and subtle light tones to ensure clarity and readability.
+The menu is inspired by mood boards and visual references gathered from [Pinterest](https://www.pinterest.com/). It reflects the overall visual style of Doux Matin, keeping the branding consistent and inviting. The design uses the rich chocolate brown from the website’s primary colour palette, paired with a clean white background and subtle light tones to ensure clarity and readability.
 
 #### Typography
 
@@ -194,7 +194,7 @@ The homepage contains two distinct sections:
 Both sections feature two images each to visually illustrate and enhance the content, giving users a warm and inviting preview of the experience.<br>
 
 <div align="center">
-  <img width="698" height="535" alt="Image" src="https://github.com/user-attachments/assets/6c3f680c-b6c0-45cf-91b1-1ee6354d7c95" />
+  <img width="485" height="214" alt="Image" src="https://github.com/user-attachments/assets/d9623c22-a88d-4813-a2f0-ecb04423d87c" />
 </div>
 
 #### Menu Page
@@ -202,16 +202,17 @@ The menu lists all the food and drinks available at the café. It is divided int
 The menu opens in a new browser tab in a PDF format to allow users to browse the options without losing their place on the main website—making it easy to return to their booking or previous page at any time.
 
 <div align="center">
-  <img width="225" height="455" alt="Image" src="https://github.com/user-attachments/assets/53e00d30-7d81-4a8a-9064-240e6f231eff" />
-    <img width="226" height="387" alt="Image" src="https://github.com/user-attachments/assets/69677eba-9878-439f-86bf-5fe5d66bf7bd" />
-    <img width="224" height="254" alt="Image" src="https://github.com/user-attachments/assets/940b627e-5884-4edd-bd2f-d32391acad23" />
+  <img width="490" height="341" alt="Image" src="https://github.com/user-attachments/assets/9af1dcf3-1e06-4b1d-bf6f-28a1198bfb7f" />
+  <img width="488" height="356" alt="Image" src="https://github.com/user-attachments/assets/f2d3f751-4025-4bf0-bcc2-229f2f74296c" />
+  <img width="488" height="366" alt="Image" src="https://github.com/user-attachments/assets/1e5733d0-9b86-49ef-8bc3-aa74a25c389b" />
+  <img width="476" height="401" alt="Image" src="https://github.com/user-attachments/assets/940d075f-b40d-4635-9ea8-5f070ba700da" />
 </div>
 
 #### About us Page
 The About Us page provides more details about who created and runs the business, as well as the team behind it. It also emphasises the café’s commitment to high-quality food and fresh ingredients.<br>
 
 <div align="center">
-  <img width="858" height="409" alt="Image" src="https://github.com/user-attachments/assets/4f04c4ee-d426-4329-a34c-08c5386b9ac7" />
+  <img width="632" height="301" alt="Image" src="https://github.com/user-attachments/assets/c3d44c42-c89e-4a52-8bb8-92637b67879d" />
 </div>
 
 #### Booking Page
@@ -610,30 +611,10 @@ Website: Restomontreal
 * Mimosa and brunch: https://www.restomontreal.ca/article/mimosas-music-and-brunch-vibes-montreals-top-weekend-picks/2101/en/ \
 Website: Restomontreal
 
-__Menus__ 
+__Menu__ 
 
-* Lemon Crepe: https://unsplash.com/fr/photos/photographie-a-plat-de-crepe-avec-glacage-jsgJtBOR6jY \
-Artiste: Monika Grabkowska \
-Artiste Profil: https://unsplash.com/fr/@moniqa
-
-* Coffee: https://unsplash.com/fr/photos/tasse-de-cafe-sur-soucoupe-avec-cuillere-a-cafe-sur-table-rose-X2s8GhnQmds \
-Artiste: Natanja Grün \
-Artiste Profil: https://unsplash.com/fr/@natanja
-
-* Waffles: https://muttenzer-pizzeria.ch/indulge-in-delicious-creations/ \
-Website: Muttenzer
-
-* Egg Burger: https://www.instagram.com/p/CjQyXuQPOMu/ \
-Restaurant: Melba Lunn Ave 
-
-__Menu Bottomless Brunch__
-
-* Lemon Cocktail: https://www.liquor.com/lynchburg-lemonade-cocktail-recipe-5199408 \
-Website: Liquor.com / Tim Nusog
-
-* Orange Cocktail: (https://unsplash.com/photos/a-colorful-cocktail-garnished-with-a-flower-vfQ-TCKwlC4) \
-Artiste: alexanderafan \
-Artiste Profil: https://unsplash.com/@alexanderafan
+* The menu images were generated with [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT) to create realistic mock visuals quickly.
+They are used purely for demonstration purposes to showcase the website’s layout and style, not for commercial use.
 
 __About Page__
 
