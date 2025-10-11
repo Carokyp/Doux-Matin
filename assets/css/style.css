@@ -234,7 +234,7 @@ body {
 }
 
 .card-text {
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   color: #5a3a2b;
   margin-bottom: 0.5rem;
 }
@@ -552,6 +552,14 @@ a.return-home {
   img {
     max-height: 200px;
     object-fit: cover;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
   }
 
   .card-about img{
