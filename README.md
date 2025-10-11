@@ -1,6 +1,6 @@
 # Doux-Matin
 <div align="center">
-  <img width="1188" height="622" alt="Image" src="https://github.com/user-attachments/assets/0406e520-3ee5-4dc3-b819-73e6a3c3766d" /><br>
+  <img width="1102" height="586" alt="Image" src="https://github.com/user-attachments/assets/34e6529c-c9ce-485c-9f29-5e306da9eb49" /><br>
 </div><br>
 
 [Link to Live Website](https://carokyp.github.io/Doux-Matin/)
