@@ -172,7 +172,7 @@ select {
 .hero h1 {
   font-family: var(--primary-font);
   text-shadow: -10px 8px 0px rgba(116, 62, 44, 1);
-  color: blanchedalmond;
+  color: var(--secondary-color);
   font-size: 5rem;
 }
 
