@@ -43,6 +43,13 @@ body {
   /* Light brown background */
 }
 
+.body-max-width {
+  max-width: 1800px;
+  /* Maximum width for large screens */
+  margin: 0 auto;
+  /* Center the content */
+}
+
 /* #region Bootstrap Navbar styles */
 
 /* Bootstrap navbar styling */
@@ -153,13 +160,6 @@ body {
 }
 
 /* #endregion */
-
-#body-max-width {
-  max-width: 1800px;
-  /* Maximum width for large screens */
-  margin: 0 auto;
-  /* Center the content */
-}
 
 .hero {
   background: url("../images/brunch3-500px.webp") center/cover no-repeat;
