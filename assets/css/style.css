@@ -470,8 +470,9 @@ a.return-home {
 /* Large mobile to tablets */
 @media (min-width: 576px) and (max-width: 768px) {
   .hero {
-    background: url("../images/brunch3-900px.webp") center/cover no-repeat;
+    background: url("../images/brunch3-900px.webp") center no-repeat;
     height: 50vh;
+
   }
 
   .text-box {
@@ -509,7 +510,7 @@ a.return-home {
   .about-text {
     font-size: 1rem;
   }
-  
+
   .social-media a i {
     font-size: 1.2rem;
   }
@@ -524,7 +525,7 @@ a.return-home {
 @media (min-width: 992px) and (max-width: 1400px) {
   .hero {
     background: url("../images/brunch3-1400px.webp") center/cover no-repeat;
-    height: 50vh;
+    height: 70vh;
   }
 
   .hero h1 {
@@ -588,7 +589,7 @@ a.return-home {
 @media (min-width: 1400px) {
   .hero {
     background: url("../images/brunch3-1400px.webp") center/cover no-repeat;
-    height: 52vh;
+    height: 100vh;
   }
 
   .navbar a {
