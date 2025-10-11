@@ -151,7 +151,7 @@ The colour palette was inspired by selections from [Color Hunt](https://colorhun
 </p>
 
 #### Menus
-The menu's design was created in Photoshop, inspired by mood boards and visual references gathered from [Pinterest](https://www.pinterest.com/). It reflects the overall visual style of Doux Matin, keeping the branding consistent and inviting. The design uses the rich chocolate brown from the website’s primary colour palette, paired with a clean white background and subtle light tones to ensure clarity and readability.
+The menu is inspired by mood boards and visual references gathered from [Pinterest](https://www.pinterest.com/). It reflects the overall visual style of Doux Matin, keeping the branding consistent and inviting. The design uses the rich chocolate brown from the website’s primary colour palette, paired with a clean white background and subtle light tones to ensure clarity and readability.
 
 #### Typography
 
@@ -194,7 +194,7 @@ The homepage contains two distinct sections:
 Both sections feature two images each to visually illustrate and enhance the content, giving users a warm and inviting preview of the experience.<br>
 
 <div align="center">
-  <img width="698" height="535" alt="Image" src="https://github.com/user-attachments/assets/6c3f680c-b6c0-45cf-91b1-1ee6354d7c95" />
+  <img width="485" height="214" alt="Image" src="https://github.com/user-attachments/assets/d9623c22-a88d-4813-a2f0-ecb04423d87c" />
 </div>
 
 #### Menu Page
@@ -212,7 +212,7 @@ The menu opens in a new browser tab in a PDF format to allow users to browse the
 The About Us page provides more details about who created and runs the business, as well as the team behind it. It also emphasises the café’s commitment to high-quality food and fresh ingredients.<br>
 
 <div align="center">
-  <img width="858" height="409" alt="Image" src="https://github.com/user-attachments/assets/4f04c4ee-d426-4329-a34c-08c5386b9ac7" />
+  <img width="632" height="301" alt="Image" src="https://github.com/user-attachments/assets/c3d44c42-c89e-4a52-8bb8-92637b67879d" />
 </div>
 
 #### Booking Page
