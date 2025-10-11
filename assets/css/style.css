@@ -23,6 +23,19 @@ body {
   overflow-x: hidden;
 }
 
+/* General body styling */
+body {
+  background-color: #fcf6f2;
+  /* Light brown background */
+}
+
+.body-max-width {
+  max-width: 1800px;
+  /* Maximum width for large screens */
+  margin: 0 auto;
+  /* Center the content */
+}
+
 /* Fixing cross-browser issue in Safari and Firefox for 'Event Type' dropdown */
 select {
   background-color: white;
@@ -35,19 +48,6 @@ select {
   /* Firefox */
   appearance: none;
   /* standard */
-}
-
-/* General body styling */
-body {
-  background-color: #fcf6f2;
-  /* Light brown background */
-}
-
-.body-max-width {
-  max-width: 1800px;
-  /* Maximum width for large screens */
-  margin: 0 auto;
-  /* Center the content */
 }
 
 /* #region Bootstrap Navbar styles */
@@ -171,8 +171,8 @@ body {
 /* Hero section text styling */
 .hero h1 {
   font-family: var(--primary-font);
-  text-shadow: 5px 5px 1px rgba(116, 62, 44, 1);
-  color: var(--secondary-color);
+  text-shadow: -10px 8px 0px rgba(116, 62, 44, 1);
+  color: blanchedalmond;
   font-size: 5rem;
 }
 
@@ -462,7 +462,7 @@ a.return-home {
 }
 
 
-/* Responsive Design Media Queries */
+/* #region Responsive Design Media Queries */
 
 /* Small mobile devices */
 @media (min-width: 375px) and (max-width: 576px) {}
@@ -680,3 +680,4 @@ a.return-home {
     font-size: 1.5rem;
   }
 }
+/* #endregion Responsive Design Media Queries */
